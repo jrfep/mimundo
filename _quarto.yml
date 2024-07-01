@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+  resources: 
+    - "lgrs/img/"
+    - "evnts/img/"
+
+execute:
+  freeze: auto
+
+website:
+  title: "./jrfep"
+  repo-url: https://github.com/jrfep/mimundo
+  
+  navbar:
+    title: "J.R. Ferrer-Paris"
+    type: inverse
+    left:
+      - text: "Eventos científicos"
+        icon: people
+        href: evnts
+      - text: "Lugares"
+        icon: map
+        href: evnts
+    right:
+      - text: "How to..."
+        icon: question
+        menu:
+          - text: "(re-)create this site"
+            href: how2/how-to-site.qmd
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    link-external-icon: false
+    link-external-newwindow: true
+lang: es 
