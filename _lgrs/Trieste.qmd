@@ -1,0 +1,36 @@
+---
+title: Trieste, Padua y Venecia
+categories:
+ - Italia
+ - Taller
+ - Visita
+editor_options: 
+  chunk_output_type: console
+---
+
+Un emocionante [taller](/evnts/2009_TheoEco.md), muy instructivo. Una experiencia vibrante. La visita a Padua con el convento de San Antonio fue muy emotiva.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| output: asis
+
+library(FlickrAPI)
+suppressMessages(library(dplyr))
+suppressMessages(here::i_am("lgrs/Trieste.qmd"))
+file_name <- here::here("data","flickr-photos.rds")
+all_photos <- readRDS(file=file_name)
+
+seleccion <- c("Buon Giorno","Paciencia","Musikanten in Venedig", "Bona sera","Ciao!", "Prato della Valle")
+
+photos <- all_photos %>% filter(title %in% seleccion) %>% slice_sample(n=1)
+photos_info <- getPhotoInfo(photo_id = photos$id, output = "url")
+
+cat(sprintf("<center>\n<img src='%s' width='%s'  height='%s'>\n<br/>\n**%s** by <a href='%s' target='flickr'>JR Ferrer Paris @ flickr</a><br/></center>", 
+         photos$url_m, photos$width_m, photos$height_m,
+         photos$title,
+         photos_info$content))
+```
+
+

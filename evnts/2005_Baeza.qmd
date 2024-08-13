@@ -1,0 +1,33 @@
+---
+title: "Workshop: Predictive modelling of Species distribution"
+date: 2 Noviembre 2005
+categories: 
+ - "Taller"
+ - "Internacional"
+ - "España"
+ - "Cartel"
+ - NeoMapas
+params:
+ code: 2005_Baeza
+ lugar: Baeza
+---
+
+# El Evento
+
+Workshop: Predictive modelling of Species distribution. New Tools for the XXI Century. Universidad Internacional de Andalucía. [Baeza](/lgrs/Baeza.qmd), España, 2-4 Noviembre 2005. 
+
+## Dirección del evento
+
+Universidad Internacional de Andalucía Sede Antonio Machado
+Palacio de Jabalquinto
+Plaza de Santa Cruz, s/n
+23440 BAEZA (Jaén) SPAIN 
+
+## Enlaces
+
+- [Publicación sobre el taller](https://www.jstor.org/stable/4539918)
+- <http://www.unia.es>
+
+## Participación
+
+<iframe src="https://widgets.figshare.com/articles/1322143/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0"></iframe>

@@ -1,0 +1,29 @@
+---
+title: Bayreuth
+categories:
+ - Alemania
+ - Baviera
+ - Franken
+ - Universidad
+---
+
+Viví aquí entre 1995 y 2001, mientras realicé mis estudios de biología en la [Universität Bayreuth (UBT)](https://uni-bayreuth.de/).
+
+![Imágen del campus de UBT](https://www.study-in-bavaria.de/fileadmin/_processed_/csm_Campus-Luftbild_1_qf_03_8a455a1f25.jpg)
+
+
+Les dejo aquí con un mapa del campus de la Universidad que recorrí múltiples veces durante mis cinco años y medio allí.
+
+```{r}
+library(sf)
+require(mapview)
+require(RColorBrewer)
+UBT <- st_sf(data.frame(full_name='Universität Bayreuth',
+             url='https://uni-bayreuth.de/'),
+             crs=st_crs("EPSG:4326"),
+             geometry=st_sfc(
+               st_point(c(11.585833, 49.928889))))
+mapview(UBT)
+```
+
+Si quieres saber más sobre la región de Franconia en Alemania, puedes ver algunos ejemplos en los [tutoriales que preparé sobre análisis geoespacial en R](https://github.com/UNSW-codeRs/geospatial-data-in-R).

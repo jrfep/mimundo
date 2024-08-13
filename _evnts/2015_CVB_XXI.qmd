@@ -1,0 +1,20 @@
+---
+title: XXI Congreso Venezolano de Botánica
+date: 12 mayo 2015
+params:
+ code: 2015_CVB_XXI
+ ffin: 16 mayo 2015
+ lugar: Caracas
+categories: 
+ - Venezuela
+ - Congreso
+ - Nacional
+---
+
+# Evento
+
+XXI Congreso Venezolano de Botánica. [Caracas](/lgrs/Caracas.qmd), Venezuela, 12-16 mayo 2015.
+
+## Enlaces
+
+- [Nota sobre el congreso](https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1010-29142015000300015) o [aquí](http://www.ucv.ve/en/organizacion/fundaciones-asociaciones-y-centros/funtecdis-ucv/detalle-noticias-jardin-botanico/article/xxi-congreso-venezolano-de-botanica.html)

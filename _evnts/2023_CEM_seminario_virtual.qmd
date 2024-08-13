@@ -1,0 +1,22 @@
+---
+title: Seminario virtual UICN CGE
+date: "11 April 2023"
+categories: 
+ - Ponencia
+ - Virtual
+ - Regional
+ - Seminario
+ - UICN
+ - Rpubs
+---
+
+# Evento
+
+Seminario virtual UICN CGE
+
+## Ponencia 
+
+**TIPOLOGÍA GLOBAL DE ECOSISTEMAS DE LA UICN: Un marco de clasificación integral para los ecosistemas de la tierra, integrando sus características funcionales y de composición**. Seminario virtual UICN Comisión para la Gestión de Ecosistemas, 11 Abril 2023. Presentado por: JR Ferrer-Paris @ UNSW Sydney. [Presentación disponible en RPubs](https://rpubs.com/jrfep/GET-seminario-virtual)
+
+Relacionado con nuestro trabajo sobre la tipología global de ecosistemas [@Keith_2020_Ecosystem_Typology; @Keith_2022_Ecosystem_Typology].
+

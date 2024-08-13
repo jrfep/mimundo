@@ -1,0 +1,89 @@
+---
+title: XIX Congreso Venezolano de Entomología
+code: 2005_CVEnt_XIX
+date: 4 julio 2005
+ffin: 7 julio 2005
+lugar: San Felipe
+categories:
+ - Venezuela
+ - Congreso
+ - Nacional
+ - Cartel
+---
+# El evento
+
+XIX Congreso Venezolano de Entomología, San Felipe, 4-7 julio 2005
+
+## Logo
+
+![Logo de la Sociedad Venezolana de Entomología](https://sventomologia.org/wp-content/uploads/2020/08/cropped-Logo-SVE-200x100-01.png)
+
+
+## Presentaciones y productos relacionados
+
+###  Un método para la estimación de la diversidad de especies de mariposas (Lepidoptera: Rhopalocera) y su importancia en inventarios de biodiversidad.
+
+Por: José R. Ferrer-Paris, Mariana Alarcón, Maria E. Losada y Angel
+L. Viloria
+
+> Se propone un método para la estimación de la diversidad
+de especies de mariposas en regiones de interés, basado en la
+aplicación estandarizada de múltiples muestreos. El método
+consiste en realizar capturas de mariposas a lo largo de transectas
+cronometradas, divididas en segmentos de una duración fija y
+realizando réplicas de dichas transectas a lo largo de un gradiente
+de hábitats, un gradiente espacial o uno temporal. El número de
+especies y el número de individuos por especie obtenidos en dicho
+esquema de muestreo, permite la estimación de las diferencias
+relativas en la abundancia de las especies capturadas y estimar
+el número total de especies presentes en el área de estudio. Esté
+método de muestreo ha sido aplicado en Altos de Pipe, estado
+Miranda a lo largo de un año, y de forma puntual en más de 25
+localidades del occidente del país. El análisis preliminar de estos
+datos permitirá comparar diferencias espaciales y temporales en
+la diversidad de mariposas y sugerir un esfuerzo de muestreo
+mínimo para detectar estas diferencias. Se discuten la utilidad
+y las limitaciones de este método y se comparan las ventajas y
+desventajas de utilizar mariposas como un grupo de estudio en
+inventarios de la biodiversidad.
+
+*Palabras clave*: biodiversidad, inventario, Papilionoidea, Hesperioidea, Miranda
+
+Presentamos aquí parte de los resultados preliminares del estudio piloto de NeoMapas [@FerrerParis_Calibracion_2006].
+
+### PEDCAT: un catálogo taxonómico y geográfico del complejo Pedaliodes (Lepidoptera: Nymphalidae)
+
+Por: José R. Ferrer-Paris, Ángel L. Viloria
+
+> El uso de catálogos electrónicos permite manejar de forma
+centralizada la información biológica dispersa en colecciones
+y publicaciones científicas. En los últimos dos años hemos
+trabajado en el desarrollo del catálogo del Complejo Pedaliodes,
+el cual resume la información de la última revisión de uno de
+los grupos más diversos de mariposas neotropicales, incluyendo
+para la fecha 9.453 registros provenientes de 19 colecciones
+internacionales. 17 géneros y al menos 307 especies están
+representadas en este catálogo, 115 de las cuales están en
+proceso de descripción o publicación. La base de datos incluye
+información sobre la localidad, altitud, y fecha de captura, así
+como el nombre del colector y la colección en la que se encuentra
+cada una de las muestras. Más de la mitad de las especies está
+representada por menos de 10 ejemplares, lo que se traduce en un
+limitado conocimiento de la distribución de las especies. Existe
+un sesgo geográfico y estacional en los registros, sin embargo el
+registro histórico es continuo y muy completo. La base de datos
+del catálogo permite realizar estimaciones de la distribución
+altitudinal y geográfica de una buena parte de las especies, se
+puede consultar las listas de especies conocidas para localidades
+específicas, y se puede realizar estimaciones de la riqueza de
+especies esperada en regiones aún por explorar. La base de datos
+podrá ser consultada próximamente a través de una interfase en
+la página de internet del Centro de Ecología del IVIC.
+
+*Palabras clave*: informática de la biodiversidad, sistemas de
+Información geográfica, Pronophilini.
+
+## Enlaces
+
+- Resúmenes del congreso disponibles en [Entomotrópica](http://saber.ucv.ve/ojs/index.php/rev_ento/article/view/7528) o [aquí](https://tspace.library.utoronto.ca/handle/1807/37807)
+

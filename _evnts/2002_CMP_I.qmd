@@ -1,0 +1,38 @@
+---
+title: Primer Congreso Mundial de Páramos
+date: 13 mayo 2002
+categories:
+ - Colombia
+ - Cartel
+ - Internacional
+ - Congreso
+ - figshare
+params:
+ code: 2002_CMP_I
+ ffin: mayo 2002
+ lugar: Paipa
+---
+
+# Evento
+
+Primer Congreso Mundial de Páramos. Paipa, Colombia, 13 al 18 de Mayo 2002.
+
+![Portada del libro de memorias](https://image.isu.pub/180612171155-b1c176a7be3e9036f3eab6d39fc92651/jpg/page_1.jpg){.preview-image height=300}
+
+## Enlaces
+
+Memorias: [Tomo I](https://issuu.com/jpintoz/docs/2002_ange_et_congrmundpmos-t1.1_pai) [Tomo II](https://issuu.com/jpintoz/docs/2002_ange_et_congrmundpmos-t2_paipa)
+
+## Participación y productos relacionados
+
+**Mariposas altiandinas (LEPIDOPTERA: NYMPHALIDAE, SATYRINAE) y la conservación de los páramos en Venezuela** [@Ferrer-Paris2004].
+
+> High Andean butterfly genera Redonda and Diaphanos (Lepidoptera: Nymphalidae, Satyrinae) occur exclusively in the paramos of the Venezuelan Andes east of the Táchira Depression. These genera belong to two lineages of different origin, one Neotropical and the other Holarctic, and currently show allelopatric distributions. However, the species and/or subspecies embraced by each one are all allopatric in relation to its congeners. As a product of this distribution pattern, these butterflies exhibit three biogeographical features considered relevant for conservation biology: endemism, insularity, and relative narrowness of its distribution area. Recent geo-historical events could be linked to the origin of this fauna and its confinement. Nevertheless, biological attributes like the strongly sedentary behavior of the adult females, the absolute dependence of their larvae on certain poaceous host-plants of the páramos, or the phenology of some species (that stay on the wing only during the dry season), not only increase the vulnerability given by their singular distribution, but also add precarious maintenance of the populations in areas where human presence, sporadic or perennial, is continuously disturbing the landscape. Men alters and/or eliminate the original vegetation, mainly by means of introducing exotic cattle that grazes and steps heavily on the host-plants of these insects; or less frequently by setting fires that go out of control, with devastating effects on those plants.
+
+Una copia del cartel está disponible en figshare [@FerrerParis_2002_mariposas_altiandinas]:
+
+<iframe src="https://widgets.figshare.com/articles/1322140/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0"></iframe>
+
+Este trabajo se enfoca en la conservación de varias especies endémicas de los género *Redonda* y *Diaphanos*, con las cuales trabajé durante mi tesis de pregrado [@Ferrer_Paris_2000_Diplom_thesis;@Viloria_2003]. En años siguientes continuamos explorando la distribución de estas mariposas parameras y describiriamos en más detalle varias especies y subspecies [@Viloria_2015_description_Redonda]. 
+
+Finalmente la evaluación de su estado de conservación está detallado en varias fichas del libro rojo de la fauna de Venezuela para el género *Redonda* [@LRFV_bordoni] y el género *Diaphanos* [@LRFV_huberi ; @LRFV_curvignathos; @LRFV_fuscus].

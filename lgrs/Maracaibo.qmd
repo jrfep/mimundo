@@ -1,0 +1,92 @@
+---
+title: Maracaibo
+categories:
+ - Venezuela
+ - Familia
+ - Origenes
+ - IVIC
+---
+
+Mi ciudad natal, única e irrepetible.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+library(dplyr)
+library(pixture)
+here::i_am("lgrs/Maracaibo.qmd")
+```
+
+```{r}
+#| echo: false
+#| eval: false
+file_name <- here::here("data","google-photos.rds")
+ggl_photos <- readRDS(file=file_name)
+img_folder <- "img"
+
+slc <- filter_ggl_photo(ggl_photos, description = "Maracaibo", 
+  album_name = "Lugares - Sur América", nfotos = 1)
+```
+
+```{r}
+#| echo: false
+#| eval: false
+#| output: asis
+htmlcode <- "<center>\n<img src='%s/%s-%s.jpg'>\n<br/>\n
+<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a><br/>
+</center>"
+
+show_photo <- photos %>% 
+    slice(slc) %>%
+    transmute(code = sprintf(htmlcode, img_folder, 
+    output_id, output_file, mediaItems.description, mediaItems.productUrl)) %>% pull()
+cat(show_photo)
+```
+
+## Imágenes de Maracaibo
+
+```{r}
+#| echo: false
+#| eval: false
+
+paths <- sprintf("%s/%s-%s.jpg",
+  img_folder, 
+  pull(photos[-slc,],output_id),
+  pull(photos[-slc,],output_file)
+  )
+captions <- photos %>%
+  slice(-slc) %>% 
+  transmute(caption=sprintf("<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a>",mediaItems.description,mediaItems.productUrl)) %>% 
+  pull
+
+pixgallery(paths, caption=captions)
+
+```
+```{r}
+#| echo: false
+paths <- sprintf("http://i.imgur.com/%s.jpg?1",
+c("BO7Hzhx", "jFlMDBE"))
+captions <- sprintf("Imágen por <a href='https://i.imgur.com/%s.jpg' target='imgur'>NeoMapas @ imgur</a>",  c("BO7Hzhx", "jFlMDBE"))
+pixgallery(paths, caption=captions)
+```
+
+## Observaciones en `iNaturalist`
+
+
+```{r}
+file_name <- here::here("data","iNaturalist-obs-NeoMapas.rds")
+inat_photos <- readRDS(file=file_name) 
+seleccion <- "Maracaibo"
+```
+
+```{r}
+paths <- inat_photos %>% 
+    filter(grepl(seleccion,place_guess)) %>% 
+    pull(image_url)
+captions <- inat_photos %>% 
+    filter(grepl(seleccion,place_guess)) %>% 
+    transmute(caption=sprintf("<strong>%s</strong> (<emph>%s</emph>) by <a href='%s' target='iNat'>NeoMapas @ iNaturalist</a>",species_guess,scientific_name,url)) %>% pull()
+
+pixgallery(paths, caption=captions)
+```

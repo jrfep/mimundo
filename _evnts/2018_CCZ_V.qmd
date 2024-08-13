@@ -1,0 +1,56 @@
+---
+title: V Congreso Colombiano de Zoología
+date: Diciembre 2018
+categories:
+ - Colombia
+ - Congreso
+ - Nacional
+ - Ponente
+ - Coautor
+params:
+ code: 2018_CCZ_V
+ ffin:
+ lugar: Bogotá
+---
+
+# CCZ V 2018
+
+V Congreso Colombiano de Zoología. [Bogotá](/lgrs/Bogota.qmd), Colombia, Diciembre 2018.
+
+![Logo del evento](https://i0.wp.com/vccz.aczcolombia.org/wp-content/uploads/2018/02/NuevoLogo_vFinal_2018_vXL-e1517500100362.png?fit=501%2C321){.preview-image width=300}
+
+## Enlaces 
+
+- [Libro de resumenes](http://vccz.aczcolombia.org/wp-content/uploads/2019/02/resumenes.pdf)
+- [Pagina web](http://vccz.aczcolombia.org/)
+
+## Galería de fotos
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(FlickrAPI)
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Trieste.qmd")
+```
+
+```{r}
+#| echo: false
+file_name <- here::here("data","google-photos.rds")
+ggl_photos <- readRDS(file=file_name)
+img_folder <- "img"
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+photos <- ggl_photos %>% 
+    filter(
+        album %in% eventos,
+        grepl("CCZ",mediaItems.filename))
+
+paths <- sprintf("%s/%s",img_folder, pull(photos,mediaItems.filename))
+captions <- photos %>% transmute(caption=sprintf("<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a>",mediaItems.description,mediaItems.productUrl)) %>% pull
+
+pixgallery(paths, caption=captions)
+
+```

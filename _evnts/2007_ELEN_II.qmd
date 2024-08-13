@@ -1,0 +1,36 @@
+---
+title: II Encuentro Sobre Lepidoptera Neogropical
+date: 29 April 2007
+code: 2007_ELEN_II
+ffin: 2007
+categories:
+ - Panamá
+ - Reunión 
+ - Internacional
+---
+
+II Encuentro Sobre Lepidoptera Neogropical, ELEN II. Smithsonian Tropical Research Institute. [Ciudad de Panamá](/lgrs/Panama.qmd), Panamá, 29 de abril al 3 de mayo de 2007.
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| output: asis
+
+library(FlickrAPI)
+suppressMessages(library(dplyr))
+suppressMessages(here::i_am("lgrs/Trieste.qmd"))
+file_name <- here::here("data","flickr-photos.rds")
+all_photos <- readRDS(file=file_name)
+
+seleccion <- c("Participantes del II ELEN",  "Presentación de Ángel", "Presentaciones ELEN II")
+
+photos <- all_photos %>% filter(title %in% seleccion) %>% slice_sample(n=1)
+photos_info <- getPhotoInfo(photo_id = photos$id, output = "url")
+
+cat(sprintf("<center>\n<img src='%s' width='%s'  height='%s'>\n<br/>\n**%s** by <a href='%s' target='flickr'>JR Ferrer Paris @ flickr</a><br/></center>", 
+         photos$url_m, photos$width_m, photos$height_m,
+         photos$title,
+         photos_info$content))
+```

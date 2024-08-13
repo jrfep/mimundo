@@ -1,0 +1,24 @@
+---
+title: XI Congreso Venezolano de Ecología
+date: 9 noviembre 2015
+params:
+ code: 2015_CVE_XI
+ ffin: 13 noviembre 2015
+ lugar: Margarita
+categories: 
+ - Venezuela
+ - Congreso
+ - Nacional
+---
+# CVE XI 2015
+
+XI Congreso Venezolano de Ecología. Margarita, 9-13 noviembre 2015
+
+![Logo del evento](https://usbnoticias.usb.ve/wp-content/uploads/2015/11/logo_horizontal1.png)
+
+
+## Enlaces 
+
+- [Anuncio del evento](https://usbnoticias.usb.ve/post/43555)
+- [Programa XI CVE](http://www.ucv.ve/fileadmin/user_upload/cenamb/Programa_XI_CVE_9-13Nov2015-1.pdf)
+

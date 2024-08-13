@@ -1,0 +1,62 @@
+---
+title: European Conference of Tropical Ecology
+date: 23 february 2016
+params:
+ ffin: 26 february 2016
+ lugar: Göttingen, Germany
+ code: 2016_EUTropEcol
+categories:
+ - Alemania
+ - Conferencia
+ - Internacional
+ - Cartel
+---
+
+European Conference of Tropical Ecology. Tropical Diversity, Ecology and Land Use. [Göttingen](/lgrs/Göttingen.qmd), Germany, 23-26 february 2016.
+
+![GTÖ logo](https://www.soctropecol.eu/sites/default/files/GTO-logo-2016_1.jpg){width=200}
+
+## Logo del Evento
+
+![European conference of Tropical Ecology](https://tropicalbiology.org/tropicalbiology/wp-content/uploads/2016/02/European-Conference-on-Tropical-Ecology.jpg)
+
+## Enlaces
+
+- [Anuncio del evento](https://tropicalbiology.org/blog/2016/02/07/2016-european-conference-of-tropical-ecology/)
+- [Society for Tropical Ecology [gtö]](https://www.soctropecol.eu)
+- [Libro de resumenes](http://www.soctropecol.eu/wp-content/uploads/gtoe_Goettingen_2016.pdf)
+- [DAAD Alumni seminar](https://www.uni-goettingen.de/de/international+daad+alumni+seminar+%22tropical+diversity%2C+ecology+and+land+use%22/525045.html)
+
+## Galería
+
+Algunas fotos del evento.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(FlickrAPI)
+library(pixture)
+suppressMessages(library(dplyr))
+suppressMessages(here::i_am("lgrs/Trieste.qmd"))
+
+```
+
+```{r}
+#| echo: false
+file_name <- here::here("data","google-photos.rds")
+ggl_photos <- readRDS(file=file_name)
+img_folder <- "img"
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+photos <- ggl_photos %>% 
+    filter(
+        album %in% eventos,
+        grepl("Göttingen",mediaItems.description))
+
+paths <- sprintf("%s/%s-%s.jpg",img_folder, pull(photos, output_id), pull(photos, output_file))
+captions <- photos %>% transmute(caption=sprintf("<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a>",mediaItems.description,mediaItems.productUrl)) %>% pull
+
+pixgallery(paths, caption=captions)
+
+```

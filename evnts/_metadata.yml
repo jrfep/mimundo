@@ -1,0 +1,4 @@
+execute: 
+  echo: false
+bibliography: 
+  - bibTeX/references.bibtex

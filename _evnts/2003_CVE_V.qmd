@@ -1,0 +1,15 @@
+---
+title: V Congreso Venezolano de Ecología
+date: noviembre 2003
+params:
+ code: 2003_CVE_V
+ lugar: Isla de Margarita
+categories:
+ - Venezuela
+ - Ponencia
+ - Congreso
+ - Nacional
+---
+
+V Congreso Venezolano de Ecologia. Margarita, Noviembre 2003
+[Resumenes](http://www.sve.ula.ve/pdfs/boletin1.pdf)

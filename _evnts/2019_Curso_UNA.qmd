@@ -1,0 +1,48 @@
+---
+title: Curso en postgrado de la UNA
+date: May 2019
+categories:
+ - Paraguay
+ - Curso 
+ - Postgrado
+ - Instructor
+ - Invitado
+---
+
+# Evento
+
+Curso en el postgrado de la [Universidad Nacional de la Asunción](https://www.una.py/), en [Asunción](/lgrs/Asuncion.qmd), Paraguay.
+
+
+## Galería de fotos
+
+Fotos con los participantes del curso.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(FlickrAPI)
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Trieste.qmd")
+```
+
+```{r}
+#| echo: false
+file_name <- here::here("data","google-photos.rds")
+ggl_photos <- readRDS(file=file_name)
+img_folder <- "img"
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+photos <- ggl_photos %>% 
+    filter(
+        album %in% eventos,
+        grepl("postgrado-UNA",output_file))
+
+paths <- sprintf("%s/%s-%s.jpg",img_folder, pull(photos, output_id), pull(photos, output_file))
+captions <- photos %>% transmute(caption=sprintf("<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a>",mediaItems.description,mediaItems.productUrl)) %>% pull
+
+pixgallery(paths, caption=captions)
+
+```

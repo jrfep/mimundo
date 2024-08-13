@@ -1,0 +1,71 @@
+---
+title: Turku y Åland
+categories:
+ - Finlandia
+ - Mariposas
+ - Conferencia
+ - Visita
+---
+
+Visité Finlandia para una [conferencia sobre mariposas](/evnts/2014_ICBB_VII.qmd). Impresionado con la presencia de grandes personajes del estudio de estos insectos y la ecología en general. 
+
+
+```{r}
+#| warning: false
+#| message: false
+library(FlickrAPI)
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Trieste.qmd")
+```
+
+```{r}
+file_name <- here::here("data","flickr-photos.rds")
+flckr_photos <- readRDS(file=file_name)
+file_name <- here::here("data","iNaturalist-obs-NeoMapas.rds")
+inat_photos <- readRDS(file=file_name)
+
+seleccion <- c("Turku|Åland")
+```
+
+
+```{r}
+#| output: asis
+htmlcode <- "<center>\n<img src='%s' width='%s'  height='%s'>\n<br/>\n**%s** by <a href='https://www.flickr.com/photos/%s/%s' target='flickr'>JR Ferrer Paris @ flickr</a><br/></center>"
+
+photos <- flckr_photos %>% filter(grepl(seleccion,description$`_content`) )
+
+show_photo <- photos %>% 
+    slice_sample(n=1) %>%
+    transmute(code = sprintf(htmlcode, url_m, width_m, height_m, title, owner, id)) %>% pull()
+cat(show_photo)
+```
+
+
+Aproveché la oportunidad para hacer una excursión a Åland, y conocer el paisaje de las famosas metapoblaciones de _Melitaea cinxia_ estudiadas por el [Prof. Ilkka Hanski](https://en.wikipedia.org/wiki/Ilkka_Hanski).
+
+
+## Galería de fotos
+
+```{r}
+paths <- photos %>% pull(url_m)
+captions <- photos %>% 
+  transmute(caption=sprintf("<strong>%s</strong> por <a href='https://www.flickr.com/photos/jferrer/%s' target='flickr'>JR Ferrer Paris @ flickr</a>",title,id)) %>% pull()
+
+pixgallery(paths, caption=captions)
+
+```
+
+## Observaciones en `iNaturalist`
+
+
+```{r}
+paths <- inat_photos %>% 
+    filter(grepl(seleccion,place_guess)) %>% 
+    pull(image_url)
+captions <- inat_photos %>% 
+    filter(grepl(seleccion,place_guess)) %>% 
+    transmute(caption=sprintf("<strong>%s</strong> (<emph>%s</emph>) by <a href='%s' target='iNat'>NeoMapas @ iNaturalist</a>",species_guess,scientific_name,url)) %>% pull()
+
+pixgallery(paths, caption=captions)
+```

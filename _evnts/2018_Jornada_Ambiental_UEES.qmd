@@ -1,0 +1,46 @@
+---
+title: VII Jornadas Ambientales, UEES
+date: 25 Jul 2018
+categories:
+  - Ecuador
+  - Jornadas
+  - Internacional
+  - Ponente
+  - Invitado
+---
+
+# Evento
+
+VII Jornadas Ambientales, Universidad Espíritu Santo. Organizadas y coordinadas por la Dra. [Ileana Herrera](https://uees.edu.ec/personnel/ileana-herrera/).
+
+
+## Galería de fotos
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(FlickrAPI)
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Trieste.qmd")
+```
+
+```{r}
+#| echo: false
+file_name <- here::here("data","google-photos.rds")
+ggl_photos <- readRDS(file=file_name)
+img_folder <- "img"
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+photos <- ggl_photos %>% 
+    filter(
+        album %in% eventos,
+        grepl("UEES",mediaItems.description))
+
+paths <- sprintf("%s/%s-%s.jpg",img_folder, pull(photos, output_id), pull(photos, output_file))
+captions <- photos %>% transmute(caption=sprintf("<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a>",mediaItems.description,mediaItems.productUrl)) %>% pull
+
+pixgallery(paths, caption=captions)
+
+```

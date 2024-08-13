@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "evnts/2005_Baeza.html",
+    "href": "evnts/2005_Baeza.html",
+    "title": "Workshop: Predictive modelling of Species distribution",
+    "section": "",
+    "text": "Workshop: Predictive modelling of Species distribution. New Tools for the XXI Century. Universidad Internacional de Andalucía. Baeza, España, 2-4 Noviembre 2005.\n\n\nUniversidad Internacional de Andalucía Sede Antonio Machado Palacio de Jabalquinto Plaza de Santa Cruz, s/n 23440 BAEZA (Jaén) SPAIN\n\n\n\n\nPublicación sobre el taller\nhttp://www.unia.es"
+  },
+  {
+    "objectID": "evnts/2005_Baeza.html#dirección-del-evento",
+    "href": "evnts/2005_Baeza.html#dirección-del-evento",
+    "title": "Workshop: Predictive modelling of Species distribution",
+    "section": "",
+    "text": "Universidad Internacional de Andalucía Sede Antonio Machado Palacio de Jabalquinto Plaza de Santa Cruz, s/n 23440 BAEZA (Jaén) SPAIN"
+  },
+  {
+    "objectID": "evnts/2005_Baeza.html#enlaces",
+    "href": "evnts/2005_Baeza.html#enlaces",
+    "title": "Workshop: Predictive modelling of Species distribution",
+    "section": "",
+    "text": "Publicación sobre el taller\nhttp://www.unia.es"
+  },
+  {
+    "objectID": "lgrs/Maracaibo.html",
+    "href": "lgrs/Maracaibo.html",
+    "title": "Maracaibo",
+    "section": "",
+    "text": "Mi ciudad natal, única e irrepetible."
+  },
+  {
+    "objectID": "lgrs/Maracaibo.html#imágenes-de-maracaibo",
+    "href": "lgrs/Maracaibo.html#imágenes-de-maracaibo",
+    "title": "Maracaibo",
+    "section": "Imágenes de Maracaibo",
+    "text": "Imágenes de Maracaibo"
+  },
+  {
+    "objectID": "lgrs/Maracaibo.html#observaciones-en-inaturalist",
+    "href": "lgrs/Maracaibo.html#observaciones-en-inaturalist",
+    "title": "Maracaibo",
+    "section": "Observaciones en iNaturalist",
+    "text": "Observaciones en iNaturalist"
+  },
+  {
+    "objectID": "evnt-list.html",
+    "href": "evnt-list.html",
+    "title": "Participación en eventos",
+    "section": "",
+    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nWorkshop: Predictive modelling of Species distribution\n\n\n\n\n\n\nTaller\n\n\nInternacional\n\n\nEspaña\n\n\nCartel\n\n\nNeoMapas\n\n\n\n\n\n\n\n\n\n2 nov 2005\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "lgrs-list.html",
+    "href": "lgrs-list.html",
+    "title": "Ciudades y lugares",
+    "section": "",
+    "text": "Maracaibo\n\n\n\nVenezuela\n\n\nFamilia\n\n\nOrigenes\n\n\nIVIC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "how2/how-to-site.html",
+    "href": "how2/how-to-site.html",
+    "title": "This is how we built this!",
+    "section": "",
+    "text": "This is a test of a personal website for jrfep.\nThese instructions are in English, but this site has content in multiple languages… I know it is confusing, but this is how I work. If you require clarifications please open an issue or send me a message.\nAll files are available in a GitHub repository. The mostly-harmless branch uses Quarto to build the site."
+  },
+  {
+    "objectID": "how2/how-to-site.html#no-place-like-home",
+    "href": "how2/how-to-site.html#no-place-like-home",
+    "title": "This is how we built this!",
+    "section": "",
+    "text": "This is a test of a personal website for jrfep.\nThese instructions are in English, but this site has content in multiple languages… I know it is confusing, but this is how I work. If you require clarifications please open an issue or send me a message.\nAll files are available in a GitHub repository. The mostly-harmless branch uses Quarto to build the site."
+  },
+  {
+    "objectID": "how2/how-to-site.html#render-site",
+    "href": "how2/how-to-site.html#render-site",
+    "title": "This is how we built this!",
+    "section": "Render site",
+    "text": "Render site\nWith quarto and RStudio we can open the Build tab and select Build Website…\nOr we can go to the command line and render the site:\n\nquarto render \n\nSing All the rowboats in the meantime (optional).\nAnd then launch a preview:\n\nquarto preview\n\nIf this work, we can just git add, git commit and git push it to the repo and see the changes!"
+  },
+  {
+    "objectID": "how2/how-to-site.html#just-in-case",
+    "href": "how2/how-to-site.html#just-in-case",
+    "title": "This is how we built this!",
+    "section": "Just in case",
+    "text": "Just in case\n\n\n\nStand back, I know regular expressions."
+  },
+  {
+    "objectID": "how2/how-to-site.html#prepare-data-for-some-pages",
+    "href": "how2/how-to-site.html#prepare-data-for-some-pages",
+    "title": "This is how we built this!",
+    "section": "Prepare data for some pages",
+    "text": "Prepare data for some pages\n\nFlexdashboard and iNaturalist\nTo get the data I first install the rinat package:\n\nhere::i_am(\"how2/how-to-site.qmd\")\nif (!require(rinat)) {\n  install.packages(\"rinat\")\n  library(rinat)\n}\n\nThen I can download the observations from iNaturalist and save them in a data folder:\n\n# Download observations and save to RDS file\nuser_obs &lt;- get_inat_obs_user(\"NeoMapas\",maxresults = 5000)\nif (!dir.exists(here::here(\"data\")))\n    dir.create(here::here(\"data\"))\nfile_name &lt;- here::here(\"data\",\"iNaturalist-obs-NeoMapas.rds\")\nsaveRDS(file=file_name, user_obs)\n\n\n\nPhotos from Flickr\nSo, I think I need some photos in my website, and I have a Flickr account, and I use R, there should be a library that…\nOh yes! found it!\nhttps://koki25ando.github.io/FlickrAPI/\n\ninstall.packages(\"FlickrAPI\")\n\nNow I need a Flickr API key\n\nlibrary(FlickrAPI)\nsetFlickrAPIKey(api_key = \"YOUR_API_KEY_HERE\", install = TRUE)\n\nAnd finally, it works!\nLet’s now query our photos (up to 1000) and save the information in a RDS file:\n\nhere::i_am(\"how2/how-to-site.qmd\")\nlibrary(FlickrAPI)\nlibrary(foreach)\nlibrary(dplyr)\nreadRenviron(\"~/.Renviron\") # read the API key\nhere::i_am(\"how2/how-to-site.qmd\")\nphotos &lt;- foreach(u=c(\"jferrer\",\"jferrer\",\"199798864@N08\"), i=c(1,2,1),.combine = \"bind_rows\") %do% {\n  getPhotos(user_id = u, img_size=\"m\", extras = c(\"description\",\"owner_name\",\n  \"url_m\"), per_page=1000, page=i)\n}\n\ndim(photos)\n\nfile_name &lt;- here::here(\"data\",\"flickr-photos.rds\")\nsaveRDS(file=file_name, photos)\n\n\n\nPhotos from google\n\n\nGalleries with pixture\nI am experimenting with the pixture package to create image galleries.\n\ninstall.packages(c(\"htmlwidgets\",\"shiny\",\"remotes\"))\nremotes::install_github('royfrancis/pixture')\n\n\n\nBibliography\nDownload one csl as a base style\ncd bibteX\nwget 'https://www.zotero.org/styles/journal-and-proceedings-of-the-royal-society-of-new-south-wales?source=1' --output-document=my.csl\nModify sort order of the bibliography (not the citation…):\n&lt;bibliography hanging-indent=\"true\" entry-spacing=\"0\"&gt;\n    &lt;sort&gt;\n      &lt;key variable=\"issued\" sort=\"descending\"/&gt;\n      &lt;key macro=\"author\"/&gt;\n    &lt;/sort&gt;\n  ..."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Galeria de recuerdos",
+    "section": "",
+    "text": "Una muestra de mi mundo, pequeño pero en expansión.\n\n\n\nCiudades y lugares / Participación en eventos"
+  }
+]

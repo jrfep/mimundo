@@ -1,0 +1,9 @@
+---
+title: "Participación en eventos"
+listing: 
+ type: default
+ sort: "date desc"
+ categories: true
+ sort-ui: [title, date]
+ contents: evnts
+---

@@ -1,0 +1,43 @@
+---
+title: Melbourne
+categories:
+ - Australia
+ - IUCN RLE
+---
+
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(FlickrAPI)
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Trieste.qmd")
+file_name <- here::here("data","flickr-photos.rds")
+all_photos <- readRDS(file=file_name)
+htmlcode <- "<center>\n<img src='%s' width='%s'  height='%s'>\n<br/>\n**%s** by <a href='https://www.flickr.com/photos/%s/%s' target='flickr'>JR Ferrer Paris @ flickr</a><br/></center>"
+```
+
+```{r}
+#| echo: false
+#| output: asis
+seleccion <- c("Melbourne")
+photos <- all_photos %>% filter(grepl(seleccion,title) )
+show_photo <- photos %>% 
+    slice_sample(n=1) %>%
+    transmute(code = sprintf(htmlcode, url_m, width_m, height_m, title, owner, id)) %>% pull()
+cat(show_photo)
+```
+
+```{r}
+#| echo: false
+paths <- photos %>% pull(url_m)
+captions <- photos %>% 
+  transmute(caption=sprintf("<strong>%s</strong> por <a href='https://www.flickr.com/photos/jferrer/%s' target='flickr'>JR Ferrer Paris @ flickr</a>",title,id)) %>% pull()
+
+pixgallery(paths, caption=captions)
+
+```

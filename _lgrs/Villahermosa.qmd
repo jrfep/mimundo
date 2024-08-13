@@ -1,0 +1,88 @@
+---
+title: Villahermosa
+categories:
+ - Mexico
+ - Familia
+ - Sitios arqueológicos
+execute: 
+ echo: false
+---
+
+Después de la conferencia en [Oaxaca](/lgrs/Oaxaca.qmd) pasamos por Villahermosa para visitar a mi papá que estaba trabajando en esa época en esta ciudad.
+
+Visitamos el Parque Museo de la Venta y [Kolem Jaa'](https://kolemjaa.com/).
+
+En este viaje también fuimos a [Campeche](/lgrs/Campeche.qmd) y visitamos [Palenque](/lgrs/Palenque.qmd).
+
+```{r}
+#| warning: false
+#| message: false
+library(FlickrAPI)
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Trieste.qmd")
+```
+
+```{r}
+file_name <- here::here("data","google-photos.rds")
+ggl_photos <- readRDS(file=file_name)
+
+file_name <- here::here("data","iNaturalist-obs-NeoMapas.rds")
+inat_photos <- readRDS(file=file_name)
+
+seleccion <- c("Villahermosa|La Venta|Tacotalpa")
+```
+
+
+```{r}
+#| output: asis
+
+img_folder <- "img"
+
+photos <- ggl_photos %>% 
+    filter(
+        album %in% "Lugares - México",
+        grepl(seleccion,mediaItems.description))
+
+```
+
+
+
+```{r}
+#| output: asis
+htmlcode <- "<center>\n<img src='%s/%s-%s.jpg'>\n<br/>\n**%s** by <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a><br/></center>"
+
+show_photo <- ggl_photos %>% 
+    filter(
+        album %in% "Lugares - México",
+        grepl(seleccion,mediaItems.description)) %>% 
+    slice_sample(n=1) %>%
+    transmute(code = sprintf(htmlcode, img_folder, output_id, output_file, mediaItems.description,mediaItems.productUrl)) %>% pull()
+cat(show_photo)
+```
+
+
+## Galería de fotos
+
+```{r}
+
+paths <- sprintf("%s/%s-%s.jpg",img_folder, pull(photos, output_id), pull(photos, output_file))
+captions <- photos %>% transmute(caption=sprintf("<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a>",mediaItems.description,mediaItems.productUrl)) %>% pull
+
+pixgallery(paths, caption=captions)
+
+```
+
+## Observaciones en `iNaturalist`
+
+
+```{r}
+paths <- inat_photos %>% 
+    filter(grepl(seleccion,place_guess)) %>% 
+    pull(image_url)
+captions <- inat_photos %>% 
+    filter(grepl(seleccion,place_guess)) %>% 
+    transmute(caption=sprintf("<strong>%s</strong> (<emph>%s</emph>) by <a href='%s' target='iNat'>NeoMapas @ iNaturalist</a>",species_guess,scientific_name,url)) %>% pull()
+
+pixgallery(paths, caption=captions)
+```

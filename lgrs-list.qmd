@@ -1,13 +1,8 @@
 ---
-title: "Galeria de recuerdos"
-subtitle: "Ciudades y lugares"
+title: "Ciudades y lugares"
 listing: 
  type: grid
  categories: true
  contents: lgrs
 ---
 
-<center>
-
-![Una muestra de mi mundo, pequeño pero en expansión.](animation.gif)
-</center>

@@ -1,0 +1,9 @@
+---
+title: "Galeria de recuerdos"
+---
+
+<center>
+![Una muestra de mi mundo, pequeño pero en expansión.](img/animation.gif)
+</center>
+
+[Ciudades y lugares](lgrs-list.qmd) / [Participación en eventos](evnt-list.qmd)

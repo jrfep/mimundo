@@ -3,25 +3,26 @@ project:
   output-dir: docs
   resources: 
     - "lgrs/img/"
-    - "evnts/img/"
+    - "img/"
 
 execute:
   freeze: auto
 
 website:
-  title: "./jrfep"
+  title: "./jrfep/ mi mundo"
   repo-url: https://github.com/jrfep/mimundo
   
   navbar:
     title: "J.R. Ferrer-Paris"
+    href: https://jrfep.github.io/esp/
     type: inverse
     left:
-      - text: "Eventos científicos"
-        icon: people
-        href: evnts
       - text: "Lugares"
         icon: map
-        href: evnts
+        href: lgrs-list.qmd
+      - text: "Eventos científicos"
+        icon: people
+        href: evnt-list.qmd
     right:
       - text: "How to..."
         icon: question

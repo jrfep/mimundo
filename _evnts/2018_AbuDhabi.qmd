@@ -1,0 +1,47 @@
+---
+title: IUCN Training Workshop on Species and Ecosystems Red Lists for Abu Dhabi Emirate
+date: February 2018
+categories:
+ - Emiratos Árabes Unidos
+ - Taller 
+ - Nacional
+ - UICN LRE
+ - Instructor
+---
+
+# Evento
+
+IUCN Training Workshop on Species and Ecosystems Red Lists for Abu Dhabi Emirate.
+[Abu Dhabi](/lgrs/Abu-Dhabi.qmd), United Arab Emirates, February 2018.
+
+
+## Galería de fotos
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(FlickrAPI)
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Trieste.qmd")
+```
+
+```{r}
+#| echo: false
+file_name <- here::here("data","google-photos.rds")
+ggl_photos <- readRDS(file=file_name)
+img_folder <- "img"
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+photos <- ggl_photos %>% 
+    filter(
+        album %in% eventos,
+        grepl("Abu Dhabi",mediaItems.description))
+
+paths <- sprintf("%s/%s-%s.jpg",img_folder, pull(photos, output_id), pull(photos, output_file))
+captions <- photos %>% transmute(caption=sprintf("<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a>",mediaItems.description,mediaItems.productUrl)) %>% pull
+
+pixgallery(paths, caption=captions)
+
+```

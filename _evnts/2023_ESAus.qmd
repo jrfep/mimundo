@@ -1,0 +1,56 @@
+---
+title: Ecological Society of Australia 2023
+date: July 2023
+categories:
+  - Australia
+  - Congreso
+  - Nacional
+  - Ponente
+  - Ecología del fuego
+  - Rpubs
+  - OSF
+---
+
+# ESA 2023
+
+Conference of the Ecological Society of Australia. 3–7 Julio 2023, [Darwin](/lgrs/Darwin.qmd), Northern Territory
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| output: asis
+
+library(FlickrAPI)
+suppressMessages(library(dplyr))
+suppressMessages(here::i_am("lgrs/Trieste.qmd"))
+file_name <- here::here("data","flickr-photos.rds")
+all_photos <- readRDS(file=file_name)
+
+seleccion <- c("David @ ESA2023 in Darwin")
+
+photos <- all_photos %>% filter(title %in% seleccion) %>% slice_sample(n=1)
+photos_info <- getPhotoInfo(photo_id = photos$id, output = "url")
+
+cat(sprintf("<center>\n<img src='%s' width='%s'  height='%s' class='preview-image'>\n<br/>\n**%s** by <a href='%s' target='flickr'>JR Ferrer Paris @ flickr</a><br/></center>", 
+         photos$url_m, photos$width_m, photos$height_m,
+         photos$title,
+         photos_info$content))
+```
+
+## Logo
+
+<img src="https://esa2023.org.au/wp-content/uploads/2022/10/ESA2023-logos-01e-02.svg" style="background-color: #13032333;" width=303/>
+
+## Enlaces
+
+- [Página web](https://esa2023.org.au)
+- [Programa de la conferencia](https://esa2023.org.au/conference-program/)
+
+## Presentación y productos relacionados
+
+- **Fire ecology traits of Australian plants: Creating a database to summarise scientific knowledge about plant response to fire events**. Por: Dr José Rafael Ferrer-Paris, University of New South Wales. [Presentación en `RPubs`](https://rpubs.com/jrfep/firevegdb-ESA2023)
+
+Relacionado con el proyecto de la base de datos de respuestas de la vegetación al fuego:
+
+> Ferrer-Paris, J. R. and Keith, D. A. (2022) Fire Ecology Traits for Plants: A database for fire research and management. Version 1.00. Centre for Ecosystem Science, University of New South Wales, Sydney, Australia. Retrieved from osf.io/hu96w

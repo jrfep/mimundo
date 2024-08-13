@@ -1,0 +1,29 @@
+---
+title: ResBaz Sydney
+date: "23 November 2021"
+categories: 
+ - Australia
+ - Ponencia
+ - Virtual
+ - Regional
+params:
+ lugar: Sydney
+---
+
+# El evento
+
+ResBaz [Sydney](/lgrs/Sydney.qmd), 23 al 25 de Noviembre de 2021
+
+## Logo 
+
+![ResBaz logo](https://ardc.edu.au/wp-content/uploads/2023/09/resbaz-sydney-2023-feature-image-583-x-345-580x345.png){.preview-image}
+
+## Enlaces
+
+- [Web del evento](https://resbaz.github.io/resbaz2021/sydney/speakers/)
+- Presentación: [en GitHub](https://github.com/UNSW-codeRs/geospatial-data-in-R/tree/332afeb63f669d9bccdcde133f6ceb2480c3e0be)
+
+## Presentación y productos relacionados
+
+A partir de la presentación desarrollé el material para talleres virtuales sobre análisis geo-espacial en R, la versión actual está disponible en: <https://github.com/UNSW-codeRs/geospatial-data-in-R>
+

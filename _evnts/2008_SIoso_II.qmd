@@ -1,0 +1,35 @@
+---
+title: Segundo simposio internacional sobre el oso andino
+date: 10 Noviembre 2008
+categories:
+ - Perú
+ - Simposio
+ - Internacional
+ - Oso frontino
+params:
+ code: 2008_SIoso_II
+ ffin: 12 Noviembre 2008
+ lugar: Lima, Perú
+---
+
+Segundo simposio internacional sobre el [oso andino](/taxa/Oso-frontino.qmd). Lima, Perú, 10-12 Noviembre 2008. 
+
+
+## Enlaces
+- [Web del evento](https://programs.wcs.org/osoandino/language/es-ES/Datos-e-información/Simposio-internacional.aspx)
+- Programa: 
+    - [Primer día](https://programs.wcs.org/osoandino/Datos-e-información/Simposio-internacional/Primer-día.aspx)
+    - [Segundo día](https://programs.wcs.org/osoandino/language/es-ES/Datos-e-información/Simposio-internacional/Segundo-día.aspx)
+    - [Tercer día](https://programs.wcs.org/osoandino/language/es-ES/Datos-e-información/Simposio-internacional/Tercer-día.aspx)
+
+## Participación
+
+Carteles:
+
+- Ada Sánchez-Mercado, Shaenandhoa García-Rangel, Edgard Yerena, José R. Ferrer-Paris y Kathryn M. Rodríguez-Clark. Identificación de trampas ecológicas como amenaza: el Oso Andino (Tremarctos ornatus) en la Cordillera de Mérida, Venezuela
+- Ada Sánchez-Mercado, José R. Ferrer-Paris, Edgard Yerena, Shaenandhoa García-Rangel y Kathryn M. Rodríguez-Clark. Factors influencing illegal hunting of Andean bears in the Mérida mountain range, Venezuela
+Presentación:
+
+Ponencias: 
+
+- Ada Sánchez-Mercado, José R. Ferrer-Paris y Kathryn M. Rodríguez-Clark. Efecto de la estructura espacial en la dinámica poblacional: Oso Andino en la Cordillera de Mérida, Venezuela

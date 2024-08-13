@@ -1,0 +1,57 @@
+---
+title: First Diversitas Open Science Conference
+date: 9 Noviembre 2005
+params:
+ code: 2005_Diversitas_I
+ ffin: 12 Noviembre 2005
+ lugar: Oaxaca
+categories: 
+ - México
+ - Conferencia
+ - Internacional
+ - Cartel
+ - Presentación
+---
+
+# Evento 
+
+First Diversitas Open Science Conference. [Oaxaca](/lgrs/Oaxaca.qmd), México, 9-12 Noviembre 2005.
+
+
+## Enlaces
+
+- [Información sobre el evento](https://grantome.com/index.php/grant/NSF/DEB-0544852)
+- [Publicación previa al evento](https://doi.org/10.1126/science.1119958)
+
+## Galería
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(FlickrAPI)
+library(pixture)
+suppressMessages(library(dplyr))
+suppressMessages(here::i_am("lgrs/Trieste.qmd"))
+
+```
+
+```{r}
+#| echo: false
+file_name <- here::here("data","google-photos.rds")
+ggl_photos <- readRDS(file=file_name)
+img_folder <- "img"
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+photos <- ggl_photos %>% 
+    filter(
+        album %in% eventos,
+        grepl("Diversitas",mediaItems.description))
+
+paths <- sprintf("%s/%s-%s.jpg",img_folder, pull(photos, output_id), pull(photos, output_file))
+captions <- photos %>% transmute(caption=sprintf("<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a>",mediaItems.description,mediaItems.productUrl)) %>% pull
+
+pixgallery(paths, caption=captions)
+
+```

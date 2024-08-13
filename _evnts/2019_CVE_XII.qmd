@@ -1,0 +1,101 @@
+---
+title: XII Congreso Venezolano de Ecología
+date: 18 noviembre 2019
+params:
+ code: 2019_CVE_XII
+ lugar: Universidad Simón Bolívar
+categories: 
+ - Venezuela
+ - Congreso
+ - Nacional
+ - Virtual
+ - Coautor
+---
+# CVE XII 2019
+
+XII Congreso Venezolano de Ecología. Universidad Simón Bolívar, 18-21 de noviembre 2019
+
+## Enlaces 
+
+- [Libro de resúmenes](https://svecologia.org/noticias/libro-de-resumenes-del-xii-cve)
+
+## Imágenes
+
+
+![Participantes del congreso. Foto por Eduardo Peña. Dronevenezuela](https://svecologia.org/wp-content/uploads/2022/03/Mini-libro-resumenes-4.png){.preview-image}
+
+![Logo SVE](https://svecologia.org/wp-content/uploads/2020/07/svecologia.png){width=100}
+
+## Presentaciones y productos relacionados
+
+### Avances sobre el análisis de distribución histórica y actual de Psitácidos de Venezuela. Caso: Amazona barbadensis (Virtual)
+
+Blanco-Pérez E (1), Sanz D’Angelo V (1) y Ferrer-Paris J (1)
+
+(1) Centro de Ecología, Instituto Venezolano de Investigaciones Científicas 
+
+> Los psitácidos representan uno de los grupos de aves más amenazados del mundo, debido al tráfico de fauna y la pérdida de hábitats. En Venezuela, se ha reportado intensa comercialización de psitácidos y se ha advertido la posible disminución de las poblaciones. Probablemente, estas amenazas se intensifiquen en lugares con mayores cambios en el uso de la tierra durante los últimos años. Uno de los psitácidos más amenazados es Amazona barbadensis, una especie casi endémica de Venezuela, catalogada en la lista roja como “En Peligro”. Por esta razón, este trabajo busca identificar cambios en la distribución geográfica de A. barbadensis, a través del análisis de registros históricos, modelos de distribución y sistemas de información geográfica, para estimar cambios en las probabilidades de presencia en el tiempo, caracterizar hábitats en función de la vegetación, identificar zonas de vulnerabilidad y dentro de áreas protegidas. Se encontró que desde 1980 al presente, 70% de la distribución de A. barbadensis a nivel nacional, ha permanecido sin cambios, mientras que 18% ha disminuido las probabilidades de presencia, especialmente en el estado Falcón, y 12% ha aumentado, principalmente en Lara. Sin embargo, estos estimados no incluyen tamaños poblacionales, que pueden ser muy bajos, aun estando presente la especie. Por lo tanto, si se considera que el 73% de la distribución se ubica en vegetación xerófila y bosques deciduos, que son ecosistemas amenazados, aunado a que 51% se encuentra en áreas consideradas vulnerables al saqueo de nidos y venta como mascotas, y que sólo el 2% de la distribución se localiza dentro de áreas protegidas, es posible que se sigan produciendo cambios que afecten negativamente las poblaciones. En consecuencia, se recomienda realizar estudios poblacionales y planes que protejan a la especie y sus hábitats, especialmente en el noroccidente del país.
+
+Relacionado con nuestro trabajo sobre la aplicación de modelos de distribución para el estudio de Psitácidos [@Blanco_Perez_2016_Metodos_Distribucion; @Ferrer-Paris_2021_Distribution_Psittaciformes; @Ferrer-Paris_2020_Occurrence_Psittacidae].
+
+### Monitoreo y uso de hábitat del oso frontino (Tremarctos ornatus) en la cuenca del Río Negro, Sierra de Perijá, Zulia, Venezuela: Datos preliminares
+
+Moran L (1), García L (2), Ferrebuz J (2), Ordoñez S (2), Sánchez R (2), Ferrer-Paris J (1) y Sánchez-Mercado A (1)
+
+(1) Laboratorio de Ecología Espacial, Centro de estudios botánicos y Agroforestales, Instituto Venezolano de Investigaciones Científicas
+
+(2) Museo de Biología de la Universidad del Zulia
+
+> La cuenca del Río Negro se ubica en la región central de la vertiente oriental dentro del P.N Sierra de Perijá, comprende una gran variedad de ecosistemas que albergan una población de Oso Frontino cuyo estado de conservación actual se desconoce, por ello este trabajo tuvo como objetivo monitorear las poblaciones de oso Frontino en esta cuenca y describir algunos aspectos del uso de hábitat. A partir de entrevistas a indígenas de comunidades en la cuenca, se estableció una zona de muestreo para el monitoreo con cámaras trampas en función de la frecuencia de avistamientos de Oso. Entre Agosto 2016 y Septiembre del 2017 se instalaron ocho estaciones simples de monitoreo con cámaras trampas, se realizaron recorridos por zonas donde reportan avistamientos recientes para rastrear indicios de uso de hábitat. Adicionalmente se realizaron entrevistas semiestructuradas a cazadores (n=6) comerciantes (n=8) y agricultores (n=19) de las comunidades en la cuenca para registrar zonas donde avistaron individuos y evaluar sus amenazas. Aunque no se obtuvieron registros fotográficos se registraron huellas y heces además un posible dormidero y tres comederos donde se alimentaba de plántulas y frutos de palmas y bromelias. La mayor cantidad de avistamientos por los locales n=12 fueron al Noreste de la cuenca y la zona del Subpáramo de Neverita (2800msnm). El registro más reciente corresponde a una pareja de individuos adultos en la localidad de Toromo en Enero 2018 (260 msnm), esta localidad parece ser un corredor a zonas de alimentación en temporada de sequía. Las principales amenazas de las poblaciones de osos frontinos son la pérdida de hábitat transformados para la agricultura, la cacería por subsistencia de los indígenas locales y la alta frecuencia de incendios en la zona. Urge la necesidad de incrementar programas de seguimiento a estas poblaciones para aumentar el conocimiento de su estado de conservación.
+
+Hace seguimiento a nuestro trabajo con cámaras trampa en la cuenca del lago de Maracaibo [@Moran2018].
+
+### Modelos de idoneidad climática para seis especies del género Handroanthus (Bignoniaceae) en el Neotrópico y su predicción en el estado Zulia
+
+Soto J(1), Ferrer-Paris JR(2), Cardozo-Urdaneta A(2) Y Sánchez-Mercado A(2)
+
+(1) Aula Viva Casa de las Mariposas, Fundación Jardín Botánico “Joaquín Antonio Uribe” de Medellín, 050010, Medellín, Colombia
+
+(2) Laboratorio de Ecología Espacial, Centro de Estudios Botánicos y Agroforestales, Instituto Venezolano de Investigaciones Científicas (IVIC), 20632 Caracas, Venezuela
+
+> El género Handroanthus (Bignoniaceae) es un elemento característico de los bosques secos neotropicales, con especies emblemáticas, de interés forestal y de conservación, pero no existen estudios cuantitativos de la distribución de las especies que lo conforman. Se escogieron seis especies de Handroanthus para evaluar la concordancia entre la distribución conocida y la idoneidad climática y se identificaron áreas con vacíos de información en una escala continental y local (estado Zulia, Venezuela). Se utilizaron modelos de máxima entropía para describir la relación entre los registros de presencia en el Neotrópico y siete variables bioclimáticas. Para cada especie se seleccionaron la combinación de variables y parámetros de ajuste óptima según el criterio de AICc. Para la mayoría de las especies se obtuvo un desempeño predictivo adecuado (AUC>0.7, Exactitud>0.6) pero con una capacidad de discriminación variable (Coeficiente de Determinación>0.1). El desempeño en estos índices fue pobre para H. chrysanthus. La distribución conocida de las especies no abarca todas las regiones con condiciones idóneas. Esta discrepancia puede deberse a límites biogeográficos en H. serratifolius, interacciones entre especies, como el caso de H. chrysanthus y H. capitatus, o por el efecto de variables ambientales no incluidas en el modelo (i.e. condiciones edáficas en H. capitatus). Aunque el Zulia no está incluido entre las regiones menos representadas en los registros continentales, la escasez de registros en herbarios regionales y la literatura le restó potencia estadística a la evaluación del desempeño predictivo a nivel local. La excepción fue H. billbergii, que tuvo valores de idoneidad alta (>0.77) en gran parte de la región. Sugerimos incrementar las prospecciones en áreas pobremente representadas, especialmente en la Serranía de Ziruma, municipio Baralt, río Catatumbo y Sierra de Perijá, y verificar la presencia de H. capitatus en la región.
+
+
+
+### Biomasa total de seis especies de mariposas (Lepidoptera, Nymphalidae) como Indicador de variabilidad ambiental en Venezuela
+
+Moreno J(1,2) y Ferrer JR(2)
+
+(1) Universidad del Zulia
+
+(2) Instituto Venezolano de Investigaciones Científicas IVIC - Zulia 
+
+> Se evaluó la biomasa total de seis especies Agraulis vanillae, Dryas iulia, Dryadula phaetusa, Euptoieta hegesia, Heliconius erato y H. melpomene de la subfamilia Heliconiinae como indicador de variabilidad ambiental en Venezuela. Para ello se relacionaron medidas de longitud alar y abundancia de ejemplares capturados durante muestreos sistematizados a nivel nacional (NeoMapas) entre 2005 y 2010, con indicadores de condiciones bióticas y abióticas de sensores remotos (MODIS). Se realizó un modelo de regresión lineal simple y regresión múltiple, que predice la influencia de las variables ambientales en el tamaño de las especies. Los resultados obtenidos mostraron en A. vanillae los porcentajes de asociación (8.84% precipitación) y (15.21%) al incluir 8 variables, E. hegesia obtuvo (7.09% precipitación) y (11.08%), H. erato en relación (8.13% temperatura del suelo diurna) y con 8 variables (11.56%), D. iulia obtuvo (12.48% precipitación), (9.49% temperatura del suelo nocturna), por su parte, D. phaetusa obtuvo (17.7% índice de vegetación mejorado EVI), (11.49% índice de vegetación normalizada NDVI), (9.31% precipitación) y (19.77%) al incluir 8 variables ambientales, mientras que H. melpomene no mostró valores significativos en la varianza explicada. Los resultados obtenidos tienen implicaciones para la conservación de la biodiversidad de mariposas, ya que permiten establecer una línea base enfocada a detectar la influencia de las variaciones climáticas sobre el tamaño de las mariposas adultas.
+
+### Presiones actuales a la fauna amazónica. Caso de la Gran Sabana
+
+Stachowicz I (1,2)y Ferrer-Paris JR (1,3,4)
+
+(1) Instituto Venezolano de Investigaciones Científicas, Venezuela 
+
+(2) University of Lodz, Polonia
+
+(3) University of New South Wales, Australia
+
+(4) Provita, Venezuela
+
+> La pérdida de hábitat es la primera amenaza para la biodiversidad a nivel mundial. En Venezuela la tasa actual de pérdida de bosques se estima entre un 8-11% por década y entre las principales causas se cuenta la ganadería, los incendios y la distancia a centros urbanos, seguidos en importancia por la creación de carreteras, el aumento de la densidad poblacional y las actividades mineras. La reciente designación del Arco Minero del Orinoco podría aumentar las tasas de deforestación en esta región del país. Actualmente se conoce un número muy limitado de los proyectos de conservación de fauna en el Sur de Venezuela, los más emblemáticos son el programa de conservación de águila harpía en Imataca y el programa de tortuguillos de la especie terecay en Caura. Desde 2016 se han realizado esfuerzos para el monitoreo de mamíferos grandes y medianos en varias regiones de la Gran Sabana para estudiar el efecto de las perturbaciones antropogénicas como la fragmentación del hábitat, el fuego y la cacería. En este estudio analizamos la riqueza y la distribución de mamíferos medianos y grandes en el mosaico de bosque y sabana. Se registraron 29 especies de mamíferos con cámaras trampa. Las curvas de acumulación mostraron mayor riqueza en hábitats poco o moderadamente alterados. El análisis posterior mostró una secuencia de menor a mayor riqueza de mamíferos de acuerdo con la proporción de la cobertura forestal y su agregación, sin efectos significativos de la frecuencia del fuego. A pesar de los recientes cambios demográficos y culturales, la caza de subsistencia sigue siendo importante entre las comunidades indígenas locales y su presa preferida es el venado de cola blanca (Odocoileus virginianus). El desarrollo descontrolado de la minería constituye una amenaza tanto para el medio ambiente como para la sociedad.
+
+Relacionado con el proyecto de monitoreo de vertebrados en la Gran Sabana [@Stachowicz_Ferrer-Paris_Sánchez-Mercado_2023].
+
+### Avances y retos de la lista roja de los ecosistemas de la Amazonía Venezolana (Virtual)
+
+Ferrer-Paris JR(1,2,3), Sánchez-Mercado A(2) y Stachowicz I(3,4)
+
+(1) University of New South Wales, Australia
+
+(2) Provita, Venezuela
+
+(3) Instituto Venezolano de Investigaciones Científicas, Venezuela 4 University of Lodz, Polonia
+
+> La Amazonía venezolana alberga una gran diversidad de recursos naturales que aporta múltiples beneficios materiales e intangibles. Históricamente esta región ha sido menos explorada y explotada que el resto del país, pero la creciente presión humana pone en peligro su integridad. La Lista Roja de Ecosistemas (LRE) de la UICN, evalúa las amenazas y presiones sobre los ecosistemas naturales, a la vez que cuantifica su estado de conservación para proponer acciones para su protección y recuperación. Revisamos las evaluaciones publicadas de LRE de los ecosistemas en la Amazonía venezolana desarrollados en diferentes escalas geográficas. Encontramos que todos los trabajos estuvieron enfocados en ecosistemas terrestres, y en menos de diez indicadores de amenazas, con un mayor énfasis en síntomas espaciales (deforestación y cambios en cobertura de la tierra) que en los síntomas funcionales de colapso. Los resultados de estas evaluaciones apuntan generalmente a bajos niveles de amenaza (Preocupación Menor, Casi Amenazado o Vulnerable) debido a la amplia distribución de los ecosistemas y baja incidencia histórica de sus amenazas. Este escenario contrasta con el estado de otros ecosistemas similares en el resto del país o el continente, y con el creciente riesgo que representa la explotación minera en la Amazonía venezolana. Para obtener un panorama más completo del estado de conservación de esta región hace falta: 1) Extender las evaluaciones más allá del ámbito terrestre, para incluir ecosistemas dulceacuícolas, subterráneos y las transiciones entre ellos; 2) Mejorar los estimados de deforestación combinando diferentes fuentes de datos, con validación local; 3) Evaluar amenazas adicionales como los efectos de la contaminación, incremento en la demanda de recursos, etc. 4) Incluir en las evaluaciones diferentes escenarios plausibles de cómo el desarrollo actual y futuro pueden afectar los estimados de los indicadores de amenaza seleccionados.

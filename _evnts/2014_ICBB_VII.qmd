@@ -1,0 +1,77 @@
+---
+title: 7th International Conference on the Biology of Butterflies
+date: 11 August 2014
+params:
+ - code: 2014_ICBB_VII
+ - ffin: 14 August 2014
+ - lugar: Turku
+categories:
+ - Finland
+ - Conferencia
+ - Internacional
+ - Ponencia
+bibliography:
+ - ../bibTeX/presentations.bibtex
+ - ../bibTeX/datasets.bibtex
+ - ../bibTeX/peer-review.bibtex
+---
+
+# El evento 
+
+7th International Conference on the Biology of Butterflies. [Turku](/lgrs/Turku.qmd), Finland, 11-14 August 2014.
+
+## Enlaces
+
+- [Conference web page](http://www.nymphalidae.net/icbb2014/index.html)
+- [Información sobre la sesión](http://www.nymphalidae.net/icbb2014/genbutbio.html)
+- [Conference report](http://www.nymphalidae.net/icbb2014/Antenna2.pdf)
+- [History of the conference](http://www.nymphalidae.net/icbb2014/Antenna.pdf)
+
+## Presentación y publicaciones
+
+> **The assessment of macroecological patterns in butterfly-hostplant associations at a global scale**, [@Ferrer_ICCB_2014]
+
+Esta presentación está relacionada con una publicación sobre mariposas y sus plantas hospederas [@FerrerParis2013_Hosts] y el conjunto de datos compilado para ese trabajo [@FerrerParis_EOL_dataset_2014].
+
+## Excursión
+
+Uno de los puntos destacados del evento fue la excursión a Åland con el [Prof. Ilkka Hanski](https://en.wikipedia.org/wiki/Ilkka_Hanski), en dónde estudió las famosas metapoblaciones de _Melitaea cinxia_.
+
+## Financiamiento
+
+Mi participación fue cubierta por los fondos del premio **2013 EOL Rubenstein Research Fellowship Award**.
+
+
+## Galería
+
+Esta galería incluye fotos de los carteles presentados y la excursión a Åland.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(FlickrAPI)
+library(pixture)
+suppressMessages(library(dplyr))
+suppressMessages(here::i_am("lgrs/Trieste.qmd"))
+
+```
+
+```{r}
+#| echo: false
+file_name <- here::here("data","google-photos.rds")
+ggl_photos <- readRDS(file=file_name)
+img_folder <- "img"
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+photos <- ggl_photos %>% 
+    filter(
+        album %in% eventos,
+        grepl("7th ICBB 2014",mediaItems.description))
+
+paths <- sprintf("%s/%s-%s.jpg",img_folder, pull(photos, output_id), pull(photos, output_file))
+captions <- photos %>% transmute(caption=sprintf("<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a>",mediaItems.description,mediaItems.productUrl)) %>% pull
+
+pixgallery(paths, caption=captions)
+
+```

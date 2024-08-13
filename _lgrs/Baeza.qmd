@@ -1,0 +1,62 @@
+---
+title: Baeza
+categories:
+ - España
+ - Taller
+---
+
+De visita por un [taller](/evnts/2005_Baeza.qmd) en la Universidad Internacional de Andalucía. Aparte de la ciudad de Baeza también visitamos el Mirador del Puerto de las Palomas y entramos al Parque Natural de las Sierras de Cazorla, Segura y Las Villas. Visitamos el [Centro de Recuperación de Especies Amenazadas (CREA) Quiebrajano](https://www.agenciamedioambienteyagua.es/DetalleCentroA.aspx?Id=17) de Jaén.
+
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+#library(FlickrAPI)
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Trieste.qmd")
+```
+
+```{r}
+#| echo: false
+file_name <- here::here("data","google-photos.rds")
+ggl_photos <- readRDS(file=file_name)
+img_folder <- "img"
+photos <- ggl_photos %>% filter(album %in% "Lugares - Europa",
+                                grepl("Baeza|Jaén", mediaItems.description))
+slc <- sample(seq(along=photos$output_id),size=1)
+
+```
+
+
+```{r}
+#| echo: false
+#| output: asis
+htmlcode <- "<center>\n<img src='%s/%s-%s.jpg'>\n<br/>\n
+<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a><br/>
+</center>"
+
+show_photo <- photos %>% 
+    slice(slc) %>%
+    transmute(code = sprintf(htmlcode, img_folder, output_id, output_file, mediaItems.description, mediaItems.productUrl)) %>% pull()
+cat(show_photo)
+```
+
+
+## Galería de fotos
+
+```{r}
+#| echo: false
+
+paths <- sprintf("%s/%s-%s.jpg",img_folder, pull(photos[-slc,], output_id), pull(photos[-slc,], output_file))
+captions <- photos %>%
+  slice(-slc) %>% 
+  transmute(caption=sprintf("<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a>",mediaItems.description,mediaItems.productUrl)) %>% 
+  pull
+
+pixgallery(paths, caption=captions)
+
+```

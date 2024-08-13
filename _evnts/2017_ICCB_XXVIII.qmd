@@ -1,0 +1,121 @@
+---
+title: 28th International Congress for Conservation Biology
+date: 23 Julio 2017
+categories:
+ - Colombia
+ - Congreso
+ - Internacional
+ - Ponencia
+ - UICN LRE
+params:
+ code: 2017_ICCB_XXVIII
+ ffin: 27 Julio 2017
+ lugar: Cartagena
+---
+
+# ICCB 2017
+
+28th International Congress for Conservation Biology. Cartagena, Colombia, 23-27 Julio 2017. 
+![](https://conbio.org/images/content_conferences/2017_logo_w_building.png)
+
+## Logo del evento
+
+![](https://conbio.org/images/content_static_pages/iccb2017_webbnr_950x150.jpg)
+
+## Enlaces
+
+- [Web del evento](https://conbio.org/mini-sites/iccb-2017)
+- [Programa de la conferencia](https://conbio.org/images/content_conferences/ICCB2017_Program_web.pdf)
+- [Libro de resumenes](https://conbio.org/images/content_conferences/ICCB2017_Abstract_Book_web_w_doi_022018.pdf)
+- [Jess' blog](https://conservationscience.org.au/2017/08/23/iccb-2017-symposium-new-tools-for-ecosystem-monitoring-and-assessment/)
+
+Referencia al libro de resumenes:
+
+> Mills M., Rueda Fajardo X., Shanker K. editors. Proceedings of the 28th International Congress for Conservation Biology. Cartagena 23-27 July 2017. Society for Conservation Biology; 2017. doi: 10.13140/RG.2.2.13183.92324
+
+## Contribuciones
+
+### Eventos
+
+**SYMPOSIUM - RED LISTS OF ECOSYSTEMS IN LATIN AMERICA FROM NATIONAL EFFORTS TO A REGIONAL STRATEGY**
+
+Irene Zager, Provita; José Ferrer Paris, Ivic
+
+> Risk assessment is an important tool for informing biodiversity conservation and represents one step in
+the process of setting conservation priorities for future actions, as well as informing efforts aimed at meeting international goals such as the Aichi Biodiversity
+Targets and the UNDP Sustainable Development Goals. The IUCN Red List of Ecosystems (RLE) proposes a unified risk model with standard, transparent and repeatable criteria for addressing the risk of ecosystem collapse equivalent to the one used by the Red List of Threatened Species. Recently several RLE assessments have been completed in Latin America through national and subnational initiatives based on locally described but internally consistent classifications. However, a broader strategy is needed in order to scale-up these efforts and advance toward a global assessment of the world’s ecosystems. This regional strategy must address methodological and conceptual challenges in order
+to bridge the gaps that arise between countries due
+to uncertainties in unit definitions and delimitation,
+the use of alternative sources of data, and divergent approaches for the calculation of changing attributes
+of ecosystems. We will present the results of recent developments in ecosystem risk assessment in Latin America with contrasting examples, from continental analysis based on regional vegetation units and
+broad ecosystem definitions, to national and sub- national assessments focused on locally described
+but internally consistent classifications. We will close the session with an outlook of the role that the RLE
+can play in international and national policy. After
+the presentations, we will discuss the strengths and weaknesses of the different approaches, and draft guidelines for future steps toward a better integration of national and regional efforts.
+
+**Lunchtime workshop: Innovative Tools and Approaches for Ecosystem Risk Assessment in Latin America**
+
+José Ferrer Paris, Ivic; Irene Zager, Provita
+
+
+### Presentaciones y afiches
+
+**RED LIST OF ECOSYSTEMS IN PARAGUAY: A NATIONAL ASSESSMENT FOLLOWING IUCN CRITERIA**
+
+Viviana Rojas Bonzi, Guyra Paraguay; Hugo Cabral, Guyra Paraguay; José Ferrer Paris, Ivic; Marianela Velilla, Guyra Paraguay; Alberto Yanosky, Guyra Paraguay; Irene Zager, Provita
+
+> For the last five years, several national Red List Ecosystem Analysis have been developed in Latin America through national initiatives. Here we present the results of two years of work in developing and evaluating the Red List of Ecosystems for Paraguay. After a preliminary workshop held in Paraguay in 2015, sixteen preliminary ecosystems were defined for the country and their level of threat
+was assessed using the IUCN Red List of Ecosystems criteria. Of the sixteen ecosystems, seven were classified under some level of threat: one was classified as Critically Endangered (CR), four as Endangered (EN) and two as Vulnerable (VU). The major threat identified for each
+is the rapid loss of original cover (Criteria A) due to agriculture and cattle ranching, leading to over 80% of forest loss in the past 50 years for the critically endangered ecosystem. In order to further evaluate the preliminary results, a second workshop will be held in Paraguay to reassess the ecosystem boundaries, threats and categories leading to the official Red List of Ecosystems for Paraguay. Furthermore, we also present the challenges of integrating regional and national efforts to advance towards a global assessment of the world’s ecosystems by 2025.
+
+**A CONTINENTAL CHALLENGE: ASSESSMENT OF TROPICAL AND TEMPERATE FOREST DECLINE IN THE AMERICAS**
+
+José Ferrer Paris, Ivic; Mario González-Gil, Provita; Jon Paul Rodriguez, Instituto Venezolano De Investigaciones Científicas; Irene Zager, Provita
+
+> The forests of the Americas are undergoing rapid change as human populations increase and land use intensifies.
+A continental perspective on forests most at risk is
+urgently needed to support planning and investment in conservation. The International Union for the Conservation of Nature (IUCN) Red List of Ecosystems provides a standardized means to evaluate the state of natural ecosystems in a changing world. Here we approach a
+first continental assessment of the America’s tropical and temperate forests based on proposed hierarchical units
+of analysis and available land cover layers. Specifically, we evaluated 138 vegetation Macrogroups from five tropical and three temperate forest formations proposed by the International Vegetation Classification. We first validated their spatial distribution with data on biogeographical units, environmental strata, distribution of characteristic species, and overlap with similar macrogroups. For
+113 macrogroups with valid spatial data, we assessed spatial Red List of Ecosystems criteria A and B. Historical and contemporary changes in spatial distribution were estimated from different available sources. Uncertainty
+in the assessments due to alternative sources of data
+or methods was summarized. More than 60% of the assessed Macrogroups were found to be threatened due to historic rates of decline, and more than 15% continue to suffer threatening declines. The estimated severity of these declines varies with different data or methods, but the most pessimistic scenario suggests that 48 macrogroups are Critically Endangered, 25 Endangered and 12 Vulnerable. Warm Temperate Forests and Woodlands, and Tropical Dry Forests are more severely threatened than other formations. We found that the continental status of a macrogroup is not always representative of the status
+at a national scale and continental analysis needs to be complemented with more detailed national assessments.
+
+
+**HABITAT FRAGMENTATION FIRE AND HUNTING SHAPE MAMMALS RICHNESS IN LA GRAN SABANA VENEZUELA**
+
+Izabela Stachowicz, Instituto Venezolano de Investigaciones Científicas; José Ferrer Paris, Ivic
+
+> Habitat fragmentation, wildfire and hunting are disturbances that pose direct threat to wildlife and have gained increasing importance for conservation. According to the Intermediate Disturbance Hypothesis (IDH), middle level of disturbance could promote higher diversity in
+some ecosystems, but the effect of different disturbances is frequently evaluated separately, disregarding potential synergistic effects. We deployed arrays of camera traps
+in five blocks of complex landscape with vast savannas
+in la Gran Sabana (GS) at the border of the Canaima
+NP. We analysed richness and occupancy of medium
+and large mammals in response to different levels of the three disturbances within the GS. Hunting pressure was estimated from interviews among indigenous Pemón; incidence of fires and habitat fragmentation from time series of remote sensors spanning the past 14 years. 29 species of mammals were registered, including giant armadillo, tapir and jaguar. Species accumulation curves showed highest richness in undisturbed and intermediately disturbed habitat, partially conforming to the IDH. Further analysis showed a sequence of lower to higher mammalian richness according to the proportion of available habitat (forest cover) and its aggregation (estimated with fractal indices), however available habitat was more important factor than aggregation. The analysis of components
+of beta diversity (nestedness and turnover) of mammals revealed that specialist (carnivores and insectivores) and large bodied species disappear first as fragmentation increases, while herbivores are more resistant to landscape change. Despite recent demographic and cultural changes, subsistence hunting is present among local indigenous communities and their preferred prey is white-tailed deer (Odocoileus virginianus). Its low occupancy (Psi<0,06) is probably due to overhunting caused by overpopulation. These results need to be included in a new, comprehensive and updated management plan for Canaima NP.
+
+**IDENTIFYING HIGH-QUALITY HABITATS FOR THE CRITICALLY-ENDANGERED RED SISKIN IN VENEZUELA**
+
+Ada Sánchez-Mercado, Instituto Venezolano de Investigaciones Científicas; José Rafael Ferrer-Paris, IVIC; Michael Braun, Smithsonian National Museum of Natural History; Arlene Cardozo-Urdaneta, IVICBrian Coyle, Smithsonian National Museum of Natural History; Kathryn Rodriguez-clark, Centro De Ecologia - Ivic
+
+> We used data for the Red Siskin (Spinus cucullatus), a critically endangered Neotropical bird, to identify key
+habitats for conservation in spite of limited information on habitat use and species ecology. We aimed to estimate:
+1) the Red Siskin’s historic distribution in Venezuela; 2)
+the portion of habitat lost to vegetation degradation; and 3) the location of key habitats, or areas with both a high probability of historic occurrence and a low probability of vegetation degradation. We ground-truthed 68 locations, classifying species’ habitat suitability there as excellent, good, regular, or poor. We fit a random forest model
+to relate these with an Enhanced Vegetation Index (EVI) time series. We estimated the probability of historic occurrence by fitting a MaxLike model using 88 presence records (1960-2013), and data on forest cover and aridity index. Eighty five percent of ground-truthed locations had substantial reductions in mean EVI, while 21% of the sampling universe (19,302 km2) had a probability
+of Red Siskin occurrence over 0.7, although only 22%
+of this was under protection. Our models revealed key habitats in the western and central regions of Venezuela, forming small blocks totaling just 1,109 km2. Decline in Area Of Occupancy over 15 years was between 39-94%, corresponding to an extinction risk category between Vulnerable and Critically Endangered. Ongoing vegetation degradation could limit the establishment of reintroduced populations in eastern areas, but the conservation of remaining key habitats on private lands in the central region could be improved with biodiversity-friendly agri- and silviculture programs.
+
+**QUO VADIS CAMERA TRAP RESEARCH? A 50- YEAR REVIEW OF CAMERA TRAP RESEARCH GOALS AND OUTCOMES**
+
+Izabela Stachowicz, Instituto Venezolano de Investigaciones Científicas; José Ferrer Paris, Ivic
+
+> Recent explosion of camera trapping (CT) studies represents a great experiment and challenge in modern wildlife survey methodology. CT has successfully complemented and sometimes replaced various survey methods. We wanted to evaluate different applications and outcomes of research that have used CT in
+different parts of the world, and how its advantages
+and disadvantages have changed over time, in order to provide some insights about the future of CT studies for the conservation of species. Three historical periods were covered: 1956-1997 (from a previous review), 1998-2008 and 2009-2016 (until July 2016). The objectives of CT studies were classified into two categories “science”, including studies on population parameters (distribution, density, presence, occupancy and abundance), methodology, forest ecology, behavior and activity patterns, and “conservation” with subjects: management, human conflicts and human disturbance, elusive and endangered species, habitat fragmentation, hunting and inventory. The number of CT studies has increased abruptly from 2,63 papers/year in the first period, to 120 papers/ year in the last period. Most CT studies have a scientific perspective focused on population parameters, behavior and activity patterns and methodology, but conservation applications with leading topics like management,
+conflicts with human and human disturbance or habitat fragmentation, are increasing from less than 1% to
+16% in these time periods. Currently the majority of CT studies are conducted in Asia and South and Central America, mostly in Brazil, Mexico, and India. Since the
+90’s mammals have been the primary subjects in 90%
+CT studies, with special attention paid to big carnivores - umbrella species that attract public attention necessary for conservation action. Studies with multiple objectives and multiple taxa become more common in the last decades, as complexity of research has increased in order to address current conservation problems.
+

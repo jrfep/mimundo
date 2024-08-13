@@ -1,0 +1,68 @@
+---
+title: 'IUCN Africa Protected Area Congress, APAC'
+date: July 2022
+categories:
+  - Rwanda
+  - Congreso
+  - Internacional
+  - UICN LRE
+  - Áreas Protegidas
+  - Taller
+  - OSF
+bibliography: 
+  - ../bibTeX/peer-review.bibtex
+  - ../bibTeX/preprints.bibtex
+---
+
+# El evento 
+
+IUCN Africa Protected Area Congress, APAC
+
+## Logo
+
+![](https://apacongress.africa/wp-content/uploads/2021/04/apac-web-logo-retina.png){.preview-image}
+
+## Enlaces
+
+- [Página Web](https://apacongress.africa/)
+
+## Participación y productos relacionados
+
+En 2022 organizamos una [sesión](https://osf.io/fgzac) sobre Lista Roja de Ecosistemas en el Congreso Africano sobre Áreas Protegidas en [Kigali](/lgrs/Kigali.qmd), Rwanda. 
+
+El título del taller fue _Red List of Ecosystems in Africa, supporting policy, practice and planning_ y los participantes reflexionaron sobre cómo y dónde se ha utilizado la Lista Roja de Ecosistemas en África y cuáles han sido los beneficios para el manejo de áreas protegidas y otras acciones de conservación en le continente.
+
+Posterior al taller preparamos un manuscrito que compartimos en forma de [pre-print](https://osf.io/preprints/africarxiv/62s5e){target='links'}, y después de un par de rondas de revisión publicamos en la revista Conservation Biology [@RLE_Africa].
+
+
+## Galería de fotos
+
+Algunas fotos del evento:
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Trieste.qmd")
+```
+
+```{r}
+#| echo: false
+file_name <- here::here("data","google-photos.rds")
+ggl_photos <- readRDS(file=file_name)
+img_folder <- "img"
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+photos <- ggl_photos %>% 
+    filter(
+        album %in% eventos,
+        grepl("APAC",output_file))
+
+paths <- sprintf("%s/%s-%s.jpg",img_folder, pull(photos, output_id), pull(photos, output_file))
+captions <- photos %>% transmute(caption=sprintf("<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a>",mediaItems.description,mediaItems.productUrl)) %>% pull
+
+pixgallery(paths, caption=captions)
+
+```

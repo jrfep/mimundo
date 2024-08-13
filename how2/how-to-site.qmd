@@ -1,0 +1,155 @@
+---
+author: "José R. Ferrer Paris"
+title: "This is how we built this!"
+editor_options: 
+  chunk_output_type: console
+---
+
+## No place like home
+
+This is a test of a personal website for [jrfep](https://jrfep.github.io/).
+
+These instructions are in English, but this site has content in multiple languages... I know it is confusing, but this is how I work. If you require clarifications please open an issue or send me a message. 
+
+All files are available in a [GitHub repository](https://github.com/jrfep/jrfep.github.io).  The `mostly-harmless` branch uses [Quarto](https://quarto.org/docs/websites/) to build the site.
+
+
+
+
+## Render site
+
+
+With quarto and RStudio we can open the Build tab and select Build Website...
+
+Or we can go to the command line and render the site: 
+
+```{sh}
+#| eval: false
+quarto render 
+```
+
+Sing [All the rowboats](https://youtu.be/2CZ8ossU4pc) in the meantime (optional).
+
+And then launch a preview:
+
+```{sh}
+#| eval: false
+quarto preview
+```
+
+If this work, we can just `git add`, `git commit` and `git push` it to the repo and see the changes!
+
+
+
+## Just in case
+
+![ [Stand back, I know regular expressions.](https://xkcd.com/208/)](https://imgs.xkcd.com/comics/regular_expressions.png)
+
+
+[^1]: Yes, I use this [weird spelling...](https://english.stackexchange.com/questions/230494/should-i-always-use-the-ised-ending-for-uk-english-and-the-ized-for-us)
+
+## Prepare data for some pages
+
+### Flexdashboard and iNaturalist
+
+To get the data I first install the `rinat` package:
+
+```{r}
+#| eval: false
+here::i_am("how2/how-to-site.qmd")
+if (!require(rinat)) {
+  install.packages("rinat")
+  library(rinat)
+}
+```
+
+Then I can download the observations from iNaturalist and save them in a data folder:
+
+```{r}
+#| eval: false
+# Download observations and save to RDS file
+user_obs <- get_inat_obs_user("NeoMapas",maxresults = 5000)
+if (!dir.exists(here::here("data")))
+    dir.create(here::here("data"))
+file_name <- here::here("data","iNaturalist-obs-NeoMapas.rds")
+saveRDS(file=file_name, user_obs)
+
+```
+
+
+### Photos from Flickr
+
+So, I think I need some photos in my website, and I have a Flickr account, and I use R, there should be a library that...
+
+Oh yes! found it!
+
+<https://koki25ando.github.io/FlickrAPI/>
+
+```{r}
+#| eval: false
+install.packages("FlickrAPI")
+```
+
+Now I need a [Flickr API key](https://www.flickr.com/services/developer/) 
+
+```{r}
+#| eval: false
+library(FlickrAPI)
+setFlickrAPIKey(api_key = "YOUR_API_KEY_HERE", install = TRUE)
+```
+
+And finally, it works!
+
+Let's now query our photos (up to 1000) and save the information in a RDS file:
+
+```{r}
+#| eval: false
+here::i_am("how2/how-to-site.qmd")
+library(FlickrAPI)
+library(foreach)
+library(dplyr)
+readRenviron("~/.Renviron") # read the API key
+here::i_am("how2/how-to-site.qmd")
+photos <- foreach(u=c("jferrer","jferrer","199798864@N08"), i=c(1,2,1),.combine = "bind_rows") %do% {
+  getPhotos(user_id = u, img_size="m", extras = c("description","owner_name",
+  "url_m"), per_page=1000, page=i)
+}
+
+dim(photos)
+
+file_name <- here::here("data","flickr-photos.rds")
+saveRDS(file=file_name, photos)
+```
+
+### Photos from google 
+
+### Galleries with `pixture`
+
+I am experimenting with the [pixture package](https://www.royfrancis.com/pixture/index.html) to create image galleries.
+
+```{r}
+#| eval: false
+install.packages(c("htmlwidgets","shiny","remotes"))
+remotes::install_github('royfrancis/pixture')
+```
+
+### Bibliography
+
+Download one `csl` as a base style
+
+```{.bash}
+cd bibteX
+wget 'https://www.zotero.org/styles/journal-and-proceedings-of-the-royal-society-of-new-south-wales?source=1' --output-document=my.csl
+```
+
+Modify sort order of the bibliography (not the citation...):
+
+```{.xml}
+<bibliography hanging-indent="true" entry-spacing="0">
+    <sort>
+      <key variable="issued" sort="descending"/>
+      <key macro="author"/>
+    </sort>
+  ...
+```
+
