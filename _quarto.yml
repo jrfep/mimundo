@@ -29,6 +29,8 @@ website:
         menu:
           - text: "(re-)create this site"
             href: how2/how-to-site.qmd
+bibliography: 
+  - bibTeX/references.bibtex
 format:
   html:
     theme: cosmo
