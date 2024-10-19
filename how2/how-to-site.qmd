@@ -7,17 +7,14 @@ editor_options:
 
 ## No place like home
 
-This is a test of a personal website for [jrfep](https://jrfep.github.io/).
+Who am I? I prepared some [presentation slides](https://jrfep.github.io) about myself. You can find my personal website in [English](https://jrfep.github.io/eng) and [Español](https://jrfep.github.io/esp).
 
 These instructions are in English, but this site has content in multiple languages... I know it is confusing, but this is how I work. If you require clarifications please open an issue or send me a message. 
 
-All files are available in a [GitHub repository](https://github.com/jrfep/jrfep.github.io).  The `mostly-harmless` branch uses [Quarto](https://quarto.org/docs/websites/) to build the site.
-
-
+All files are available in a [GitHub repository](https://github.com/jrfep/mimundo).  I am using [Quarto](https://quarto.org/docs/websites/) to build this site.
 
 
 ## Render site
-
 
 With quarto and RStudio we can open the Build tab and select Build Website...
 
@@ -39,18 +36,14 @@ quarto preview
 
 If this work, we can just `git add`, `git commit` and `git push` it to the repo and see the changes!
 
-
-
 ## Just in case
 
 ![ [Stand back, I know regular expressions.](https://xkcd.com/208/)](https://imgs.xkcd.com/comics/regular_expressions.png)
 
 
-[^1]: Yes, I use this [weird spelling...](https://english.stackexchange.com/questions/230494/should-i-always-use-the-ised-ending-for-uk-english-and-the-ized-for-us)
+## I need some photos
 
-## Prepare data for some pages
-
-### Flexdashboard and iNaturalist
+### Observations from iNaturalist
 
 To get the data I first install the `rinat` package:
 
