@@ -1,0 +1,46 @@
+---
+title: Darwin
+categories:
+ - Australia
+ - Conferencia
+ - Visita
+ - Fuego
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Darwin.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+## Galería de fotos
+
+
+```{r}
+#| output: asis
+photos <- filter_flickr_photo(seleccion = c("little critters in Darwin", "Tortuga bebé")) |>
+    pull_flickr_preview()
+
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
+```
+
+## Observaciones en iNaturalist
+
+
+```{r}
+#| output: asis
+
+inat_photos <- filter_inat_photo(place="Darwin") |>
+  pull_inat_paths_captions(howmany=18)
+
+pixgallery(inat_photos$paths, caption=inat_photos$captions)
+```
+
+
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="sFif3IE"><a href="https://imgur.com/sFif3IE">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+

@@ -1,0 +1,43 @@
+---
+title: Białowieża
+categories:
+ - Polonia
+ - Amigos
+ - Visita
+editor_options: 
+  chunk_output_type: console
+---
+
+Visitando a mi Adita... ;)
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Bialowieza.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+
+
+```{r}
+#| output: asis
+photos <- filter_flickr_photo(seleccion = c("Białowieża Forest")) |>
+    pull_flickr_preview()
+
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
+```
+
+
+
+```{r}
+inat_photos <- filter_inat_photo(place="Hajnówka|Białowieża") |>
+  pull_inat_paths_captions(howmany=18)
+
+pixgallery(inat_photos$paths, caption=inat_photos$captions)
+```

@@ -1,0 +1,55 @@
+---
+title: Turku y Åland
+categories:
+ - Finlandia
+ - Mariposas
+ - Conferencia
+ - Visita
+---
+
+Visité Finlandia para una [conferencia sobre mariposas](/evnts/2014_ICBB_VII.qmd). Impresionado con la presencia de grandes personajes del estudio de estos insectos y la ecología en general. 
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Turku.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+photos <- filter_flickr_photo(find = c("Turku|Åland")) |>
+    pull_flickr_preview()
+
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
+```
+
+Aproveché la oportunidad para hacer una excursión a Åland, y conocer el paisaje de las famosas metapoblaciones de _Melitaea cinxia_ estudiadas por el [Prof. Ilkka Hanski](https://en.wikipedia.org/wiki/Ilkka_Hanski).
+
+
+## Galería de fotos
+
+```{r}
+#| eval: false
+paths <- photos %>% pull(url_m)
+captions <- photos %>% 
+  transmute(caption=sprintf("<strong>%s</strong> por <a href='https://www.flickr.com/photos/jferrer/%s' target='flickr'>JR Ferrer Paris @ flickr</a>",title,id)) %>% pull()
+
+pixgallery(paths, caption=captions)
+
+```
+
+## Observaciones en `iNaturalist`
+
+
+```{r}
+#| output: asis
+
+inat_photos <- filter_inat_photo(place="Turku|Åland") |>
+  pull_inat_paths_captions(howmany=18)
+
+pixgallery(inat_photos$paths, caption=inat_photos$captions)
+```

@@ -5,6 +5,7 @@ categories:
  - Familia
  - Origenes
  - IVIC
+lightbox: true
 ---
 
 Mi ciudad natal, única e irrepetible.
@@ -16,7 +17,23 @@ Mi ciudad natal, única e irrepetible.
 library(dplyr)
 library(pixture)
 here::i_am("lgrs/Maracaibo.qmd")
+source(here::here("inc", "functions.R"))
 ```
+
+
+
+
+```{r}
+#| output: asis
+photos <- filter_flickr_photo(seleccion = c("Boulevar 5 de Julio", "Bella Vista", "Have a yellow day!", "Plaza República")) |>
+    pull_flickr_preview()
+
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
+```
+
+
+
 
 ```{r}
 #| echo: false
@@ -65,6 +82,7 @@ pixgallery(paths, caption=captions)
 ```
 ```{r}
 #| echo: false
+#| eval: true
 paths <- sprintf("http://i.imgur.com/%s.jpg?1",
 c("BO7Hzhx", "jFlMDBE"))
 captions <- sprintf("Imágen por <a href='https://i.imgur.com/%s.jpg' target='imgur'>NeoMapas @ imgur</a>",  c("BO7Hzhx", "jFlMDBE"))
@@ -75,18 +93,16 @@ pixgallery(paths, caption=captions)
 
 
 ```{r}
-file_name <- here::here("data","iNaturalist-obs-NeoMapas.rds")
-inat_photos <- readRDS(file=file_name) 
-seleccion <- "Maracaibo"
-```
+#| output: asis
 
-```{r}
-paths <- inat_photos %>% 
-    filter(grepl(seleccion,place_guess)) %>% 
-    pull(image_url)
-captions <- inat_photos %>% 
-    filter(grepl(seleccion,place_guess)) %>% 
-    transmute(caption=sprintf("<strong>%s</strong> (<emph>%s</emph>) by <a href='%s' target='iNat'>NeoMapas @ iNaturalist</a>",species_guess,scientific_name,url)) %>% pull()
+inat_photos <- filter_inat_photo(place="Maracaibo") |>
+  pull_inat_paths_captions(howmany=18)
 
-pixgallery(paths, caption=captions)
+pixgallery(inat_photos$paths, caption=inat_photos$captions)
+#htmlcode <- "<center>\n<img src='%s' group='iNat'>\n<br/>\n%s<br/></center>"
+#htmlcode <- "![%2$s](%1$s){.lightbox width=70 group=\"iNat\"}"
+
+#show_photo <- sprintf(htmlcode, inat_photos$paths, inat_photos$captions)
+#cat(show_photo)
+
 ```

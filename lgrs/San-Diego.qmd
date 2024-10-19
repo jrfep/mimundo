@@ -1,0 +1,24 @@
+---
+title: San Diego
+categories:
+ - Venezuela
+ - Amigos
+---
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| output: asis
+
+suppressMessages(library(dplyr))
+suppressMessages(here::i_am("lgrs/San-Diego.qmd"))
+source(here::here("inc", "functions.R"))
+
+photos <- filter_flickr_photo(seleccion = c("Palomar", "Quietos")) |>
+    pull_flickr_preview()
+
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
+```
