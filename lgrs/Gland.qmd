@@ -1,0 +1,60 @@
+---
+title: Gland e Yvoire
+categories:
+ - Suiza
+ - Francia
+ - IUCN RLE
+ - visita
+---
+
+Una visita al [Centro de Conservación de la Unión Internacional para la Conservación de la Naturaleza](https://www.iucn.org/about-iucn/iucn-conservation-centre) en Gland, Suiza y el pueblo de [Yvoire](https://frenchmoments.eu/yvoire-haute-savoie/) en la [costa francesa del Lago Ginebra](https://www.lake-geneva-switzerland.com/hautesavoy/yvoire/yvoire-medieval-floral-town-on-lake-geneva-france/).
+
+```{r}
+slc <- "Gland|Yvoire"
+alb <- "Lugares - Europa"
+```
+
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Gland.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+
+
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = alb) |>
+  pull_ggle_paths_captions(howmany = 1, preview=TRUE)
+
+htmlcode <- "<center>\n%s\n<br/>\n%s<br/></center>"
+
+show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
+cat(show_photo)
+```
+
+
+## Galería de fotos
+
+```{r}
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = alb) |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
+```
+
+
+## Observaciones en `iNaturalist`
+
+```{r}
+inat_photos <- filter_inat_photo(place=slc) |>
+  pull_inat_paths_captions(howmany=18)
+
+pixgallery(inat_photos$paths, caption=inat_photos$captions)
+
+```

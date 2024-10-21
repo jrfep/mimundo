@@ -1,0 +1,19 @@
+{
+  "hash": "38d42cac543298d4f648367fac031108",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Ciudad del Cabo\ncategories:\n - República de Suráfrica\n - Trabajo\n - Mariposas\n---\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\n## Galería de fotos\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div id=\"htmlwidget-1c3abf74de32e1698700\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-1c3abf74de32e1698700\">{\"x\":{\"path\":[\"https://live.staticflickr.com/4117/4757466467_7d4eedb60c.jpg\",\"https://live.staticflickr.com/4135/4757467599_3774047782.jpg\",\"https://live.staticflickr.com/6059/6221517407_e6de84cf58.jpg\",\"https://live.staticflickr.com/6165/6229790748_cfd24d431e.jpg\",\"https://live.staticflickr.com/7040/6900839413_590761b435.jpg\",\"https://live.staticflickr.com/7053/6900874607_fb814d1eb9.jpg\"],\"caption\":[\"<strong>donde estarás<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/4757466467' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Owl<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/4757467599' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Mi menina<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/6221517407' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Amazing<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/6229790748' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Hoerikwaggo<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/6900839413' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>How to train your wave...<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/6900874607' target='flickr'>¡Fgz! @ flickr<\\/a>\"],\"caption_valign\":\"none\",\"caption_halign\":\"left\",\"link\":[true],\"h\":null,\"w\":null,\"gap\":\"5px\",\"border_radius\":\"0px\",\"layout\":\"grid\",\"shuffle\":false},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n\n\n\n\n## Observaciones en iNaturalist\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div id=\"htmlwidget-7e761fcd8ebc1763f26b\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-7e761fcd8ebc1763f26b\">{\"x\":{\"path\":[],\"caption\":[],\"caption_valign\":\"none\",\"caption_halign\":\"left\",\"link\":[true],\"h\":null,\"w\":null,\"gap\":\"5px\",\"border_radius\":\"0px\",\"layout\":\"grid\",\"shuffle\":false},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../site_libs/simplelightbox-2.1.0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/simplelightbox-2.1.0/js/simplelightbox.js\"></script>\n<link href=\"../site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/pixgallery-binding-0.1.0/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

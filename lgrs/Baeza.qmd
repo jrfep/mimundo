@@ -1,0 +1,62 @@
+---
+title: Baeza
+categories:
+ - España
+ - Taller
+---
+
+De visita por un [taller](/evnts/2005_Baeza.qmd) en la Universidad Internacional de Andalucía. Aparte de la ciudad de Baeza también visitamos el Mirador del Puerto de las Palomas y entramos al Parque Natural de las Sierras de Cazorla, Segura y Las Villas. Visitamos el [Centro de Recuperación de Especies Amenazadas (CREA) Quiebrajano](https://www.agenciamedioambienteyagua.es/DetalleCentroA.aspx?Id=17) de Jaén.
+
+
+
+```{r}
+slc <- "Baeza|Jaén"
+alb <- "Lugares - Europa"
+```
+
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Gland.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+
+
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = alb) |>
+  pull_ggle_paths_captions(howmany = 1, preview=TRUE)
+
+htmlcode <- "<center>\n%s\n<br/>\n%s<br/></center>"
+
+show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
+cat(show_photo)
+```
+
+
+## Galería de fotos
+
+```{r}
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = alb) |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
+```
+
+
+## Observaciones en `iNaturalist`
+
+```{r}
+inat_photos <- filter_inat_photo(place=slc) |>
+  pull_inat_paths_captions(howmany=18)
+
+pixgallery(inat_photos$paths, caption=inat_photos$captions)
+
+```
+
+

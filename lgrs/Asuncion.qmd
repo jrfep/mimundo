@@ -1,0 +1,59 @@
+---
+title: Asunción
+categories:
+ - Paraguay
+ - Amigos
+ - Visita
+ - Cursos
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+```{r}
+#| echo: false
+#| output: asis
+slc <- c("Asunción")
+
+```
+
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Cape-Town.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+```{r}
+#| output: asis
+
+photos <- filter_flickr_photo(find = slc) |>
+    pull_flickr_paths_captions(howmany = 1, preview = TRUE)
+
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
+```
+
+
+## Galería de fotos
+
+```{r}
+photos <- filter_flickr_photo(find = slc) |>
+    pull_flickr_paths_captions()
+
+pixgallery(photos$paths, caption=photos$captions)
+```
+
+
+## Observaciones en iNaturalist
+
+
+```{r}
+inat_photos <- filter_inat_photo(place=slc) |>
+  pull_inat_paths_captions(howmany=18)
+
+pixgallery(inat_photos$paths, caption=inat_photos$captions)
+```

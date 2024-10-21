@@ -1,0 +1,37 @@
+---
+title: Caracas
+categories:
+ - Venezuela
+ - Familia
+ - Amigos
+---
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Caracas.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+slc <- c("Ampelmännchen ...1...2...3...Halt!", "N/W", "...y del cielo bajó La Arepa...", "Pandora", "Perfil en la plaza O'leary", "museo de arte contemporáneo de caracas...", "La torre de Babel")
+photos <- filter_flickr_photo(seleccion = slc) |>
+    pull_flickr_paths_captions(howmany = 1, preview = TRUE)
+
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
+```
+
+
+## Galería de fotos
+
+
+```{r}
+#| output: asis
+photos <- filter_flickr_photo(seleccion = slc) |>
+     pull_flickr_paths_captions()
+pixgallery(photos$paths, caption=photos$captions)
+```

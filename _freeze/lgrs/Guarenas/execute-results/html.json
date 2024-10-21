@@ -1,0 +1,19 @@
+{
+  "hash": "388d3ff3f4c8efb5d358ff51948152ca",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Guarenas\ncategories:\n - Venezuela\n - Familia\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n<center>\n<img src='https://live.staticflickr.com/2380/1663335236_405b55a3bc.jpg' width='500'  height='333' class='preview-image'>\n<br/>\n<strong>Full color</strong> by <a href='https://www.flickr.com/photos/76585510@N00/1663335236' target='flickr'>¡Fgz! @ flickr</a><br/></center>\n\n\n\n\n## Galería de fotos\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div id=\"htmlwidget-1312ce184d5267ae68c2\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-1312ce184d5267ae68c2\">{\"x\":{\"path\":[\"https://live.staticflickr.com/2380/1663335236_405b55a3bc.jpg\",\"https://live.staticflickr.com/2214/1662702791_30203d1f57.jpg\",\"https://live.staticflickr.com/2386/1662712325_7c8952c853.jpg\",\"https://live.staticflickr.com/2376/1662963351_d8f6405c97.jpg\"],\"caption\":[\"<strong>Full color<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/1663335236' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Panorámica Ciudad Casarapa<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/1662702791' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Panorámica Ciudad Casarapa<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/1662712325' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>gottlos - der Hundertwassersalbtraum<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/1662963351' target='flickr'>¡Fgz! @ flickr<\\/a>\"],\"caption_valign\":\"none\",\"caption_halign\":\"left\",\"link\":[true],\"h\":null,\"w\":null,\"gap\":\"5px\",\"border_radius\":\"0px\",\"layout\":\"grid\",\"shuffle\":false},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n\n\n\n\n## Observaciones en iNaturalist\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div id=\"htmlwidget-c9d8cecb6a7efb4ffae0\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-c9d8cecb6a7efb4ffae0\">{\"x\":{\"path\":[],\"caption\":[],\"caption_valign\":\"none\",\"caption_halign\":\"left\",\"link\":[true],\"h\":null,\"w\":null,\"gap\":\"5px\",\"border_radius\":\"0px\",\"layout\":\"grid\",\"shuffle\":false},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../site_libs/simplelightbox-2.1.0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/simplelightbox-2.1.0/js/simplelightbox.js\"></script>\n<link href=\"../site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/pixgallery-binding-0.1.0/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

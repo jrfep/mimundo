@@ -1,0 +1,45 @@
+---
+title: Abu Dhabi
+categories:
+ - Emiratos Árabes Unidos
+ - Visita
+ - Taller
+ - IUCN RLE
+---
+
+Mi experiencia en Abu Dhabi fue corta, rica en contrastes.
+
+Un taller de trabajo intenso y productivo, todo un reto.
+
+De la parte cultural, lo mejor para mi fue la visita al Louvre de Abu Dhabi.
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Abu-Dhabi.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+slc <- c("Abu Dhabi")
+photos <- filter_flickr_photo(find = slc) |>
+    pull_flickr_paths_captions(howmany = 1, preview = TRUE)
+
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
+```
+
+
+## Galería de fotos
+
+
+```{r}
+#| output: asis
+photos <- filter_flickr_photo(find = slc) |>
+     pull_flickr_paths_captions()
+pixgallery(photos$paths, caption=photos$captions)
+```
+

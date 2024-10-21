@@ -1,0 +1,56 @@
+---
+title: Palenque
+categories:
+ - Mexico
+ - Visita
+ - Sitios arqueológicos
+execute: 
+ echo: false
+---
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Palenque.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+
+slc <- c("Palenque")
+
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = "Lugares - México") |>
+  pull_ggle_paths_captions(howmany = 1, preview=TRUE)
+
+htmlcode <- "<center>\n%s\n<br/>\n%s<br/></center>"
+
+show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
+cat(show_photo)
+```
+
+
+## Galería de fotos
+
+```{r}
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = "Lugares - México") |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
+```
+
+
+## Observaciones en `iNaturalist`
+
+```{r}
+inat_photos <- filter_inat_photo(place=slc) |>
+  pull_inat_paths_captions(howmany=18)
+
+pixgallery(inat_photos$paths, caption=inat_photos$captions)
+
+```
+
+

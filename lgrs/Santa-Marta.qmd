@@ -3,6 +3,7 @@ title: Santa Marta
 categories:
  - Colombia
  - Ecosistemas
+ - Trabajo de campo
 editor_options: 
   chunk_output_type: console
 ---

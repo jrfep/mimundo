@@ -1,0 +1,19 @@
+{
+  "hash": "698c2a1a0f7e22e3b728b7f93355eabc",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Melbourne\ncategories:\n - Australia\n - IUCN RLE\n---\n\n::: {.cell}\n\n:::\n\n<center>\n<img src='https://live.staticflickr.com/65535/53454169711_ff0b93ca76.jpg' width='381'  height='500' class='preview-image'>\n<br/>\n<strong>Art in Melbourne</strong> by <a href='https://www.flickr.com/photos/199798864@N08/53454169711' target='flickr'>ceba.lee @ flickr</a><br/></center>\n\n\n\n\n## Galería de fotos\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div id=\"htmlwidget-6894cea78268b94b044d\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-6894cea78268b94b044d\">{\"x\":{\"path\":[\"https://live.staticflickr.com/65535/53453242992_ba7c732cf8.jpg\",\"https://live.staticflickr.com/65535/53454484264_a1ab2941f1.jpg\",\"https://live.staticflickr.com/65535/53453242827_2ee98fce8d.jpg\",\"https://live.staticflickr.com/65535/53454484239_5b17e1f0ea.jpg\",\"https://live.staticflickr.com/65535/53454169711_ff0b93ca76.jpg\"],\"caption\":[\"<strong>Art in Melbourne<\\/strong> by <a href='https://www.flickr.com/photos/199798864@N08/53453242992' target='flickr'>ceba.lee @ flickr<\\/a>\",\"<strong>Legend of fire, Melbourne<\\/strong> by <a href='https://www.flickr.com/photos/199798864@N08/53454484264' target='flickr'>ceba.lee @ flickr<\\/a>\",\"<strong>St. Patrick's Cathedral, Melbourne<\\/strong> by <a href='https://www.flickr.com/photos/199798864@N08/53453242827' target='flickr'>ceba.lee @ flickr<\\/a>\",\"<strong>Legend of fire, Melbourne<\\/strong> by <a href='https://www.flickr.com/photos/199798864@N08/53454484239' target='flickr'>ceba.lee @ flickr<\\/a>\",\"<strong>Art in Melbourne<\\/strong> by <a href='https://www.flickr.com/photos/199798864@N08/53454169711' target='flickr'>ceba.lee @ flickr<\\/a>\"],\"caption_valign\":\"none\",\"caption_halign\":\"left\",\"link\":[true],\"h\":null,\"w\":null,\"gap\":\"5px\",\"border_radius\":\"0px\",\"layout\":\"grid\",\"shuffle\":false},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n\n\n\n\n## Observaciones en iNaturalist\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div id=\"htmlwidget-489344582610a2071ace\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-489344582610a2071ace\">{\"x\":{\"path\":[],\"caption\":[],\"caption_valign\":\"none\",\"caption_halign\":\"left\",\"link\":[true],\"h\":null,\"w\":null,\"gap\":\"5px\",\"border_radius\":\"0px\",\"layout\":\"grid\",\"shuffle\":false},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../site_libs/simplelightbox-2.1.0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/simplelightbox-2.1.0/js/simplelightbox.js\"></script>\n<link href=\"../site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/pixgallery-binding-0.1.0/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

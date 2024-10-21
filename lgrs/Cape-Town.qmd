@@ -1,0 +1,56 @@
+---
+title: Ciudad del Cabo
+categories:
+ - República de Suráfrica
+ - Trabajo
+ - Mariposas
+---
+
+
+
+```{r}
+#| echo: false
+#| output: asis
+slc <- c("Surfer's corner", "How to train your wave...", "Amazing", "Mi menina", "Hoerikwaggo", "Owl", "donde estarás")
+
+```
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Cape-Town.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+```{r}
+#| output: asis
+
+photos <- filter_flickr_photo(find = slc) |>
+    pull_flickr_paths_captions(howmany = 1, preview = TRUE)
+
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
+```
+
+
+## Galería de fotos
+
+```{r}
+photos <- filter_flickr_photo(seleccion = slc) |>
+    pull_flickr_paths_captions()
+
+pixgallery(photos$paths, caption=photos$captions)
+```
+
+
+## Observaciones en iNaturalist
+
+
+```{r}
+slc <- c("Cape Town")
+inat_photos <- filter_inat_photo(place=slc) |>
+  pull_inat_paths_captions(howmany=18)
+
+pixgallery(inat_photos$paths, caption=inat_photos$captions)
+```

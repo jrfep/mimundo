@@ -34,7 +34,34 @@ And then launch a preview:
 quarto preview
 ```
 
-If this work, we can just `git add`, `git commit` and `git push` it to the repo and see the changes!
+If this work, we can just `git add`, `git commit` and `git push` it to the repo and then follow the following steps to make it public.
+
+### Publish site
+
+We follow these intructions: <https://quarto.org/docs/publishing/github-pages.html>
+
+Create an empty branch:
+
+```{sh}
+#| eval: false
+git checkout --orphan gh-pages
+git reset --hard # make sure all changes are committed before running this!
+git commit --allow-empty -m "Initialising gh-pages branch"
+git push origin gh-pages
+```
+
+Modify these options in the menu `Settings` : `Pages` for the GitHub repository:
+
+- set source branch to `gh-pages` 
+- set site directory to the repository root (1/1)
+
+Add the `docs` folder to `.gitignore`, so that we do not replicate the information in both branches.
+
+Now we can do this:
+```{sh}
+#| eval: false
+quarto publish gh-pages
+```
 
 ## Just in case
 
@@ -140,7 +167,7 @@ library(stringr)
 
 #### Credentials for authentication
 ```{r}
-
+#| eval: false
 readRenviron(".Renviron")
 cred_json <- Sys.getenv("GC_PROJECT_CRED_JSON")
 if (!file.exists(cred_json)) {
@@ -162,8 +189,7 @@ authorization = paste('Bearer', k$credentials$access_token)
 #### List of albums
 
 ```{r}
-
-
+#| eval: false
 getalbum <-
   GET("https://photoslibrary.googleapis.com/v1/albums",
       add_headers(
@@ -189,6 +215,7 @@ album_info <- getalbum$albums %>% select(id, title)
 #### Get photo information from target albums
 
 ```{r}
+#| eval: false
 lugares <- c("Lugares - México", "Lugares - Europa", "Lugares - Sur América", "Eventos - Venezuela")
 eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
 aIDs <- album_info %>% filter(title %in% c(lugares, eventos)) %>% pull(id)
@@ -217,6 +244,7 @@ photos <- foreach(aID=aIDs, .combine = "bind_rows") %do% {
 #### Download images and create a DB file
 
 ```{r}
+#| eval: false
 here::i_am("how2/how-to-site.qmd")
 img_folder <- here::here("lgrs","img")
 if (!dir.exists(img_folder))

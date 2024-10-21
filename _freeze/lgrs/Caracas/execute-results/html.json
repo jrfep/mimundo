@@ -1,0 +1,19 @@
+{
+  "hash": "f0fd078c7b1bd90ba65c4e2a30b91be1",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Caracas\ncategories:\n - Venezuela\n - Familia\n - Amigos\n---\n\n::: {.cell}\n\n:::\n\n<center>\n<img src='https://live.staticflickr.com/2331/1647289504_3956a033d4.jpg' width='333'  height='500' class='preview-image'>\n<br/>\n<strong>La torre de Babel</strong> by <a href='https://www.flickr.com/photos/76585510@N00/1647289504' target='flickr'>¡Fgz! @ flickr</a><br/></center>\n\n\n\n\n\n## Galería de fotos\n\n\n\n\n\n\n```{=html}\n<div id=\"htmlwidget-417d2bf2ea7557688827\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-417d2bf2ea7557688827\">{\"x\":{\"path\":[\"https://live.staticflickr.com/171/452707965_1668fd3474.jpg\",\"https://live.staticflickr.com/2331/1647289504_3956a033d4.jpg\",\"https://live.staticflickr.com/2164/1646680319_73451a8599.jpg\",\"https://live.staticflickr.com/2318/1647707375_4b33047553.jpg\",\"https://live.staticflickr.com/2306/2119065359_2c29b88c08.jpg\",\"https://live.staticflickr.com/2519/4079691914_c7fc3b1eb4.jpg\",\"https://live.staticflickr.com/2630/4079708198_f7b771b0d1.jpg\"],\"caption\":[\"<strong>Perfil en la plaza O'leary<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/452707965' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>La torre de Babel<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/1647289504' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>museo de arte contemporáneo de caracas...<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/1646680319' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Pandora<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/1647707375' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>...y del cielo bajó La Arepa...<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/2119065359' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Ampelmännchen ...1...2...3...Halt!<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/4079691914' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>N/W<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/4079708198' target='flickr'>¡Fgz! @ flickr<\\/a>\"],\"caption_valign\":\"none\",\"caption_halign\":\"left\",\"link\":[true],\"h\":null,\"w\":null,\"gap\":\"5px\",\"border_radius\":\"0px\",\"layout\":\"grid\",\"shuffle\":false},\"evals\":[],\"jsHooks\":[]}</script>\n```",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../site_libs/simplelightbox-2.1.0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/simplelightbox-2.1.0/js/simplelightbox.js\"></script>\n<link href=\"../site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/pixgallery-binding-0.1.0/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

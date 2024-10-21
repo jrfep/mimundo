@@ -1,0 +1,19 @@
+{
+  "hash": "edba9979cc3ee7dc30bfa2b22ba93867",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Altos de Pipe\ncategories:\n - Venezuela\n - IVIC\n - Amigos\n - Trabajo\neditor_options: \n  chunk_output_type: console\n---\n\n::: {.cell}\n\n:::\n\n<center>\n<img src='https://live.staticflickr.com/2556/3823003227_3be58c98f4.jpg' width='500'  height='333' class='preview-image'>\n<br/>\n<strong>Sembrando Nogales en el IVIC</strong> by <a href='https://www.flickr.com/photos/76585510@N00/3823003227' target='flickr'>¡Fgz! @ flickr</a><br/></center>\n\n\n\n\n\n## Galería de fotos\n\n\n\n\n\n\n```{=html}\n<div id=\"htmlwidget-e9551cb89a26ff979d84\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-e9551cb89a26ff979d84\">{\"x\":{\"path\":[\"https://live.staticflickr.com/2209/2015466503_5eddb5c19d.jpg\",\"https://live.staticflickr.com/2165/2015487655_b654bb98d0.jpg\",\"https://live.staticflickr.com/2351/2016315710_1b5cefea42.jpg\"],\"caption\":[\"<strong>Insomnia01<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/2015466503' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Insomnia02<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/2015487655' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Insomnia03<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/2016315710' target='flickr'>¡Fgz! @ flickr<\\/a>\"],\"caption_valign\":\"none\",\"caption_halign\":\"left\",\"link\":[true],\"h\":null,\"w\":null,\"gap\":\"5px\",\"border_radius\":\"0px\",\"layout\":\"grid\",\"shuffle\":false},\"evals\":[],\"jsHooks\":[]}</script>\n```\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../site_libs/simplelightbox-2.1.0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/simplelightbox-2.1.0/js/simplelightbox.js\"></script>\n<link href=\"../site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/pixgallery-binding-0.1.0/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,59 @@
+---
+title: Göttingen
+categories:
+ - Alemania
+---
+
+Visité Göttingen con un grupo de ex-becarios de la DAAD con quienes asistimos al [European Conference of Tropical Ecology](/evnts/2016_EUTropEcol.qmd).
+
+```{r}
+slc <- c("Göttingen|Goettingen")
+alb <- "Lugares - Europa"
+```
+
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Gland.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+
+
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = alb) |>
+  pull_ggle_paths_captions(howmany = 1, preview=TRUE)
+
+htmlcode <- "<center>\n%s\n<br/>\n%s<br/></center>"
+
+show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
+cat(show_photo)
+```
+
+
+## Galería de fotos
+
+```{r}
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = alb) |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
+```
+
+
+## Observaciones en `iNaturalist`
+
+```{r}
+inat_photos <- filter_inat_photo(place=slc) |>
+  pull_inat_paths_captions(howmany=18)
+
+pixgallery(inat_photos$paths, caption=inat_photos$captions)
+
+```
+
+

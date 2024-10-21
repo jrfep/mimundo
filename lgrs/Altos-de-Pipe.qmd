@@ -1,0 +1,41 @@
+---
+title: Altos de Pipe
+categories:
+ - Venezuela
+ - IVIC
+ - Amigos
+ - Trabajo
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Caracas.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+slc <- c("Sembrando Nogales en el IVIC")
+photos <- filter_flickr_photo(seleccion = slc) |>
+    pull_flickr_paths_captions(howmany = 1, preview = TRUE)
+
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
+```
+
+
+## Galería de fotos
+
+
+```{r}
+#| output: asis
+slc <- c("Insomnia01", "Insomnia02", "Insomnia03")
+photos <- filter_flickr_photo(seleccion = slc) |>
+     pull_flickr_paths_captions()
+pixgallery(photos$paths, caption=photos$captions)
+```
