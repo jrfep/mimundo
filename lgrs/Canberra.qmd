@@ -1,0 +1,29 @@
+---
+title: Canberra
+categories:
+ - Australia
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Canberra.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+
+## Observaciones en iNaturalist
+
+
+```{r}
+
+inat_photos <- filter_inat_photo(place="Canberra") |>
+  pull_inat_paths_captions(howmany=18)
+
+pixgallery(inat_photos$paths, caption=inat_photos$captions)
+```
+

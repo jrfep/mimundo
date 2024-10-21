@@ -1,0 +1,43 @@
+---
+title: Trieste, Padua y Venecia
+categories:
+ - Italia
+ - Taller
+ - Visita
+editor_options: 
+  chunk_output_type: console
+---
+
+Un emocionante [taller](/evnts/2009_TheoEco.md), muy instructivo. Una experiencia vibrante. La visita a Padua con el convento de San Antonio fue muy emotiva.
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Trieste.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+
+photos <- filter_flickr_photo(seleccion = 
+  c("Buon Giorno","Paciencia","Musikanten in Venedig", "Bona sera","Ciao!", "Prato della Valle")) |>
+    pull_flickr_paths_captions(howmany = 1, preview = TRUE)
+
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
+```
+
+
+## Galería de fotos
+
+```{r}
+
+photos <- filter_flickr_photo(seleccion = 
+  c("Buon Giorno","Paciencia","Musikanten in Venedig", "Bona sera","Ciao!", "Prato della Valle")) |>
+    pull_flickr_paths_captions()
+
+pixgallery(photos$paths, caption=photos$captions)
+
+```

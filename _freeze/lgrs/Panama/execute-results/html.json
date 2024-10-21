@@ -1,0 +1,19 @@
+{
+  "hash": "eff7bf5abf3961540f06dbb8472f8168",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Ciudad de Panamá\ncategories:\n - Panamá\n - Eventos\n - Amigos\n---\n\n\n\nAprovecho una [reunión de trabajo](/evnts/2007_ELEN_II.qmd) para conocer un rincón muy colorido del continente, y visitar viejos amigos.\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n<center>\n<img src='https://live.staticflickr.com/199/504287814_b3fd01feed.jpg' width='500'  height='494' class='preview-image'>\n<br/>\n<strong>Pollera panameña</strong> by <a href='https://www.flickr.com/photos/76585510@N00/504287814' target='flickr'>¡Fgz! @ flickr</a><br/></center>\n\n\n\n\n\n## Galería de fotos\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div id=\"htmlwidget-b10692503a8dbff32fd1\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-b10692503a8dbff32fd1\">{\"x\":{\"path\":[\"https://live.staticflickr.com/169/476304621_c387c09993.jpg\",\"https://live.staticflickr.com/213/476304611_d8751454f8.jpg\",\"https://live.staticflickr.com/199/504287814_b3fd01feed.jpg\",\"https://live.staticflickr.com/221/504288146_14fdd54c93.jpg\"],\"caption\":[\"<strong>Las Mercedes<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/476304621' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Colores de Panamá<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/476304611' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Pollera panameña<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/504287814' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Traje panameño<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/504288146' target='flickr'>¡Fgz! @ flickr<\\/a>\"],\"caption_valign\":\"none\",\"caption_halign\":\"left\",\"link\":[true],\"h\":null,\"w\":null,\"gap\":\"5px\",\"border_radius\":\"0px\",\"layout\":\"grid\",\"shuffle\":false},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../site_libs/simplelightbox-2.1.0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/simplelightbox-2.1.0/js/simplelightbox.js\"></script>\n<link href=\"../site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/pixgallery-binding-0.1.0/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

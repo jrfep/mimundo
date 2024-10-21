@@ -116,6 +116,137 @@ saveRDS(file=file_name, photos)
 
 ### Photos from google 
 
+Getting the photos from google Photos Library was more complex, but I wrote a [blog entry describing all steps](https://jrfep.quarto.pub/explicado/Rcode/google-photos.html) I took:
+
+1. I created a project in google cloud, 
+2. enabled Photos Library API (not sure if this is relevant here),
+3. configured a simple consent page, 
+4. created a OAuth 2.0 client ID and downloaded the json file.
+5. added `GC_PROJECT_EMAIL` and `GC_PROJECT_CRED_JSON` to my .Renviron file
+
+Then I ran these lines of code:
+
+#### Required libraries
+
+```{r}
+#| eval: false
+library(gargle)
+library(dplyr)
+library(jsonlite)
+library(httr)
+library(foreach)
+library(stringr)
+```
+
+#### Credentials for authentication
+```{r}
+
+readRenviron(".Renviron")
+cred_json <- Sys.getenv("GC_PROJECT_CRED_JSON")
+if (!file.exists(cred_json)) {
+  stop("credentials not found, please update Renviron file")
+} else {
+  clnt <- gargle_oauth_client_from_json(path=cred_json)
+}
+
+tkn <- gargle2.0_token(
+  email = Sys.getenv("GC_PROJECT_EMAIL"),
+  client = clnt,
+  scope = c("https://www.googleapis.com/auth/photoslibrary.readonly",
+            "https://www.googleapis.com/auth/photoslibrary.sharing")
+)
+k <- token_fetch(token=tkn)
+authorization = paste('Bearer', k$credentials$access_token)
+```
+
+#### List of albums
+
+```{r}
+
+
+getalbum <-
+  GET("https://photoslibrary.googleapis.com/v1/albums",
+      add_headers(
+        'Authorization' = authorization,
+        'Accept'  = 'application/json'),
+      query = list("pageSize" = 50)) %>% 
+  content(., as = "text", encoding = "UTF-8") %>%
+  fromJSON(.) 
+if (!is.null(getalbum$nextPageToken)) {
+  getalbum2 <-
+    GET("https://photoslibrary.googleapis.com/v1/albums",
+      add_headers(
+        'Authorization' = authorization,
+        'Accept'  = 'application/json'),
+      query = list("pageToken" = getalbum$nextPageToken)) %>% 
+    content(., as = "text", encoding = "UTF-8") %>%
+    fromJSON(.) 
+}
+
+album_info <- getalbum$albums %>% select(id, title)
+```
+
+#### Get photo information from target albums
+
+```{r}
+lugares <- c("Lugares - México", "Lugares - Europa", "Lugares - Sur América", "Eventos - Venezuela")
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+aIDs <- album_info %>% filter(title %in% c(lugares, eventos)) %>% pull(id)
+
+photos <- foreach(aID=aIDs, .combine = "bind_rows") %do% {
+  dts <-  POST("https://photoslibrary.googleapis.com/v1/mediaItems:search",
+      add_headers(
+        'Authorization' = authorization,
+        'Accept'  = 'application/json'),
+      body = list("albumId" = aID,
+                  "pageSize" = 50),
+      encode = "json"
+      ) %>% 
+    content(., as = "text", encoding = "UTF-8") %>%
+    fromJSON(., flatten = TRUE) %>% 
+    data.frame()
+  dts$album <- album_info %>% filter(id %in% aID) %>% pull(title)
+  dts <- dts %>% 
+    mutate(
+      output_file = str_replace_all(mediaItems.description, "[ ,/]+", "-"),
+      output_id = abbreviate(mediaItems.id))
+  dts 
+}
+```
+
+#### Download images and create a DB file
+
+```{r}
+here::i_am("how2/how-to-site.qmd")
+img_folder <- here::here("lgrs","img")
+if (!dir.exists(img_folder))
+  dir.create(img_folder)
+
+for (i in seq(along=photos$mediaItems.id)[photos$album %in% lugares]) {
+  photo <- photos %>% slice(i)
+  durl <- sprintf("%s=w400-h400-d", photo$mediaItems.baseUrl)
+  dfile <- sprintf("%s/%s-%s.jpg",img_folder, photo$output_id, photo$output_file)
+  if (!file.exists(dfile))
+    download.file(url=durl, destfile=dfile)
+}
+
+img_folder <- here::here("evnts","img")
+if (!dir.exists(img_folder))
+  dir.create(img_folder)
+for (i in seq(along=photos$mediaItems.id)[photos$album %in% eventos]) {
+  photo <- photos %>% slice(i)
+  durl <- sprintf("%s=w400-h400-d", photo$mediaItems.baseUrl)
+  dfile <- sprintf("%s/%s-%s.jpg",img_folder, photo$output_id, photo$output_file)
+  if (!file.exists(dfile))
+    download.file(url=durl, destfile=dfile)
+}
+
+file_name <- here::here("data","google-photos.rds")
+saveRDS(file=file_name, photos)
+```
+
+This downloads copies (small size) of all the images that I will need, and save the links and other information into a RDS file. 
+
 ### Galleries with `pixture`
 
 I am experimenting with the [pixture package](https://www.royfrancis.com/pixture/index.html) to create image galleries.

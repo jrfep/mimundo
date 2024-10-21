@@ -1,0 +1,30 @@
+---
+title: Santa Marta
+categories:
+ - Colombia
+ - Ecosistemas
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+library(dplyr)
+library(pixture)
+here::i_am("lgrs/Santa-Marta.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+## Observaciones en `iNaturalist`
+
+```{r}
+#| output: asis
+
+inat_photos <- filter_inat_photo(place="Santa Marta") |>
+  pull_inat_paths_captions(howmany=18)
+
+pixgallery(inat_photos$paths, caption=inat_photos$captions)
+
+```

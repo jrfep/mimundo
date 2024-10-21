@@ -1,0 +1,19 @@
+{
+  "hash": "845f5b8d92f7765e7afe4e03ff1a729c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Trieste, Padua y Venecia\ncategories:\n - Italia\n - Taller\n - Visita\neditor_options: \n  chunk_output_type: console\n---\n\n\n\n\n\nUn emocionante [taller](/evnts/2009_TheoEco.md), muy instructivo. Una experiencia vibrante. La visita a Padua con el convento de San Antonio fue muy emotiva.\n\n\n\n\n\n::: {.cell}\n\n:::\n\n<center>\n<img src='https://live.staticflickr.com/3664/3343035763_eaa0a72b80.jpg' width='333'  height='500' class='preview-image'>\n<br/>\n<strong>Paciencia</strong> by <a href='https://www.flickr.com/photos/76585510@N00/3343035763' target='flickr'>¡Fgz! @ flickr</a><br/></center>\n\n\n\n\n\n\n## Galería de fotos\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div id=\"htmlwidget-c6054b114945c933fd1a\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-c6054b114945c933fd1a\">{\"x\":{\"path\":[\"https://live.staticflickr.com/3347/3341406478_c614d14846.jpg\",\"https://live.staticflickr.com/3657/3342006653_e1eb29ab56.jpg\",\"https://live.staticflickr.com/3664/3343035763_eaa0a72b80.jpg\",\"https://live.staticflickr.com/3331/3343035827_4f7cf770f9.jpg\",\"https://live.staticflickr.com/3648/3343035941_615895bd38.jpg\",\"https://live.staticflickr.com/2778/4079930810_f10b2e2abf.jpg\"],\"caption\":[\"<strong>Ciao!<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/3341406478' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Prato della Valle<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/3342006653' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Paciencia<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/3343035763' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Buon Giorno<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/3343035827' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Bona sera<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/3343035941' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Musikanten in Venedig<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/4079930810' target='flickr'>¡Fgz! @ flickr<\\/a>\"],\"caption_valign\":\"none\",\"caption_halign\":\"left\",\"link\":[true],\"h\":null,\"w\":null,\"gap\":\"5px\",\"border_radius\":\"0px\",\"layout\":\"grid\",\"shuffle\":false},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../site_libs/simplelightbox-2.1.0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/simplelightbox-2.1.0/js/simplelightbox.js\"></script>\n<link href=\"../site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/pixgallery-binding-0.1.0/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

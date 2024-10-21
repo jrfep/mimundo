@@ -21,7 +21,7 @@ source(here::here("inc", "functions.R"))
 ```{r}
 #| output: asis
 photos <- filter_flickr_photo(find = c("Turku|Åland")) |>
-    pull_flickr_preview()
+    pull_flickr_paths_captions(howmany = 1, preview = TRUE)
 
 cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
          photos$paths, photos$captions))
@@ -33,12 +33,11 @@ Aproveché la oportunidad para hacer una excursión a Åland, y conocer el paisa
 ## Galería de fotos
 
 ```{r}
-#| eval: false
-paths <- photos %>% pull(url_m)
-captions <- photos %>% 
-  transmute(caption=sprintf("<strong>%s</strong> por <a href='https://www.flickr.com/photos/jferrer/%s' target='flickr'>JR Ferrer Paris @ flickr</a>",title,id)) %>% pull()
 
-pixgallery(paths, caption=captions)
+photos <- filter_flickr_photo(find = c("Turku|Åland")) |>
+    pull_flickr_paths_captions()
+
+pixgallery(photos$paths, caption=photos$captions)
 
 ```
 

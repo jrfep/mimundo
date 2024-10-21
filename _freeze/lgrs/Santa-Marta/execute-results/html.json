@@ -1,0 +1,19 @@
+{
+  "hash": "81fcf7e2270eee4e5d59741d901225d9",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Santa Marta\ncategories:\n - Colombia\n - Ecosistemas\neditor_options: \n  chunk_output_type: console\n---\n\n::: {.cell}\n\n:::\n\n\n\n\n## Observaciones en `iNaturalist`\n\n\n\n\n\n```{=html}\n<div id=\"htmlwidget-21cd49674243eb6220b9\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-21cd49674243eb6220b9\">{\"x\":{\"path\":[],\"caption\":[],\"caption_valign\":\"none\",\"caption_halign\":\"left\",\"link\":[true],\"h\":null,\"w\":null,\"gap\":\"5px\",\"border_radius\":\"0px\",\"layout\":\"grid\",\"shuffle\":false},\"evals\":[],\"jsHooks\":[]}</script>\n```",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../site_libs/simplelightbox-2.1.0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/simplelightbox-2.1.0/js/simplelightbox.js\"></script>\n<link href=\"../site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/pixgallery-binding-0.1.0/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -21,41 +21,17 @@ here::i_am("lgrs/Villahermosa.qmd")
 source(here::here("inc", "functions.R"))
 ```
 
-```{r}
-#| eval: false
-file_name <- here::here("data","google-photos.rds")
-ggl_photos <- readRDS(file=file_name)
-
-seleccion <- c("Villahermosa|La Venta|Tacotalpa")
-```
-
 
 ```{r}
 #| output: asis
-#| eval: false
 
-img_folder <- "img"
+gphotos <- filter_ggl_photo(description = "Villahermosa|La Venta|Tacotalpa", 
+  album_name = "Lugares - México") |>
+  pull_ggle_paths_captions(howmany = 1, preview=TRUE)
 
-photos <- ggl_photos %>% 
-    filter(
-        album %in% "Lugares - México",
-        grepl(seleccion,mediaItems.description))
+htmlcode <- "<center>\n%s\n<br/>\n%s<br/></center>"
 
-```
-
-
-
-```{r}
-#| output: asis
-#| eval: false
-htmlcode <- "<center>\n<img src='%s/%s-%s.jpg'>\n<br/>\n**%s** by <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a><br/></center>"
-
-show_photo <- ggl_photos %>% 
-    filter(
-        album %in% "Lugares - México",
-        grepl(seleccion,mediaItems.description)) %>% 
-    slice_sample(n=1) %>%
-    transmute(code = sprintf(htmlcode, img_folder, output_id, output_file, mediaItems.description,mediaItems.productUrl)) %>% pull()
+show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
 cat(show_photo)
 ```
 
@@ -63,20 +39,16 @@ cat(show_photo)
 ## Galería de fotos
 
 ```{r}
-#| eval: false
-paths <- sprintf("%s/%s-%s.jpg",img_folder, pull(photos, output_id), pull(photos, output_file))
-captions <- photos %>% transmute(caption=sprintf("<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a>",mediaItems.description,mediaItems.productUrl)) %>% pull
-
-pixgallery(paths, caption=captions)
-
+gphotos <- filter_ggl_photo(description = "Villahermosa|La Venta|Tacotalpa", 
+  album_name = "Lugares - México") |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
 ```
+
 
 ## Observaciones en `iNaturalist`
 
-
 ```{r}
-#| output: asis
-
 inat_photos <- filter_inat_photo(place=c("Villahermosa|La Venta|Tacotalpa")) |>
   pull_inat_paths_captions(howmany=18)
 

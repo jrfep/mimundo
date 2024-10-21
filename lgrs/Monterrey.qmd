@@ -1,0 +1,27 @@
+---
+title: Monterrey y Santiago, Nuevo León
+categories:
+ - Mexico
+ - Familia
+---
+
+
+```{r}
+library(dplyr)
+library(pixture)
+here::i_am("lgrs/Monterrey.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+## Observaciones en `iNaturalist`
+
+```{r}
+#| output: asis
+
+inat_photos <- filter_inat_photo(place="Monterrey|Santiago") |>
+  pull_inat_paths_captions(howmany=18)
+
+pixgallery(inat_photos$paths, caption=inat_photos$captions)
+
+```

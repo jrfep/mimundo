@@ -1,0 +1,47 @@
+---
+title: Ciudad de Panamá
+categories:
+ - Panamá
+ - Eventos
+ - Amigos
+---
+
+Aprovecho una [reunión de trabajo](/evnts/2007_ELEN_II.qmd) para conocer un rincón muy colorido del continente, y visitar viejos amigos.
+
+```{r}
+
+slc <- c("Colores de Panamá","Las Mercedes", "Traje panameño", "Pollera panameña")
+
+```
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Sydney.qmd")
+source(here::here("inc", "functions.R"))
+
+```
+
+```{r}
+#| output: asis
+
+photos <- filter_flickr_photo(seleccion = slc) |>
+    pull_flickr_paths_captions(howmany = 1, preview = TRUE)
+
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
+```
+
+
+
+## Galería de fotos
+
+```{r}
+
+photos <- filter_flickr_photo(seleccion = slc) |>
+    pull_flickr_paths_captions()
+
+pixgallery(photos$paths, caption=photos$captions)
+
+```

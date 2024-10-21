@@ -1,0 +1,19 @@
+{
+  "hash": "9b52f4f3901317dd3323b3648a19f52d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Paris\ncategories:\n - Francia\n - Mariposas\n---\n\n\n\nMe encanta visitar Paris, y explorar lo moderno y lo antiguo sin presiones ni apuros.\n\n\n\n\n::: {.cell}\n\n:::\n\n<center>\n<img src='https://live.staticflickr.com/65535/53488152677_c87672a339.jpg' width='500'  height='375' class='preview-image'>\n<br/>\n<strong>Calamar en el Museo de Historia Natural, París</strong> by <a href='https://www.flickr.com/photos/199798864@N08/53488152677' target='flickr'>ceba.lee @ flickr</a><br/></center>\n\n\n\n\n\n## Galería de fotos\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div id=\"htmlwidget-75d5e8ef2f4600fa7b5f\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-75d5e8ef2f4600fa7b5f\">{\"x\":{\"path\":[\"https://live.staticflickr.com/65535/53489465260_5d68e02d0a.jpg\",\"https://live.staticflickr.com/65535/53489353514_abd92dd465.jpg\",\"https://live.staticflickr.com/65535/53489465185_ec0e7f7e5d.jpg\",\"https://live.staticflickr.com/65535/53489199993_19f31dbb66.jpg\",\"https://live.staticflickr.com/65535/53488152677_c87672a339.jpg\"],\"caption\":[\"<strong>Calles de París<\\/strong> by <a href='https://www.flickr.com/photos/199798864@N08/53489465260' target='flickr'>ceba.lee @ flickr<\\/a>\",\"<strong>Calles de París<\\/strong> by <a href='https://www.flickr.com/photos/199798864@N08/53489353514' target='flickr'>ceba.lee @ flickr<\\/a>\",\"<strong>Montmartre, París<\\/strong> by <a href='https://www.flickr.com/photos/199798864@N08/53489465185' target='flickr'>ceba.lee @ flickr<\\/a>\",\"<strong>Calles de París<\\/strong> by <a href='https://www.flickr.com/photos/199798864@N08/53489199993' target='flickr'>ceba.lee @ flickr<\\/a>\",\"<strong>Calamar en el Museo de Historia Natural, París<\\/strong> by <a href='https://www.flickr.com/photos/199798864@N08/53488152677' target='flickr'>ceba.lee @ flickr<\\/a>\"],\"caption_valign\":\"none\",\"caption_halign\":\"left\",\"link\":[true],\"h\":null,\"w\":null,\"gap\":\"5px\",\"border_radius\":\"0px\",\"layout\":\"grid\",\"shuffle\":false},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../site_libs/simplelightbox-2.1.0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/simplelightbox-2.1.0/js/simplelightbox.js\"></script>\n<link href=\"../site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/pixgallery-binding-0.1.0/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "hash": "b13d9f9d5597298297d88841d76a8e1e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: San Antonio\ncategories:\n - Venezuela\n - Familia\n - Amigos\n - IVIC\n---\n\n::: {.cell}\n\n:::\n\n<center>\n<img src='https://live.staticflickr.com/2163/2544377779_ac0c013a6d.jpg' width='500'  height='359' class='preview-image'>\n<br/>\n<strong>Simbiosis Perfecta (25/365+ñ)</strong> by <a href='https://www.flickr.com/photos/76585510@N00/2544377779' target='flickr'>¡Fgz! @ flickr</a><br/></center>\n\n\n\n\n\n\n## Galería de fotos\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div id=\"htmlwidget-8cc4599c443e7ecc6edc\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-8cc4599c443e7ecc6edc\">{\"x\":{\"path\":[\"https://live.staticflickr.com/2017/2172788795_11dd1efddb.jpg\",\"https://live.staticflickr.com/2185/2173585118_84784a4d0d.jpg\",\"https://live.staticflickr.com/2163/2544377779_ac0c013a6d.jpg\"],\"caption\":[\"<strong>Nocturno de las Polonias Viejas (5/365+ñ)<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/2172788795' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>me voy... (6/365+ñ)<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/2173585118' target='flickr'>¡Fgz! @ flickr<\\/a>\",\"<strong>Simbiosis Perfecta (25/365+ñ)<\\/strong> by <a href='https://www.flickr.com/photos/76585510@N00/2544377779' target='flickr'>¡Fgz! @ flickr<\\/a>\"],\"caption_valign\":\"none\",\"caption_halign\":\"left\",\"link\":[true],\"h\":null,\"w\":null,\"gap\":\"5px\",\"border_radius\":\"0px\",\"layout\":\"grid\",\"shuffle\":false},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../site_libs/simplelightbox-2.1.0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/simplelightbox-2.1.0/js/simplelightbox.js\"></script>\n<link href=\"../site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/pixgallery-binding-0.1.0/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
