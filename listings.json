@@ -1,0 +1,49 @@
+[
+  {
+    "listing": "/lgrs-list.html",
+    "items": [
+      "/lgrs/Abu-Dhabi.html",
+      "/lgrs/Altos-de-Pipe.html",
+      "/lgrs/Asuncion.html",
+      "/lgrs/Baeza.html",
+      "/lgrs/Bayreuth.html",
+      "/lgrs/Bialowieza.html",
+      "/lgrs/Bogota.html",
+      "/lgrs/Campeche.html",
+      "/lgrs/Canberra.html",
+      "/lgrs/Caracas.html",
+      "/lgrs/Castilletes.html",
+      "/lgrs/Panama.html",
+      "/lgrs/Cape-Town.html",
+      "/lgrs/Darwin.html",
+      "/lgrs/Gland.html",
+      "/lgrs/Guarenas.html",
+      "/lgrs/Göttingen.html",
+      "/lgrs/Hobart.html",
+      "/lgrs/Kigali.html",
+      "/lgrs/London.html",
+      "/lgrs/Maracaibo.html",
+      "/lgrs/Melbourne.html",
+      "/lgrs/Monterrey.html",
+      "/lgrs/Merida.html",
+      "/lgrs/Oaxaca.html",
+      "/lgrs/Palenque.html",
+      "/lgrs/Paris.html",
+      "/lgrs/San-Antonio.html",
+      "/lgrs/San-Diego.html",
+      "/lgrs/Santa-Marta.html",
+      "/lgrs/Stuttgart.html",
+      "/lgrs/Sydney.html",
+      "/lgrs/Tarawi.html",
+      "/lgrs/Trieste.html",
+      "/lgrs/Turku.html",
+      "/lgrs/Villahermosa.html"
+    ]
+  },
+  {
+    "listing": "/evnt-list.html",
+    "items": [
+      "/evnts/2005_Baeza.html"
+    ]
+  }
+]
