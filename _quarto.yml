@@ -33,6 +33,7 @@ bibliography:
   - bibTeX/references.bibtex
   - bibTeX/presentations.bibtex
   - bibTeX/peer-review.bibtex
+  - bibTeX/LRAV.bibtex
 format:
   html:
     theme: cosmo

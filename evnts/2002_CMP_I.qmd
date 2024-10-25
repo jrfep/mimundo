@@ -17,7 +17,7 @@ params:
 
 Primer Congreso Mundial de Páramos. Paipa, Colombia, 13 al 18 de Mayo 2002.
 
-![Portada del libro de memorias](https://image.isu.pub/180612171155-b1c176a7be3e9036f3eab6d39fc92651/jpg/page_1.jpg){.preview-image height=300}
+![Portada del libro de memorias](logos/CMP_I_portada.jpg){.preview-image height=300}
 
 ## Enlaces
 
