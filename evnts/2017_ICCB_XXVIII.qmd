@@ -20,7 +20,7 @@ params:
 
 ## Logo del evento
 
-![](https://conbio.org/images/content_static_pages/iccb2017_webbnr_950x150.jpg)
+![](logos/ICCB_XXVIII.jpg){.preview-image}
 
 ## Enlaces
 
