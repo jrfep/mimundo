@@ -3,6 +3,7 @@ title: Guarenas
 categories:
  - Venezuela
  - Familia
+ - Ada
 ---
 
 
@@ -45,10 +46,15 @@ pixgallery(photos$paths, caption=photos$captions)
 
 
 ```{r}
+#| label: inat
 slc <- c("Guarenas|Casarapa")
-inat_photos <- filter_inat_photo(place=slc) |>
-  pull_inat_paths_captions(howmany=18)
+inat_photos <- filter_inat_photo(place = slc) 
 
-pixgallery(inat_photos$paths, caption=inat_photos$captions)
+if (nrow(inat_photos) > 0) {
+  inat_photos <- inat_photos |>
+    pull_inat_paths_captions(howmany = 18)
+
+  pixgallery(inat_photos$paths, caption=inat_photos$captions)  
+}
 ```
 

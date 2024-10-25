@@ -1,0 +1,50 @@
+---
+title: II Encuentro Sobre Lepidoptera Neogropical
+date: 29 April 2007
+code: 2007_ELEN_II
+ffin: 2007
+categories:
+ - Panamá
+ - Reunión 
+ - Internacional
+ - NeoMapas
+ - Mariposas
+---
+
+II Encuentro Sobre Lepidoptera Neogropical, ELEN II. Smithsonian Tropical Research Institute. [Ciudad de Panamá](/lgrs/Panama.qmd), Panamá, 29 de abril al 3 de mayo de 2007.
+
+
+```{r}
+slc <- c("Participantes del II ELEN",  "Presentación de Ángel", "Presentaciones ELEN II")
+```
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("evnts/2007_ELEN_II.qmd")
+source(here::here("inc", "functions.R"))
+
+```
+
+```{r}
+#| output: asis
+
+photos <- filter_flickr_photo(seleccion = slc) |>
+    pull_flickr_paths_captions(howmany = 1, preview = TRUE)
+
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
+```
+
+
+
+## Galería de fotos
+
+```{r}
+
+photos <- filter_flickr_photo(seleccion = slc) |>
+    pull_flickr_paths_captions()
+
+pixgallery(photos$paths, caption=photos$captions)
+
+```

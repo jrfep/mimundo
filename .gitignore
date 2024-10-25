@@ -4,6 +4,8 @@
 #.jekyll-metadata
 .DS_Store
 
+docs/
+
 ### R ###
 # History files
 .Rhistory

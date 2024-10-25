@@ -1,0 +1,59 @@
+---
+title: First Diversitas Open Science Conference
+date: 9 Noviembre 2005
+params:
+ code: 2005_Diversitas_I
+ ffin: 12 Noviembre 2005
+ lugar: Oaxaca
+categories: 
+ - México
+ - Conferencia
+ - Internacional
+ - Cartel
+ - Presentación
+---
+
+# Evento 
+
+First Diversitas Open Science Conference. [Oaxaca](/lgrs/Oaxaca.qmd), México, 9-12 Noviembre 2005.
+
+
+## Enlaces
+
+- [Información sobre el evento](https://grantome.com/index.php/grant/NSF/DEB-0544852)
+- [Publicación previa al evento](https://doi.org/10.1126/science.1119958)
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Villahermosa.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+slc <- "Diversitas"
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions(howmany = 1, preview=TRUE)
+
+htmlcode <- "<center>\n%s\n<br/>\n%s<br/></center>"
+
+show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
+cat(show_photo)
+```
+
+
+## Galería de fotos
+
+```{r}
+gphotos <- filter_ggl_photo(description = "Villahermosa|La Venta|Tacotalpa", 
+  album_name = "Lugares - México") |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
+```
+
