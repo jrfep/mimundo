@@ -1,0 +1,19 @@
+{
+  "hash": "371f9c4de0cd04ef9f6f0101c0fc99c8",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'IUCN Africa Protected Area Congress, APAC'\ndate: July 2022\ncategories:\n  - Rwanda\n  - Congreso\n  - Internacional\n  - UICN LRE\n  - Áreas Protegidas\n  - Taller\n  - OSF\nbibliography: \n  - ../bibTeX/peer-review.bibtex\n  - ../bibTeX/preprints.bibtex\n---\n\n\n\n\n# El evento \n\nIUCN Africa Protected Area Congress, APAC\n\n## Logo\n\n![](https://apacongress.africa/wp-content/uploads/2021/04/apac-web-logo-retina.png){.preview-image}\n\n## Enlaces\n\n- [Página Web](https://apacongress.africa/)\n\n## Participación y productos relacionados\n\nEn 2022 organizamos una [sesión](https://osf.io/fgzac) sobre Lista Roja de Ecosistemas en el Congreso Africano sobre Áreas Protegidas en [Kigali](/lgrs/Kigali.qmd), Rwanda. \n\nEl título del taller fue _Red List of Ecosystems in Africa, supporting policy, practice and planning_ y los participantes reflexionaron sobre cómo y dónde se ha utilizado la Lista Roja de Ecosistemas en África y cuáles han sido los beneficios para el manejo de áreas protegidas y otras acciones de conservación en le continente.\n\nPosterior al taller preparamos un manuscrito que compartimos en forma de [pre-print](https://osf.io/preprints/africarxiv/62s5e){target='links'}, y después de un par de rondas de revisión publicamos en la revista Conservation Biology [@RLE_Africa].\n\n\n## Galería de fotos\n\nAlgunas fotos del evento:\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div id=\"htmlwidget-0a4ad185038de68f7c4a\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-0a4ad185038de68f7c4a\">{\"x\":{\"path\":[\"img/ADX0Y-Centro-de-Convenciones-de-Kigali-Presente-en-el-APAC-Kigali.jpg\",\"img/ADX0R-Presente-en-APAC-Kigali.jpg\",\"img/ADX3_-Inauguración-APAC-Kigali.jpg\"],\"caption\":[\"<strong>Centro de Convenciones de Kigali, Presente en el APAC, Kigali<\\/strong>  por <a href='https://photos.google.com/lr/album/ADXhca3BKLoFHr-tWrE_mQn7N8B5smtYumke9BslvJu7l1ixSbUdSjahxkC1ELf1pIlzzQeslJ1Z/photo/ADXhca0YjsEC1qYDlYj_ZVXVjTh2ZdyGdf68WdWf4uh7-v84c8zsrIp-3M0BPYeKGFDAcGavYHJyuyjtBGhgvVDP4QOUqRl_1A' target='googlephotos'>JR Ferrer-Paris @ Google Photos<\\/a>\",\"<strong>Presente en APAC, Kigali<\\/strong>  por <a href='https://photos.google.com/lr/album/ADXhca3BKLoFHr-tWrE_mQn7N8B5smtYumke9BslvJu7l1ixSbUdSjahxkC1ELf1pIlzzQeslJ1Z/photo/ADXhca0RtNluWvECVXYQ-J-0chLtYR8F4l_H-yoHIpA8zCPiDZWotgL_5uSc-l3_o_t2JTUNTc0soKltqOHxri96PxJvAev7pQ' target='googlephotos'>JR Ferrer-Paris @ Google Photos<\\/a>\",\"<strong>Inauguración APAC, Kigali<\\/strong>  por <a href='https://photos.google.com/lr/album/ADXhca3BKLoFHr-tWrE_mQn7N8B5smtYumke9BslvJu7l1ixSbUdSjahxkC1ELf1pIlzzQeslJ1Z/photo/ADXhca3_ndikeypp1NGWzx8t9Ml1L25Fqm4kSCpRUTi6-2du1siNUV7ZzvgQlhJDLlSBRnG9Xde2oXn15iyvJyI80j7mTt5LHg' target='googlephotos'>JR Ferrer-Paris @ Google Photos<\\/a>\"],\"caption_valign\":\"none\",\"caption_halign\":\"left\",\"link\":[true],\"h\":null,\"w\":null,\"gap\":\"5px\",\"border_radius\":\"0px\",\"layout\":\"grid\",\"shuffle\":false},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../site_libs/simplelightbox-2.1.0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/simplelightbox-2.1.0/js/simplelightbox.js\"></script>\n<link href=\"../site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/pixgallery-binding-0.1.0/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

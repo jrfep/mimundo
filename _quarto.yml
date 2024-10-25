@@ -34,6 +34,8 @@ bibliography:
   - bibTeX/presentations.bibtex
   - bibTeX/peer-review.bibtex
   - bibTeX/LRAV.bibtex
+  - bibTeX/preprints.bibtex
+  - bibTeX/datasets.bibtex
 format:
   html:
     theme: cosmo

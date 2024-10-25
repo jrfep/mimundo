@@ -15,3 +15,4 @@ wget "https://conbio.org/images/content_static_pages/iccb2017_webbnr_950x150.jpg
 
 wget "https://image.isu.pub/180612171155-b1c176a7be3e9036f3eab6d39fc92651/jpg/page_1.jpg" --output-document=evnts/logos/CMP_I_portada.jpg
 
+wget --continue "https://www.soctropecol.eu/sites/default/files/GTO-logo-2016_1.jpg" --output-document=evnts/logos/GTO-logo-2016_1.jpg

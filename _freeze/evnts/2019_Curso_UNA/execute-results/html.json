@@ -1,0 +1,15 @@
+{
+  "hash": "8ba7d8c5f80ac8c525e677c146cdfff1",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Curso en postgrado de la UNA\ndate: May 2019\ncategories:\n - Paraguay\n - Curso \n - Postgrado\n - Instructor\n - Invitado\n---\n\n\n\n\n# Evento\n\nCurso en el postgrado de la [Universidad Nacional de la Asunción](https://www.una.py/), en [Asunción](/lgrs/Asuncion.qmd), Paraguay.\n\n\n## Galería de fotos\n\nFotos con los participantes del curso.\n\n\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \"postgrado-UNA\"\n```\n\n\n:::\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
