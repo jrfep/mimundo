@@ -292,6 +292,12 @@ Better get a copy in this folder rather than relying on external links that can 
 ```{.bash}
 mkdir -p evnts/logos
 wget https://sventomologia.org/wp-content/uploads/2020/08/cropped-Logo-SVE-200x100-01.png --output-document=evnts/logos/SVE.png
+wget https://api.gbif.org/v1/image/unsafe/https%3A%2F%2Fgithub.com%2FSp2000%2Fcolplus-repo%2Fraw%2Fmaster%2Flogos%2FGloBIS_(GART).png  --output-document=evnts/logos/GART.png
+
+wget 'https://programs.wcs.org/portals/53/simposio/abear_web_IISimposioLogo_c.jpg' --output-document=evnts/logos/abear_web_IISimposioLogo_c.jpg
+
+wget "https://esa2023.org.au/wp-content/uploads/2022/10/ESA2023-logos-01e-02
+.svg" --output-document=events/logos/ESA2023-logo.svg
 ```
 
 

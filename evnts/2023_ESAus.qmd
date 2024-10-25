@@ -16,31 +16,27 @@ categories:
 Conference of the Ecological Society of Australia. 3–7 Julio 2023, [Darwin](/lgrs/Darwin.qmd), Northern Territory
 
 ```{r}
-#| echo: false
-#| warning: false
-#| message: false
-#| output: asis
-
-library(FlickrAPI)
-suppressMessages(library(dplyr))
-suppressMessages(here::i_am("lgrs/Trieste.qmd"))
-file_name <- here::here("data","flickr-photos.rds")
-all_photos <- readRDS(file=file_name)
-
-seleccion <- c("David @ ESA2023 in Darwin")
-
-photos <- all_photos %>% filter(title %in% seleccion) %>% slice_sample(n=1)
-photos_info <- getPhotoInfo(photo_id = photos$id, output = "url")
-
-cat(sprintf("<center>\n<img src='%s' width='%s'  height='%s' class='preview-image'>\n<br/>\n**%s** by <a href='%s' target='flickr'>JR Ferrer Paris @ flickr</a><br/></center>", 
-         photos$url_m, photos$width_m, photos$height_m,
-         photos$title,
-         photos_info$content))
+library(pixture)
+library(dplyr)
+here::i_am("lgrs/Caracas.qmd")
+source(here::here("inc", "functions.R"))
 ```
+
+
+```{r}
+#| output: asis
+slc <- c("David @ ESA2023 in Darwin")
+photos <- filter_flickr_photo(seleccion = slc) |>
+    pull_flickr_paths_captions(howmany = 1, preview = TRUE)
+
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
+```
+
 
 ## Logo
 
-<img src="https://esa2023.org.au/wp-content/uploads/2022/10/ESA2023-logos-01e-02.svg" style="background-color: #13032333;" width=303/>
+<img src="events/logos/ESA2023-logo.svg" style="background-color: #13032333;" width=303/>
 
 ## Enlaces
 
