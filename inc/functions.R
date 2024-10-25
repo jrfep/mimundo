@@ -60,7 +60,7 @@ filter_flickr_photo <-
 pull_inat_paths_captions <-
     function(data, howmany=NULL) {
         if (!is.null(howmany))
-            data <- slice_sample(data, n = howmany) 
+            data <- slice_sample(data, n = howmany, replace = ) 
         caption_str <- "<strong>%s</strong> (<emph>%s</emph>) by <a href='%s' target='iNat'>%s @ iNaturalist</a>"
         paths <- pull(data, image_url)
         captions <- data |>
@@ -71,8 +71,10 @@ pull_inat_paths_captions <-
     }
 pull_flickr_paths_captions <-
     function(data, howmany = NULL, preview=FALSE) {
-         if (!is.null(howmany))
-            data <- slice_sample(data, n = howmany) 
+        if (!is.null(howmany)) {
+            if (howmany < nrow(data))
+                data <- slice_sample(data, n = howmany) 
+        }
         path_str <- ifelse(preview,
             "<img src='%s' width='%s'  height='%s' class='preview-image'>",
             "%s")
@@ -91,8 +93,10 @@ pull_flickr_paths_captions <-
 
 pull_ggle_paths_captions <-
     function(data, howmany = NULL, preview=FALSE, img_folder="img") {
-        if (!is.null(howmany))
-            data <- slice_sample(data, n = howmany) 
+        if (!is.null(howmany)) {
+            if (howmany < nrow(data))
+                data <- slice_sample(data, n = howmany) 
+        }
         path_str <- ifelse(preview,
             "<img src='%s/%s-%s.jpg' class='preview-image'>",
             "%s/%s-%s.jpg")
