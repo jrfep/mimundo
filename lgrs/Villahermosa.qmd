@@ -4,6 +4,7 @@ categories:
  - Mexico
  - Familia
  - Sitios arqueológicos
+ - Ada
 execute: 
  echo: false
 ---
@@ -49,9 +50,19 @@ pixgallery(gphotos$paths, caption=gphotos$captions)
 ## Observaciones en `iNaturalist`
 
 ```{r}
-inat_photos <- filter_inat_photo(place=c("Villahermosa|La Venta|Tacotalpa")) |>
-  pull_inat_paths_captions(howmany=18)
+slc <- c("Villahermosa|La Venta|Tacotalpa")
+```
 
-pixgallery(inat_photos$paths, caption=inat_photos$captions)
 
+```{r}
+#| label: inat
+slc <- c("Guarenas|Casarapa")
+inat_photos <- filter_inat_photo(place = slc) 
+
+if (nrow(inat_photos) > 0) {
+  inat_photos <- inat_photos |>
+    pull_inat_paths_captions(howmany = 18)
+
+  pixgallery(inat_photos$paths, caption=inat_photos$captions)  
+}
 ```
