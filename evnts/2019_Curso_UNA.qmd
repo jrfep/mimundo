@@ -1,0 +1,23 @@
+---
+title: Curso en postgrado de la UNA
+date: May 2019
+categories:
+ - Paraguay
+ - Curso 
+ - Postgrado
+ - Instructor
+ - Invitado
+---
+
+# Evento
+
+Curso en el postgrado de la [Universidad Nacional de la Asunción](https://www.una.py/), en [Asunción](/lgrs/Asuncion.qmd), Paraguay.
+
+
+## Galería de fotos
+
+Fotos con los participantes del curso.
+
+```{r}
+"postgrado-UNA"
+```
