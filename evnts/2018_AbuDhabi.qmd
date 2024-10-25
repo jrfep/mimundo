@@ -1,0 +1,55 @@
+---
+title: IUCN Training Workshop on Species and Ecosystems Red Lists for Abu Dhabi Emirate
+date: February 2018
+categories:
+ - Emiratos Árabes Unidos
+ - Taller 
+ - Nacional
+ - UICN LRE
+ - Instructor
+---
+
+# Evento
+
+IUCN Training Workshop on Species and Ecosystems Red Lists for Abu Dhabi Emirate.
+[Abu Dhabi](/lgrs/Abu-Dhabi.qmd), United Arab Emirates, February 2018.
+
+
+## Galería de fotos
+
+
+```{r}
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+slc <- "Abu Dhabi"
+```
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("evnts/2018_AbuDhabi.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions(howmany = 1, preview=TRUE)
+
+htmlcode <- "<center>\n%s\n<br/>\n%s<br/></center>"
+
+show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
+cat(show_photo)
+```
+
+
+## Galería de fotos
+
+```{r}
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
+```
+

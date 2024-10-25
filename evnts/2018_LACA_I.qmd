@@ -19,7 +19,7 @@ First Latin American and Caribbean Congress for Conservation Biology. St. August
 
 ## Logo
 
-![LACCCB 2018 logo](https://images.squarespace-cdn.com/content/v1/59ece4196f4ca3771ef086ff/1512337248275-QD9IXSRO9IF3MXDRO5VI/LACCCB2018%404xminim.png?format=1500w){width=300}{.preview-image}
+![LACCCB 2018 logo](logos/LACCCB2018-logo.png){width=300}{.preview-image}
 
 ## Contribuciones
 
@@ -29,34 +29,38 @@ Presentada en el simposio “[An Insight into the Orinoco Mining Arc: its implic
 
 Durante la conferencia también contribuí junto a varios asistentes del congreso a preparar la [Declaración de la conferencia](https://lacccb2018.org/orinoco-mining-arc-conference-statement), la cual fue aprobada en la reunión de los miembros de LACA.
 
+```{r}
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+slc <- "LACCCB"
+```
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("evnts/2018_AbuDhabi.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions(howmany = 1, preview=TRUE)
+
+htmlcode <- "<center>\n%s\n<br/>\n%s<br/></center>"
+
+show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
+cat(show_photo)
+```
+
 
 ## Galería de fotos
 
 ```{r}
-#| echo: false
-#| warning: false
-#| message: false
-
-library(FlickrAPI)
-library(pixture)
-library(dplyr)
-here::i_am("lgrs/Trieste.qmd")
-```
-
-```{r}
-#| echo: false
-file_name <- here::here("data","google-photos.rds")
-ggl_photos <- readRDS(file=file_name)
-img_folder <- "img"
-eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
-photos <- ggl_photos %>% 
-    filter(
-        album %in% eventos,
-        grepl("LACCCB",output_file))
-
-paths <- sprintf("%s/%s-%s.jpg",img_folder, pull(photos, output_id), pull(photos, output_file))
-captions <- photos %>% transmute(caption=sprintf("<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a>",mediaItems.description,mediaItems.productUrl)) %>% pull
-
-pixgallery(paths, caption=captions)
-
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
 ```

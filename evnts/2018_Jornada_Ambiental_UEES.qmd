@@ -1,0 +1,52 @@
+---
+title: VII Jornadas Ambientales, UEES
+date: 25 Jul 2018
+categories:
+  - Ecuador
+  - Jornadas
+  - Internacional
+  - Ponente
+  - Invitado
+---
+
+# Evento
+
+VII Jornadas Ambientales, Universidad Espíritu Santo. Organizadas y coordinadas por la Dra. [Ileana Herrera](https://uees.edu.ec/personnel/ileana-herrera/).
+
+
+
+```{r}
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+slc <- "UEES"
+```
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("evnts/2018_AbuDhabi.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions(howmany = 1, preview=TRUE)
+
+htmlcode <- "<center>\n%s\n<br/>\n%s<br/></center>"
+
+show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
+cat(show_photo)
+```
+
+
+## Galería de fotos
+
+```{r}
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
+```

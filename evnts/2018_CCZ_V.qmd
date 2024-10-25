@@ -1,0 +1,66 @@
+---
+title: V Congreso Colombiano de Zoología
+date: Diciembre 2018
+categories:
+ - Colombia
+ - Congreso
+ - Mariposas
+ - Nacional
+ - Ponente
+ - Coautor
+params:
+ code: 2018_CCZ_V
+ ffin:
+ lugar: Bogotá
+---
+
+# CCZ V 2018
+
+V Congreso Colombiano de Zoología. [Bogotá](/lgrs/Bogota.qmd), Colombia, Diciembre 2018.
+
+![Logo del evento](https://i0.wp.com/vccz.aczcolombia.org/wp-content/uploads/2018/02/NuevoLogo_vFinal_2018_vXL-e1517500100362.png?fit=501%2C321){.preview-image width=300}
+
+## Enlaces 
+
+- [Libro de resumenes](http://vccz.aczcolombia.org/wp-content/uploads/2019/02/resumenes.pdf)
+- [Pagina web](http://vccz.aczcolombia.org/)
+
+## Galería de fotos
+
+
+```{r}
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+slc <- "CCZ"
+```
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("evnts/2018_AbuDhabi.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions(howmany = 1, preview=TRUE)
+
+htmlcode <- "<center>\n%s\n<br/>\n%s<br/></center>"
+
+show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
+cat(show_photo)
+```
+
+
+## Galería de fotos
+
+```{r}
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
+```
+

@@ -1,0 +1,19 @@
+{
+  "hash": "aec8709877ef98dccd9be7cf3a0c0418",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: V Congreso Colombiano de Zoología\ndate: Diciembre 2018\ncategories:\n - Colombia\n - Congreso\n - Mariposas\n - Nacional\n - Ponente\n - Coautor\nparams:\n code: 2018_CCZ_V\n ffin:\n lugar: Bogotá\n---\n\n\n\n\n# CCZ V 2018\n\nV Congreso Colombiano de Zoología. [Bogotá](/lgrs/Bogota.qmd), Colombia, Diciembre 2018.\n\n![Logo del evento](https://i0.wp.com/vccz.aczcolombia.org/wp-content/uploads/2018/02/NuevoLogo_vFinal_2018_vXL-e1517500100362.png?fit=501%2C321){.preview-image width=300}\n\n## Enlaces \n\n- [Libro de resumenes](http://vccz.aczcolombia.org/wp-content/uploads/2019/02/resumenes.pdf)\n- [Pagina web](http://vccz.aczcolombia.org/)\n\n## Galería de fotos\n\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n<center>\n<img src='img/ADX0I-Presentación-sobre-la-Comisión-de-Manejo-de-Ecosistemas-VCCZ2018.jpg' class='preview-image'>\n<br/>\n<strong>Presentación sobre la Comisión de Manejo de Ecosistemas, VCCZ2018</strong>  por <a href='https://photos.google.com/lr/album/ADXhca3BKLoFHr-tWrE_mQn7N8B5smtYumke9BslvJu7l1ixSbUdSjahxkC1ELf1pIlzzQeslJ1Z/photo/ADXhca0xI9zXYeaQNWsnlxx-tFwciWXkRzXOqNjNlUyKZL-R5SNeJ9BAcNLUBAdYbZy_exqWfMwWARMpISbOwJirWgBkVokFfw' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a><br/></center>\n\n\n\n\n\n## Galería de fotos\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div id=\"htmlwidget-3fce18d80901baf8617a\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-3fce18d80901baf8617a\">{\"x\":{\"path\":[\"img/ADX0I-Presentación-sobre-la-Comisión-de-Manejo-de-Ecosistemas-VCCZ2018.jpg\"],\"caption\":[\"<strong>Presentación sobre la Comisión de Manejo de Ecosistemas, VCCZ2018<\\/strong>  por <a href='https://photos.google.com/lr/album/ADXhca3BKLoFHr-tWrE_mQn7N8B5smtYumke9BslvJu7l1ixSbUdSjahxkC1ELf1pIlzzQeslJ1Z/photo/ADXhca0xI9zXYeaQNWsnlxx-tFwciWXkRzXOqNjNlUyKZL-R5SNeJ9BAcNLUBAdYbZy_exqWfMwWARMpISbOwJirWgBkVokFfw' target='googlephotos'>JR Ferrer-Paris @ Google Photos<\\/a>\"],\"caption_valign\":\"none\",\"caption_halign\":\"left\",\"link\":[true],\"h\":null,\"w\":null,\"gap\":\"5px\",\"border_radius\":\"0px\",\"layout\":\"grid\",\"shuffle\":false},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../site_libs/simplelightbox-2.1.0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/simplelightbox-2.1.0/js/simplelightbox.js\"></script>\n<link href=\"../site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/pixgallery-binding-0.1.0/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

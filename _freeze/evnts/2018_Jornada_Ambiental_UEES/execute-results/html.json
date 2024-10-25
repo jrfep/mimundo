@@ -1,0 +1,19 @@
+{
+  "hash": "8388e53826a84d76df31175fdbcc88ef",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: VII Jornadas Ambientales, UEES\ndate: 25 Jul 2018\ncategories:\n  - Ecuador\n  - Jornadas\n  - Internacional\n  - Ponente\n  - Invitado\n---\n\n\n\n\n# Evento\n\nVII Jornadas Ambientales, Universidad Espíritu Santo. Organizadas y coordinadas por la Dra. [Ileana Herrera](https://uees.edu.ec/personnel/ileana-herrera/).\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n<center>\n<img src='img/ADX2U-VII-Jornada-Ambiental-UEES-2018.jpg' class='preview-image'>\n<br/>\n<strong>VII Jornada Ambiental UEES 2018</strong>  por <a href='https://photos.google.com/lr/album/ADXhca2WYm_vLEUZpEI_vPtsXddgRFF9cDxmEBsS3O-qoEDMgJ2NMsHB_ppcqXiQFZ1O-epuX26m/photo/ADXhca2arUug9yCojel-rRwil-X6NjsGeLIM0Gt1TIThIZ1vzVKQFanG-VawCbpRqIpc6VM7xRDhdGyCjJD0C3glAo2JRMGVOA' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a><br/></center>\n\n\n\n\n\n## Galería de fotos\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div id=\"htmlwidget-90f9204cdb4958bbeb4d\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-90f9204cdb4958bbeb4d\">{\"x\":{\"path\":[\"img/ADX2Z-VII-Jornada-Ambiental-UEES-2018.jpg\",\"img/ADX3KJ-VII-Jornada-Ambiental-UEES-2018.jpg\",\"img/ADX2U-VII-Jornada-Ambiental-UEES-2018.jpg\"],\"caption\":[\"<strong>VII Jornada Ambiental UEES 2018<\\/strong>  por <a href='https://photos.google.com/lr/album/ADXhca2WYm_vLEUZpEI_vPtsXddgRFF9cDxmEBsS3O-qoEDMgJ2NMsHB_ppcqXiQFZ1O-epuX26m/photo/ADXhca2Z_yrG4K48LoNALsBAzMMQD3HCH7GZxwMFrBxN47usakp_9LSuK7Q_RMkPA--umgBF3O2055pL86UiddYiU1zqdBOJmQ' target='googlephotos'>JR Ferrer-Paris @ Google Photos<\\/a>\",\"<strong>VII Jornada Ambiental UEES 2018<\\/strong>  por <a href='https://photos.google.com/lr/album/ADXhca2WYm_vLEUZpEI_vPtsXddgRFF9cDxmEBsS3O-qoEDMgJ2NMsHB_ppcqXiQFZ1O-epuX26m/photo/ADXhca3kKbJkL-_wpETik3C9eVj7T0Kwy8_BgR2tA6poo8DVhpzceRsfbLqhgYngs28yHwkwkoua8bGBksmb5d76ALByXa3nkQ' target='googlephotos'>JR Ferrer-Paris @ Google Photos<\\/a>\",\"<strong>VII Jornada Ambiental UEES 2018<\\/strong>  por <a href='https://photos.google.com/lr/album/ADXhca2WYm_vLEUZpEI_vPtsXddgRFF9cDxmEBsS3O-qoEDMgJ2NMsHB_ppcqXiQFZ1O-epuX26m/photo/ADXhca2arUug9yCojel-rRwil-X6NjsGeLIM0Gt1TIThIZ1vzVKQFanG-VawCbpRqIpc6VM7xRDhdGyCjJD0C3glAo2JRMGVOA' target='googlephotos'>JR Ferrer-Paris @ Google Photos<\\/a>\"],\"caption_valign\":\"none\",\"caption_halign\":\"left\",\"link\":[true],\"h\":null,\"w\":null,\"gap\":\"5px\",\"border_radius\":\"0px\",\"layout\":\"grid\",\"shuffle\":false},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../site_libs/simplelightbox-2.1.0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/simplelightbox-2.1.0/js/simplelightbox.js\"></script>\n<link href=\"../site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/pixgallery-binding-0.1.0/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
