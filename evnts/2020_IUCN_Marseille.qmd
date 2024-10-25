@@ -1,0 +1,29 @@
+---
+title: IUCN World Conservation Congress Marseille 2021
+date: 3 Sept 2021
+categories:
+  - Francia
+  - Conferencia
+  - Internacional
+  - Virtual
+---
+
+# Evento
+
+IUCN World Conservation Congress Marseille 2021
+
+## Logo 
+
+![IUCN congress 2020 logo](https://www.iucncongress2020.org/profiles/iucn_master/themes/custom/iucnuapp_theme/img/uicn_logo_en.png){width=300}{.preview-image}
+
+## Enlaces
+
+- [Web del evento](https://www.iucncongress2020.org)
+- [Mi perfil en la web del evento](https://www.iucncongress2020.org/programme/speakers/jose-rafael-ferrer-paris)
+
+## Participación
+
+Ponencia el Domingo 5 de Septiembre	14:00 - 15:30
+
+Sesión [Science-based targets for Ecosystems in the post-2020 framework for Biodiversity](https://www.iucncongress2020.org/programme/official-programme/session-43345)
+
