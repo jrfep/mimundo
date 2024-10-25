@@ -31,6 +31,7 @@ website:
             href: how2/how-to-site.qmd
 bibliography: 
   - bibTeX/references.bibtex
+  - bibTeX/presentations.bibtex
 format:
   html:
     theme: cosmo
