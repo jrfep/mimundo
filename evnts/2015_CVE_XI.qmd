@@ -14,7 +14,7 @@ categories:
 
 XI Congreso Venezolano de Ecología. Margarita, 9-13 noviembre 2015
 
-![Logo del evento](https://usbnoticias.usb.ve/wp-content/uploads/2015/11/logo_horizontal1.png)
+![Logo del evento](logos/XICVE.png)
 
 
 ## Enlaces 
