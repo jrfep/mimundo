@@ -19,7 +19,7 @@ GART/GloBIS Workshop. Butterfly taxonomy on the internet, issues and challenges 
 
 ## Logo 
 
-![Logo de GART](https://api.gbif.org/v1/image/unsafe/https%3A%2F%2Fgithub.com%2FSp2000%2Fcolplus-repo%2Fraw%2Fmaster%2Flogos%2FGloBIS_(GART).png)
+![Logo de GART](logos/GART.png)
 
 ## Enlaces
 
@@ -33,33 +33,37 @@ Posterior al taller se consolidó el [Global Butterfly Information System](https
 
 Por mi parte, me mantuve involucrado en el tema por varios años hasta que logramos conectarlo con un proyecto auspiciado por la Encyclopedia of Life [@Ferrer_ICCB_2014;@FerrerParis_EOL_2014].
 
-```{r}
-#| echo: false
-#| warning: false
-#| message: false
 
-library(FlickrAPI)
+```{r}
 library(pixture)
-suppressMessages(library(dplyr))
-suppressMessages(here::i_am("lgrs/Trieste.qmd"))
-
+library(dplyr)
+here::i_am("evnts/2003_GART.qmd")
+source(here::here("inc", "functions.R"))
 ```
+
 
 ```{r}
-#| echo: false
-file_name <- here::here("data","google-photos.rds")
-ggl_photos <- readRDS(file=file_name)
-img_folder <- "img"
+#| output: asis
+
 eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+slc <- "Stuttgart"
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions(howmany = 1, preview=TRUE)
 
-photos <- ggl_photos %>% 
-    filter(
-        album %in% eventos,
-        grepl("Stuttgart",mediaItems.description))
+htmlcode <- "<center>\n%s\n<br/>\n%s<br/></center>"
 
-paths <- sprintf("%s/%s-%s.jpg",img_folder, pull(photos, output_id), pull(photos, output_file))
-captions <- photos %>% transmute(caption=sprintf("<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a>",mediaItems.description,mediaItems.productUrl)) %>% pull
-
-pixgallery(paths, caption=captions)
-
+show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
+cat(show_photo)
 ```
+
+
+## Galería de fotos
+
+```{r}
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
+```
+

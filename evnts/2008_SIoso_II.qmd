@@ -12,7 +12,12 @@ params:
  lugar: Lima, Perú
 ---
 
-Segundo simposio internacional sobre el [oso andino](/taxa/Oso-frontino.qmd). Lima, Perú, 10-12 Noviembre 2008. 
+Segundo simposio internacional sobre el [oso andino](https://jrfep.github.io/esp/taxa/Oso-frontino.qmd). Lima, Perú, 10-12 Noviembre 2008. 
+
+## Logo 
+
+![Logo del simposio](logos/abear_web_IISimposioLogo_c.jpg){.preview-image}
+
 
 
 ## Enlaces
@@ -28,7 +33,6 @@ Carteles:
 
 - Ada Sánchez-Mercado, Shaenandhoa García-Rangel, Edgard Yerena, José R. Ferrer-Paris y Kathryn M. Rodríguez-Clark. Identificación de trampas ecológicas como amenaza: el Oso Andino (Tremarctos ornatus) en la Cordillera de Mérida, Venezuela
 - Ada Sánchez-Mercado, José R. Ferrer-Paris, Edgard Yerena, Shaenandhoa García-Rangel y Kathryn M. Rodríguez-Clark. Factors influencing illegal hunting of Andean bears in the Mérida mountain range, Venezuela
-Presentación:
 
 Ponencias: 
 
