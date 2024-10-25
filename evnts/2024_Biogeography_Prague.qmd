@@ -1,0 +1,28 @@
+---
+title: IBS 11th Biennial Conference – Prague 2024
+date: 7 January 2024
+categories:
+  - Czechia
+  - Conferencia
+  - Internacional
+  - Coautor
+---
+
+# Evento 
+
+International Biogeography Society ([IBS](https://www.biogeography.org/)) 11th Biennial Conference – Prague 2024
+
+## Enlaces
+
+https://www.biogeography.org/prague2024_home/
+
+## Logo
+
+![Logo del IBS](https://www.biogeography.org/wp-content/uploads/2017/06/IBS_logo_ret.png){.preview-image}
+
+## Participación
+
+**Effect of grazing intensification on dung beetle biodiversity-ecosystem functioning relationship in a biogeographical context**. Resumen: <https://hdl.handle.net/2318/1946204> 
+
+Relacionado con la publicación sobre las funciones del gremio de escarabajos coprófagos en zonas agrícolas del mundo [@Noriega_DungBeetles_2023].
+
