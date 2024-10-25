@@ -32,6 +32,7 @@ website:
 bibliography: 
   - bibTeX/references.bibtex
   - bibTeX/presentations.bibtex
+  - bibTeX/peer-review.bibtex
 format:
   html:
     theme: cosmo
