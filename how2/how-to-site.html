@@ -176,6 +176,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#photos-from-flickr" id="toc-photos-from-flickr" class="nav-link" data-scroll-target="#photos-from-flickr">Photos from Flickr</a></li>
   <li><a href="#photos-from-google" id="toc-photos-from-google" class="nav-link" data-scroll-target="#photos-from-google">Photos from google</a></li>
   <li><a href="#galleries-with-pixture" id="toc-galleries-with-pixture" class="nav-link" data-scroll-target="#galleries-with-pixture">Galleries with <code>pixture</code></a></li>
+  <li><a href="#logos" id="toc-logos" class="nav-link" data-scroll-target="#logos">Logos</a></li>
   <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Bibliography</a></li>
   </ul></li>
   </ul>
@@ -451,18 +452,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">'royfrancis/pixture'</span>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
+<section id="logos" class="level3">
+<h3 class="anchored" data-anchor-id="logos">Logos</h3>
+<p>Best to get a copy of logos in a folder rather than relying on external links that can break at any moment:</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span> inc/download-logos.sh</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
 <section id="bibliography" class="level3">
 <h3 class="anchored" data-anchor-id="bibliography">Bibliography</h3>
 <p>Download one <code>csl</code> as a base style</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> bibteX</span>
-<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="fu">wget</span> <span class="st">'https://www.zotero.org/styles/journal-and-proceedings-of-the-royal-society-of-new-south-wales?source=1'</span> <span class="at">--output-document</span><span class="op">=</span>my.csl</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb17"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> bibteX</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="fu">wget</span> <span class="st">'https://www.zotero.org/styles/journal-and-proceedings-of-the-royal-society-of-new-south-wales?source=1'</span> <span class="at">--output-document</span><span class="op">=</span>my.csl</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Modify sort order of the bibliography (not the citation…):</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode xml code-with-copy"><code class="sourceCode xml"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">bibliography</span><span class="ot"> hanging-indent=</span><span class="st">"true"</span><span class="ot"> entry-spacing=</span><span class="st">"0"</span>&gt;</span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">sort</span>&gt;</span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">key</span><span class="ot"> variable=</span><span class="st">"issued"</span><span class="ot"> sort=</span><span class="st">"descending"</span>/&gt;</span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">key</span><span class="ot"> macro=</span><span class="st">"author"</span>/&gt;</span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    &lt;/<span class="kw">sort</span>&gt;</span>
-<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>  ...</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb18"><pre class="sourceCode xml code-with-copy"><code class="sourceCode xml"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">bibliography</span><span class="ot"> hanging-indent=</span><span class="st">"true"</span><span class="ot"> entry-spacing=</span><span class="st">"0"</span>&gt;</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">sort</span>&gt;</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">key</span><span class="ot"> variable=</span><span class="st">"issued"</span><span class="ot"> sort=</span><span class="st">"descending"</span>/&gt;</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">key</span><span class="ot"> macro=</span><span class="st">"author"</span>/&gt;</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    &lt;/<span class="kw">sort</span>&gt;</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>  ...</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>
