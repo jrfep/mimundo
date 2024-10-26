@@ -35,6 +35,9 @@ bibliography:
   - bibTeX/peer-review.bibtex
   - bibTeX/LRAV.bibtex
   - bibTeX/preprints.bibtex
+  - bibTeX/reports.bibtex
+  - bibTeX/projects.bibtex
+  - bibTeX/thesis.bibtex
   - bibTeX/datasets.bibtex
 format:
   html:
