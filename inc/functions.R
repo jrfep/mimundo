@@ -59,8 +59,10 @@ filter_flickr_photo <-
 
 pull_inat_paths_captions <-
     function(data, howmany=NULL) {
-        if (!is.null(howmany))
-            data <- slice_sample(data, n = howmany, replace = ) 
+        if (!is.null(howmany)) {
+            if (howmany < nrow(data))
+                data <- slice_sample(data, n = howmany) 
+        }
         caption_str <- "<strong>%s</strong> (<emph>%s</emph>) by <a href='%s' target='iNat'>%s @ iNaturalist</a>"
         paths <- pull(data, image_url)
         captions <- data |>

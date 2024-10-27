@@ -14,10 +14,11 @@ bibliography:
 
 # El evento 
 
-Science Summit at the 77 United Nation General Assembly. Septiembre 2022
+Science Summit at the 77 United Nation General Assembly. 13-30 Septiembre 2022
 
 ## Logo
 
+![Science Summit at UNGA77](logos/SUNGA77.png)
 
 ## Enlaces
 

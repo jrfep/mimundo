@@ -1,5 +1,5 @@
 ---
-title: Santa Marta
+title: Santa Marta, Minka y Tayrona
 categories:
  - Colombia
  - Ecosistemas
@@ -7,6 +7,10 @@ categories:
 editor_options: 
   chunk_output_type: console
 ---
+
+Visita a Santa Marta para participar en la reunión del CEM.
+
+Visita a una comunidad Arawak, paseo de medio día a Minka y un día entero en Tayrona.
 
 ```{r}
 #| echo: false
@@ -17,6 +21,25 @@ library(pixture)
 here::i_am("lgrs/Santa-Marta.qmd")
 source(here::here("inc", "functions.R"))
 ```
+
+
+```{r}
+#| output: asis
+slc <- "Santa Marta"
+alb <- "Visita a Colombia - Oct 2024"
+```
+
+
+## Galería de fotos
+
+
+```{r}
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = alb) |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
+```
+
 
 ## Observaciones en `iNaturalist`
 

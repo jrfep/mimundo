@@ -14,10 +14,42 @@ categories:
 Curso en el postgrado de la [Universidad Nacional de la Asunción](https://www.una.py/), en [Asunción](/lgrs/Asuncion.qmd), Paraguay.
 
 
+
+```{r}
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+slc <- "postgrado UNA"
+```
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("evnts/2014_ICBB_VII.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions(howmany = 1, preview=TRUE)
+
+htmlcode <- "<center>\n%s\n<br/>\n%s<br/></center>"
+
+show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
+cat(show_photo)
+```
+
+
 ## Galería de fotos
 
 Fotos con los participantes del curso.
 
 ```{r}
-"postgrado-UNA"
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
 ```

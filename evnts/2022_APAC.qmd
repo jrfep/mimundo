@@ -9,9 +9,6 @@ categories:
   - Áreas Protegidas
   - Taller
   - OSF
-bibliography: 
-  - ../bibTeX/peer-review.bibtex
-  - ../bibTeX/preprints.bibtex
 ---
 
 # El evento 
@@ -34,35 +31,42 @@ El título del taller fue _Red List of Ecosystems in Africa, supporting policy, 
 
 Posterior al taller preparamos un manuscrito que compartimos en forma de [pre-print](https://osf.io/preprints/africarxiv/62s5e){target='links'}, y después de un par de rondas de revisión publicamos en la revista Conservation Biology [@RLE_Africa].
 
+```{r}
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+slc <- "APAC"
+```
+
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("evnts/2014_ICBB_VII.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions(howmany = 1, preview=TRUE)
+
+htmlcode <- "<center>\n%s\n<br/>\n%s<br/></center>"
+
+show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
+cat(show_photo)
+```
+
 
 ## Galería de fotos
+
 
 Algunas fotos del evento:
 
 ```{r}
-#| echo: false
-#| warning: false
-#| message: false
-
-library(pixture)
-library(dplyr)
-here::i_am("lgrs/Trieste.qmd")
-```
-
-```{r}
-#| echo: false
-file_name <- here::here("data","google-photos.rds")
-ggl_photos <- readRDS(file=file_name)
-img_folder <- "img"
-eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
-photos <- ggl_photos %>% 
-    filter(
-        album %in% eventos,
-        grepl("APAC",output_file))
-
-paths <- sprintf("%s/%s-%s.jpg",img_folder, pull(photos, output_id), pull(photos, output_file))
-captions <- photos %>% transmute(caption=sprintf("<strong>%s</strong>  por <a href='%s' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a>",mediaItems.description,mediaItems.productUrl)) %>% pull
-
-pixgallery(paths, caption=captions)
-
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
 ```
