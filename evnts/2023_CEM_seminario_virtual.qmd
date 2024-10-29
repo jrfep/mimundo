@@ -8,11 +8,14 @@ categories:
  - Seminario
  - UICN
  - Rpubs
+ - Invitado
 ---
 
 # Evento
 
-Seminario virtual UICN CGE
+Las oficinas de la UICN de México, América Central y el Caribe y América del Sur en alianza con la UICN Comisión para la Gestión de Ecosistemas organizó un taller sobre la Tipología de Ecosistemas de la UICN. La sesión se llevó a cabo en español el 11 de abril a las 4:00pm (GMT +5). 
+
+![Anuncio del evento](logos/UICN-seminario-virtual.png){.preview-image}
 
 ## Ponencia 
 

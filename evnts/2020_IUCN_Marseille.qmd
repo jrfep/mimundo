@@ -14,7 +14,7 @@ IUCN World Conservation Congress Marseille 2021
 
 ## Logo 
 
-![IUCN congress 2020 logo](https://www.iucncongress2020.org/profiles/iucn_master/themes/custom/iucnuapp_theme/img/uicn_logo_en.png){width=300}{.preview-image}
+![IUCN congress 2020 logo](https://www.iucncongress2020.org/profiles/iucn_master/themes/custom/iucnuapp_theme/img/uicn_logo_en.png){width=300 .preview-image}
 
 ## Enlaces
 

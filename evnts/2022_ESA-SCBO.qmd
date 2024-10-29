@@ -1,6 +1,6 @@
 ---
 title: Ecological Society of Australia 2022
-date: 28 November 2022
+date: 28 Nov 2022
 categories:
   - Australia
   - Congreso
@@ -10,8 +10,10 @@ categories:
 
 # ESA-SCBO 2022
 
-The conference of the Ecological Society of Australia and the Society for Conservation Biology Oceania will be held in Wollongong, NSW from 28 November to 2 December 2022. 
+The joint conference of the Ecological Society of Australia and the Society for Conservation Biology Oceania was held in Wollongong, NSW from 28 November to 2 December 2022. 
+
+The theme of the conference was *Reconnecting: Reconnecting with Nature, Reconnecting with Each Other*. 
 
 ## Logo 
 
-![Conference header](https://www.esascbo2022.org.au/wp-content/uploads/2022/02/Conference-header.png){.preview-image}
+![Conference header](logos/ESA-SCBO2022-1000x670px-02.png){.preview-image}

@@ -1,0 +1,18 @@
+---
+title: Ecological Society of Australia 2024
+date: 9 Dec 2024
+categories:
+  - Australia
+  - Congreso
+  - Nacional
+  - Ponente
+  - Proximamente
+---
+
+# ESA 2024
+
+Conference of the Ecological Society of Australia. December 2024, [Melbourne](/lgrs/Melbourne.qmd), Victoria.
+
+## Logo
+
+![](logos/ESA2024-logo.png)

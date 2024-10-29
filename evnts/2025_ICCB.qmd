@@ -1,0 +1,27 @@
+---
+title: 32nd International Congress for Conservation Biology
+date: 15 Jun 2025
+categories:
+ - Australia
+ - Congreso
+ - Internacional
+ - Ponencia
+ - UICN LRE
+ - Proximamente
+params:
+ code: 2025_ICCB_XXXII
+ ffin: 19 Junio 2025
+ lugar: Brisbane
+---
+
+# ICCB 2025
+
+SCB's 32nd International Congress for Conservation Biology (ICCB 2025) will take place in Brisbane/Meanjin, Australia at the Brisbane Convention & Exhibition Centre (BCEC) from 15-19 June 2025! 
+
+## Logo del evento
+
+![](logos/ICCB2025-logo.png){.preview-image}
+
+## Enlaces
+
+- [Philosophy statement](https://conbio.org/mini-sites/iccb-2025/about/philosophy-statement)
