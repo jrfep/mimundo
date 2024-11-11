@@ -216,7 +216,7 @@ album_info <- getalbum$albums %>% select(id, title)
 
 ```{r}
 #| eval: false
-lugares <- c("Lugares - México", "Lugares - Europa", "Lugares - Sur América", "Eventos - Venezuela", "Visita a Colombia - Oct 2024", "Santiago - Nuevo León")
+lugares <- c("Lugares - México", "Lugares - Europa", "Lugares - Sur América", "Eventos - Venezuela", "Visita a Colombia - Oct 2024", "Santiago - Nuevo León", "Lugares - Australia")
 eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
 aIDs <- album_info %>% filter(title %in% c(lugares, eventos)) %>% pull(id)
 

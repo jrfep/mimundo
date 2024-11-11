@@ -16,12 +16,36 @@ source(here::here("inc", "functions.R"))
 
 
 
+
+```{r}
+#| output: asis
+slc <- "Canberra"
+alb <- "Lugares - Australia"
+photos <- filter_ggl_photo(description = slc, 
+  album_name = alb) |>
+  pull_ggle_paths_captions(howmany = 1, preview = TRUE)
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
+```
+
+
+## Galería de fotos
+
+
+```{r}
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = alb) |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
+```
+
+
 ## Observaciones en iNaturalist
 
 
 ```{r}
 
-inat_photos <- filter_inat_photo(place="Canberra") |>
+inat_photos <- filter_inat_photo(place="Canberra|ACT, AU") |>
   pull_inat_paths_captions(howmany=18)
 
 pixgallery(inat_photos$paths, caption=inat_photos$captions)
