@@ -10,15 +10,15 @@ categories:
 
 
 ```{r}
-
-slc <- c("Museo de Historia Natural de Londres")
+slc <- c("Museo de Historia Natural de Londres",
+"Calamares de cristal","Nautilus", "Monkey") 
 ```
 
 
 ```{r}
 library(pixture)
 library(dplyr)
-here::i_am("lgrs/Abu-Dhabi.qmd")
+here::i_am("lgrs/London.qmd")
 source(here::here("inc", "functions.R"))
 ```
 
@@ -38,8 +38,8 @@ cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>",
 
 ```{r}
 #| output: asis
-slc <- c("London|Londres")
-photos <- filter_flickr_photo(find = slc) |>
+##slc <- c("London|Londres")
+photos <- filter_flickr_photo(seleccion = slc) |>
      pull_flickr_paths_captions()
 pixgallery(photos$paths, caption=photos$captions)
 ```
