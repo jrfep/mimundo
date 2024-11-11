@@ -14,6 +14,29 @@ source(here::here("inc", "functions.R"))
 ```
 
 
+
+```{r}
+#| output: asis
+slc <- "Nuevo León"
+alb <- "Santiago - Nuevo León"
+photos <- filter_ggl_photo(description = slc, 
+  album_name = alb) |>
+  pull_ggle_paths_captions(howmany = 1, preview = TRUE)
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
+```
+
+
+## Galería de fotos
+
+
+```{r}
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = alb) |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
+```
+
 ## Observaciones en `iNaturalist`
 
 ```{r}

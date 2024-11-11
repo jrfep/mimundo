@@ -27,6 +27,11 @@ source(here::here("inc", "functions.R"))
 #| output: asis
 slc <- "Santa Marta"
 alb <- "Visita a Colombia - Oct 2024"
+photos <- filter_ggl_photo(description = slc, 
+  album_name = alb) |>
+  pull_ggle_paths_captions(howmany = 1, preview = TRUE)
+cat(sprintf("<center>\n%s\n<br/>\n%s<br/></center>", 
+         photos$paths, photos$captions))
 ```
 
 
