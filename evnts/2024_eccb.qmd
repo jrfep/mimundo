@@ -15,7 +15,8 @@ ECCB 2024 – 7th European Congress of Conservation Biology – “Biodiversity 
 
 ## Enlaces
 
-<https://eccb2024.eu/>
+- <https://eccb2024.eu/>
+- [Libro de resúmenes](https://eccb2024.eu/book-of-abstracts/)
 
 ## Logo
 
@@ -24,3 +25,10 @@ ECCB 2024 – 7th European Congress of Conservation Biology – “Biodiversity 
 ## Participación
 
 Presentación sobre las dificultades de muestrear vertebrados en zonas afectadas por conflictos [@Stachowicz_2024] .
+
+https://eccb2024.eu/book-of-abstracts/
+
+Few data, big questions. The challenge of wildlife research in a conflict-affected region of Venezuela
+Izabela Stachowicz1,2,3, José Rafael Ferrer-Paris4,5, Ada Sánchez-Mercado4,6
+1Department of Geobotany and Plant Ecology, Faculty of Biology and Environmental Protection, University of Łódź, Banacha 1/3, 90-237 Łódź, Poland.; 2Instituto Venezolano de Investigaciones Científicas, Centro de Ecología, Laboratorio de Biología de Organismos, Apartado 20632, Caracas 1020-A Venezuela.; 3Open Science Conservation Fund, Stoczek 1, 17-230 Białowieża, Poland; 4University of New South Wales, School of Biological, Earth and Environmental Sciences, NSW, Kensington 2052, Australia.; 5University of New South Wales, UNSW Data Science Hub, NSW, Kensington 2052, Australia.; 6Ciencias Ambientales, Universidad Espíritu Santo, Samborondón 092301, Ecuador
+https://www.conftool.pro/eccb2024/index.php?page=browseSessions&form_session=26#paperID533
