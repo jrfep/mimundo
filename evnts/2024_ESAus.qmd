@@ -6,7 +6,9 @@ categories:
   - Congreso
   - Nacional
   - Ponente
-  - Proximamente
+  - UICN LRE
+  - quarto.pub
+  - bitbucket
 ---
 
 # ESA 2024
@@ -16,3 +18,36 @@ Conference of the Ecological Society of Australia. December 2024, [Melbourne](/l
 ## Logo
 
 ![](logos/ESA2024-logo.png)
+
+
+## Enlaces
+
+- [Página web de la conferencia](https://esa2024.org.au/)
+- [Programa de la conferencia / ESA2024 Program](https://esa2024.org.au/wp-content/uploads/2024/12/ESA-2024-Program_web_8DEC-2.pdf)
+- [Libro de resúmenes](https://esa2024.org.au/wp-content/uploads/2024/12/ESA-2024-ABSTRACTS-05.12.24.pdf)
+
+
+## Presentaciones y productos relacionados
+
+En esta ocasión preparé una presentación para el simposium *From risk to recovery: measuring the status of ecosystems*, del día 9 de Diciembre de 2024 de 11:00 -- 13:00.
+
+
+### Indicators for assessing risk of ecosystem collapse and ecosystem restoration
+
+Jose Rafael Ferrer-Paris; Professor David Keith
+
+(1) University of New South Wales, Sydney, Australia
+(2) IUCN Commission on Ecosystem Management, Gland,
+Switzerland
+
+> Ecosystem risk assessments and strategies for risk reduction and recovery rely on informative indicators of ecosystem integrity. Directional change in physical and biological properties and processes can be symptomatic of ecosystem transformation, but these changes are difficult to detect or observe directly. Existing indicators based on generic indices might not be sensitive to changes to the drivers of interest, be irrelevant for specific ecosystems or misrepresent the actual pathways of degradation/restoration.
+> We describe four fundamental steps for assessing functional symptoms of ecosystem collapse with informative indicators. The first step is to diagnose the key mechanisms and pathways of ecosystem degradation. The second step is to identify candidate indicators for assessing the severity and extent of degradation for these mechanisms. Third, indicator design is based on rules for the selection of the best(s)
+indicator(s) or the combination of multiple indicators. These rules are based on the principles of reducing redundancy, considering complementarity and interactions between multiple mechanisms and their indicators, and explicit consideration of assumptions and uncertainty. Finally, indicator analysis comprises a quantitative (or qualitative) evaluation of severity or recovery, extent and time frame of ecosystem degradation.
+> We illustrate these steps through selected examples from the IUCN Red List of Ecosystem assessments in different continents and biomes. We show how the different approaches have found effective ways to operationalise general concepts of ecosystem decline and collapse through ecosystem-specific indicators. The combination of this framework and a growing archive of worked examples will allow the development of robust and reproducible assessment workflows. 
+
+
+Presentación basada en la reciente actualización de las directrices de la Lista Roja de Ecosistemas [@IUCN_2024] y el ejemplo del análisis de indicadores para los glaciares tropicales [@FerrerParis_Glacier_Merida_2024; @FerrerParis_Glacier_suitability].
+
+La presentación está disponible en [jrfep.quarto.pub/rle-indicators-design](https://jrfep.quarto.pub/rle-indicators-design/), y el código para adaptarla y reproducirla está disponible en [bitbucket.org/iucn-presentations/rle-indicators-presentation](https://bitbucket.org/iucn-presentations/rle-indicators-presentation).
+
+
