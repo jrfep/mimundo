@@ -1,1 +1,14 @@
+---
+title: Workshop on Theoretical Ecology and Global Change
+date: 02 Mar 2009
+categories:
+ - Italia
+ - Taller
+ - Internacional
+params:
+ code: 2009_ICTP_Trieste
+ ffin: 13 Mar 2009
+ lugar: Trieste, Italia
+---
+
 Abdus Salam International Centre for Theoretical Physics: “Workshop on Theoretical Ecology and Global Change” (2nd - 13th March 2009), Trieste, Italia
