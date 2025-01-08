@@ -1,6 +1,6 @@
 ---
-title: Curso de Posgrado "Diseño y análisis de proyectos para la conservación de la biodiversidad 
-date: 24 Oct 2014
+title: "Curso de Posgrado: Diseño y análisis de proyectos para la conservación de la biodiversidad" 
+date: 26 Oct 2002
 categories:
  - Venezuela
  - Curso

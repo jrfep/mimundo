@@ -33,3 +33,33 @@ Participé en un panel de expertos de Latino América para discutir el progreso 
 
 > La Lista Roja de Ecosistemas de la UICN: oportunidades y desafíos para apoyar el marco post 2020 y los Objetivos de Desarrollo Sostenible en América Latina. Panel de discusión. Evento virtual.  Septiembre 21 
 
+
+## Galería de fotos
+
+```{r}
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+slc <- "SUNGA77"
+```
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("evnts/2018_AbuDhabi.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions(howmany = 1, preview=TRUE)
+
+htmlcode <- "<center>\n%s\n<br/>\n%s<br/></center>"
+
+show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
+cat(show_photo)
+```
+
+
+

@@ -44,8 +44,6 @@ cat(show_photo)
 ```
 
 
-## Galería de fotos
-
 ```{r}
 gphotos <- filter_ggl_photo(description = slc, 
   album_name = eventos) |>

@@ -12,3 +12,39 @@ params:
 ---
 
 Abdus Salam International Centre for Theoretical Physics: “Workshop on Theoretical Ecology and Global Change” (2nd - 13th March 2009), Trieste, Italia
+
+## Galería
+
+
+```{r}
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+slc <- "ICTP"
+```
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("evnts/2009_ICTP_Trieste.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions(howmany = 1, preview=TRUE)
+
+htmlcode <- "<center>\n%s\n<br/>\n%s<br/></center>"
+
+show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
+cat(show_photo)
+```
+
+```{r}
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions()
+pixgallery(gphotos$paths, caption=gphotos$captions)
+```

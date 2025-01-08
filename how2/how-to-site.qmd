@@ -87,7 +87,7 @@ if (!require(rinat)) {
 ```
 
 Then I can download the observations from iNaturalist and save them in a data folder:
-
+ls
 ```{r}
 #| eval: false
 # Download observations and save to RDS file
