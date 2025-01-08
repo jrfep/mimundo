@@ -232,7 +232,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="publish-site" class="level3">
 <h3 class="anchored" data-anchor-id="publish-site">Publish site</h3>
 <p>We follow these intructions: <a href="https://quarto.org/docs/publishing/github-pages.html" class="uri">https://quarto.org/docs/publishing/github-pages.html</a></p>
-<p>Create an empty branch:</p>
+<p>The first time we need to create an empty branch for the pages:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout <span class="at">--orphan</span> gh-pages</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> reset <span class="at">--hard</span> <span class="co"># make sure all changes are committed before running this!</span></span>
@@ -245,10 +245,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>set site directory to the repository root (1/1)</li>
 </ul>
 <p>Add the <code>docs</code> folder to <code>.gitignore</code>, so that we do not replicate the information in both branches.</p>
-<p>Now we can do this:</p>
+<p>Now we can go back to the production branch and run the publish command:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout dont-panic</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p>Each time we mofify the page, we only need to re-run the <code>quarto publish</code> command.</p>
 </section>
 </section>
 <section id="just-in-case" class="level2">
