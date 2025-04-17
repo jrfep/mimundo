@@ -1,0 +1,15 @@
+{
+  "hash": "b069730e623fae93e6e12c89dd38b6fe",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Science Summit at the 77 United Nation General Assembly'\ndate: Sep 2022\ncategories:\n  - Virtual\n  - Cumbre\n  - Internacional\n  - UICN LRE\n  - Panelista\nbibliography: \n  - ../bibTeX/peer-review.bibtex\n  - ../bibTeX/preprints.bibtex\n---\n\n\n\n# El evento \n\nScience Summit at the 77 United Nation General Assembly. 13-30 Septiembre 2022\n\n## Logo\n\n![Science Summit at UNGA77](logos/SUNGA77.png)\n\n## Enlaces\n\n- [Página Web](https://sciencesummitunga.com)\n- [Conclusions](https://sciencesummitunga.com/conclusions-unga-77/)\n- [Agenda](https://ssunga77.sched.com/?iframe=yes&w=100%&sidebar=yes&bg=no#)\n- <a href='https://docs.google.com/presentation/d/1P7sC9mU0PgpeY0M5wRZsi8EeUxhbB97_/edit?usp=sharing&ouid=101417701421011377285&rtpof=true&sd=true'>Presentación del evento</a>\n\n## Participación y productos relacionados\n\nParticipé en un panel de expertos de Latino América para discutir el progreso de las evaluaciones de riesgo de colapso de ecosistemas en el continente y compartir lecciones aprendidas.\n\n> La Lista Roja de Ecosistemas de la UICN: oportunidades y desafíos para apoyar el marco post 2020 y los Objetivos de Desarrollo Sostenible en América Latina. Panel de discusión. Evento virtual.  Septiembre 21 \n\n\n## Galería de fotos\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n<center>\n<img src='img/ADX0K-SUNGA77-.jpg' class='preview-image'>\n<br/>\n<strong>SUNGA77 </strong>  por <a href='https://photos.google.com/lr/album/ADXhca3BKLoFHr-tWrE_mQn7N8B5smtYumke9BslvJu7l1ixSbUdSjahxkC1ELf1pIlzzQeslJ1Z/photo/ADXhca0mvoKRLRUBq0nqabQ9YVFlr-RoaWVbXNZ4Xq2wTYuccPhXNn1yaS_mAMNe7iNShk1VpRIpiMCecttA15sUv9baYJYoug' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a><br/></center>\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hash": "8bb2b56d59110a5462733bedba28c5ce",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Workshop: Predictive modelling of Species distribution\"\ndate: 2 Noviembre 2005\ncategories: \n - \"Taller\"\n - \"Internacional\"\n - \"España\"\n - \"Cartel\"\n - NeoMapas\nparams:\n code: 2005_Baeza\n lugar: Baeza\n---\n\n\n\n# El Evento\n\nWorkshop: Predictive modelling of Species distribution. New Tools for the XXI Century. Universidad Internacional de Andalucía. [Baeza](/lgrs/Baeza.qmd), España, 2-4 Noviembre 2005. \n\n## Dirección del evento\n\nUniversidad Internacional de Andalucía Sede Antonio Machado\nPalacio de Jabalquinto\nPlaza de Santa Cruz, s/n\n23440 BAEZA (Jaén) SPAIN \n\n## Enlaces\n\n- [Publicación sobre el taller](https://www.jstor.org/stable/4539918)\n- <http://www.unia.es>\n\n## Participación\n\n<iframe src=\"https://widgets.figshare.com/articles/1322143/embed?show_title=1\" width=\"568\" height=\"351\" allowfullscreen frameborder=\"0\"></iframe>\n\n## Galería\n\nAlgunas fotos del evento.\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n<center>\n<img src='img/ADX08-Paseo-nocturno-Baeza.jpg' class='preview-image'>\n<br/>\n<strong>Paseo nocturno, Baeza</strong>  por <a href='https://photos.google.com/lr/album/ADXhca2HVrlnidmMMaE64JVcsVpRTosESbvu1qQETceM-TaC9TtLBx_c4hgDwly0N7c4oGPIP3gh/photo/ADXhca087dBXWCeWhx5RUtzEZh2pX5_0FdMsUwKzk8gIQHk-CrMK9nRFqKBC0jsuJD3rbThAEkBGB3hESWEc49UnMqVm-TDr9Q' target='googlephotos'>JR Ferrer-Paris @ Google Photos</a><br/></center>\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

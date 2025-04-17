@@ -40,7 +40,7 @@ If this work, we can just `git add`, `git commit` and `git push` it to the repo 
 
 We follow these intructions: <https://quarto.org/docs/publishing/github-pages.html>
 
-Create an empty branch:
+The first time we need to create an empty branch for the pages:
 
 ```{sh}
 #| eval: false
@@ -57,11 +57,14 @@ Modify these options in the menu `Settings` : `Pages` for the GitHub repository:
 
 Add the `docs` folder to `.gitignore`, so that we do not replicate the information in both branches.
 
-Now we can do this:
+Now we can go back to the production branch and run the publish command:
 ```{sh}
 #| eval: false
+git checkout dont-panic
 quarto publish gh-pages
 ```
+
+Each time we mofify the page, we only need to re-run the `quarto publish` command. 
 
 ## Just in case
 
@@ -84,7 +87,7 @@ if (!require(rinat)) {
 ```
 
 Then I can download the observations from iNaturalist and save them in a data folder:
-
+ls
 ```{r}
 #| eval: false
 # Download observations and save to RDS file

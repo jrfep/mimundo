@@ -6,7 +6,9 @@ categories:
   - Congreso
   - Nacional
   - Ponente
-  - Proximamente
+  - UICN LRE
+  - quarto.pub
+  - bitbucket
 ---
 
 # ESA 2024
@@ -17,15 +19,30 @@ Conference of the Ecological Society of Australia. December 2024, [Melbourne](/l
 
 ![](logos/ESA2024-logo.png)
 
-## Contributions
 
-Indicators for assessing risk of ecosystem collapse and ecosystem restoration
+## Enlaces
+
+- [Página web de la conferencia](https://esa2024.org.au/)
+- [Programa de la conferencia / ESA2024 Program](https://esa2024.org.au/wp-content/uploads/2024/12/ESA-2024-Program_web_8DEC-2.pdf)
+- [Libro de resúmenes](https://esa2024.org.au/wp-content/uploads/2024/12/ESA-2024-ABSTRACTS-05.12.24.pdf)
+
+
+## Presentaciones y productos relacionados
+
+En esta ocasión preparé una presentación para el simposium *From risk to recovery: measuring the status of ecosystems*, del día 9 de Diciembre de 2024 de 11:00 -- 13:00.
+
+
+*Indicators for assessing risk of ecosystem collapse and ecosystem restoration*
+
 Mr Jose Rafael Ferrer-Paris1,2, Professor David Keith1,2
-1University of New South Wales, Sydney, Australia, 2IUCN Commission on Ecosystem Management, Gland,
+
+1 University of New South Wales, Sydney, Australia, 2 IUCN Commission on Ecosystem Management, Gland,
 Switzerland
+
 SYMPOSIUM (part 1): From risk to recovery: measuring the status of ecosystems, Plenary 3 (ground floor),
 December 9, 2024, 11:00 - 13:00
-Ecosystem risk assessments and strategies for risk reduction and recovery rely on informative indicators of
+
+> Ecosystem risk assessments and strategies for risk reduction and recovery rely on informative indicators of
 ecosystem integrity. Directional change in physical and biological properties and processes can be
 symptomatic of ecosystem transformation, but these changes are difficult to detect or observe directly.
 Existing indicators based on generic indices might not be sensitive to changes to the drivers of interest, be
@@ -45,16 +62,20 @@ operationalise general concepts of ecosystem decline and collapse through ecosys
 The combination of this framework and a growing archive of worked examples will allow the development of
 robust and reproducible assessment workflows.
 
-New thinking & new tools for reversing ecosystem degradation and decline
+*New thinking & new tools for reversing ecosystem degradation and decline*
+
 Professor David Keith1,2, Mr Jose Rafael Ferrer-Paris1,2, Professor Emily Nicholson2,3, Mr Mark Tozer2,4, Dr
 Jessica Walsh2,5
-1Centre For Ecosystem Science, University Of Nsw, Sydney, Australia, 2IUCN Commission on Ecosystem
-Management, Gland, Switzerland, 3University of Melbourne, Melbourne, Australia, 4NSW Department of
-Climate Change, Engery, the Environment and Water, Parramatta, Australia, 5Monash University, Clayton,
+
+1 Centre For Ecosystem Science, University Of Nsw, Sydney, Australia, 2 IUCN Commission on Ecosystem
+Management, Gland, Switzerland, 3 University of Melbourne, Melbourne, Australia, 4 NSW Department of
+Climate Change, Engery, the Environment and Water, Parramatta, Australia, 5 Monash University, Clayton,
 Australia
+
 SYMPOSIUM (part 1): From risk to recovery: measuring the status of ecosystems, Plenary 3 (ground floor),
 December 9, 2024, 11:00 - 13:00
-Ongoing ecosystem decline threatens biodiversity and human well-being. A new United Nations agreement
+
+> Ongoing ecosystem decline threatens biodiversity and human well-being. A new United Nations agreement
 commits 195 countries to reverse these declines by halting ecosystem loss, restoring degraded ecosystems
 and managing expanded protected areas (GBF Targets 1, 2 & 3). Challenges posed by these targets
 demand new approaches to evaluate benefits of past conservation action, dependencies on continuation of
@@ -74,15 +95,18 @@ that likelihood and time frames for success vary among ecosystem properties, eco
 degradation and management options. Structured experimentation and learning is critical to protection and
 restoration decisions and for meeting biodiversity conservation targets.
 
-Assessing Recovery and Conservation Impact: Applying the IUCN Green Status of
-Ecosystems to Cumberland Plain Woodland
+*Assessing Recovery and Conservation Impact: Applying the IUCN Green Status of Ecosystems to Cumberland Plain Woodland*
+
 Dr Javiera Olivares-Rojas1, Professor David Keith2, Mr Mark Tozer2,3, Mr Jose Rafael Ferrer-Paris2, Dr Jessica
 Walsh1
-1Monash University, Melbourne, Australia, 2University of New South Wales, Sydney, Australia, 3Department of
+
+1 Monash University, Melbourne, Australia, 2 University of New South Wales, Sydney, Australia, 3Department of
 Climate Change, Energy, the Environment and Water, Sydney, Australia
+
 SYMPOSIUM (part 1): From risk to recovery: measuring the status of ecosystems, Plenary 3 (ground floor),
 December 9, 2024, 11:00 - 13:00
-Ecosystems are essential for biodiversity and human well-being, yet they continue to be lost and degraded
+
+> Ecosystems are essential for biodiversity and human well-being, yet they continue to be lost and degraded
 at alarming rates. While much effort is invested in restoration to address degradation, little effort has gone
 into defining and measuring recovery. The IUCN Green Status of Ecosystems (GSE) is a proposed framework
 for measuring past conservation success, future conservation impact, an ecosystem’s recovery status and
@@ -100,14 +124,17 @@ complex ecological-social trade-offs within the Cumberland Plain. Furthermore, a
 assessments, it provided valuable lessons in streamlining the methods, offering a replicable model for
 assessing recovery and conservation impact in other threatened ecosystems globally.
 
-Measuring ecosystem recovery: details of the Green Status of Ecosystems methods
+*Measuring ecosystem recovery: details of the Green Status of Ecosystems methods*
+
 Dr Jessica Rowland1, Professor David Keith, Professor Emily Nicholson, Dr Molly Grace, Mr Jose Rafael
 Ferrer-Paris, Dr Tina Parkhurst, Dr Michael Sievers, Prof Cara Nelson, A/Prof Hedley Grantham, Dr Shane
 Orchard, Prof Andrés Etter, Prof Resit Akcakaya, Dr Tom Brooks, Prof Jon Paul Rodriguez, Dr Jessica Walsh
 1Monash University, Clayton, Australia
+
 SYMPOSIUM (part 1): From risk to recovery: measuring the status of ecosystems, Plenary 3 (ground floor),
 December 9, 2024, 11:00 - 13:00
-The IUCN Green Status of Ecosystems (GSE) is a proposed framework for measuring conservation success
+
+> The IUCN Green Status of Ecosystems (GSE) is a proposed framework for measuring conservation success
 and the recovery status of ecosystems globally. This talk will describe the draft methods and challenges of
 conducting a GSE assessment. The unit of assessment is an ecosystem type, which includes all occurrences
 of a similar suite of characteristic native biota, abiotic features and key ecological processes across a spatial
@@ -124,12 +151,14 @@ actions have had (or could have) on each key component across the ecosystem’s 
 provides a unique way of presenting cumulative changes (positive or negative) in the extent and integrity of
 an ecosystem, and is designed to inform restoration planning and evaluation.
 
-A proposed framework for measuring ecosystem recovery: Green Status of Ecosystems
+*A proposed framework for measuring ecosystem recovery: Green Status of Ecosystems*
+
 Dr Jessica Walsh1, Dr Jessica Rowland1, Professor David Keith2, Professor Emily Nicholson3, Dr Molly Grace4
 ,
 Mr Jose Rafael Ferrer-Paris2, Dr Tina Parkhurst3, Dr Michael Sievers5, Prof Cara Nelson6, A/Prof Hedley
 Grantham2,7, Dr Shane Orchard8, Prof Andrés Etter9, Prof Resit Akcakaya10, Dr Tom Brooks11, Prof Jon Paul
 Rodriguez11
+
 1School of Biological Sciences, Monash University, Clayton, Australia, 2Centre for Ecosystem Science,
 University of New South Wales, , Sydney, Australia, 3School of Agriculture, Food and Ecosystem Sciences,
 University of Melbourne, Melbourne, Australia, 4Department of Biology, Oxford University, Oxford, United
@@ -138,8 +167,10 @@ Missoula, United States of America, 7Bush Heritage, Melbourne, Australia, 8Unive
 Christchurch, New Zealand, 9Pontificia Universidad Javeriana, Bogota, Colombia, 10Department of Ecology
 and Evolution, Stony Brook University, New York, United States of America, 11International Union for
 Conservation of Nature, Gland, Switzerland
+
 SYMPOSIUM (part 1): From risk to recovery: measuring the status of ecosystems, Plenary 3 (ground floor),
 December 9, 2024, 11:00 - 13:00
+
 The United Nations (UN) Decade on Ecosystem Restoration (2021-2030) and Target 2 of the UN Global
 Biodiversity Framework have pushed ecosystems into the conservation spotlight. These international
 initiatives highlight the importance of reversing ecosystem declines, prompting a shift in focus towards
@@ -158,3 +189,23 @@ Recovered), and four Conservation Impact metrics that are used to gauge the actu
 of management (Conservation Legacy, Conservation Dependence, Conservation Gain and Recovery
 Potential). These metrics can inform meaningful and feasible recovery targets for ecosystems, incentivise
 funding, report on the impact of conservation efforts and identify knowledge gaps.
+
+
+### Indicators for assessing risk of ecosystem collapse and ecosystem restoration
+
+Jose Rafael Ferrer-Paris; Professor David Keith
+
+(1) University of New South Wales, Sydney, Australia
+(2) IUCN Commission on Ecosystem Management, Gland,
+Switzerland
+
+> Ecosystem risk assessments and strategies for risk reduction and recovery rely on informative indicators of ecosystem integrity. Directional change in physical and biological properties and processes can be symptomatic of ecosystem transformation, but these changes are difficult to detect or observe directly. Existing indicators based on generic indices might not be sensitive to changes to the drivers of interest, be irrelevant for specific ecosystems or misrepresent the actual pathways of degradation/restoration.
+> We describe four fundamental steps for assessing functional symptoms of ecosystem collapse with informative indicators. The first step is to diagnose the key mechanisms and pathways of ecosystem degradation. The second step is to identify candidate indicators for assessing the severity and extent of degradation for these mechanisms. Third, indicator design is based on rules for the selection of the best(s)
+indicator(s) or the combination of multiple indicators. These rules are based on the principles of reducing redundancy, considering complementarity and interactions between multiple mechanisms and their indicators, and explicit consideration of assumptions and uncertainty. Finally, indicator analysis comprises a quantitative (or qualitative) evaluation of severity or recovery, extent and time frame of ecosystem degradation.
+> We illustrate these steps through selected examples from the IUCN Red List of Ecosystem assessments in different continents and biomes. We show how the different approaches have found effective ways to operationalise general concepts of ecosystem decline and collapse through ecosystem-specific indicators. The combination of this framework and a growing archive of worked examples will allow the development of robust and reproducible assessment workflows. 
+
+
+Presentación basada en la reciente actualización de las directrices de la Lista Roja de Ecosistemas [@IUCN_2024] y el ejemplo del análisis de indicadores para los glaciares tropicales [@FerrerParis_Glacier_Merida_2024; @FerrerParis_Glacier_suitability].
+
+La presentación está disponible en [jrfep.quarto.pub/rle-indicators-design](https://jrfep.quarto.pub/rle-indicators-design/), y el código para adaptarla y reproducirla está disponible en [bitbucket.org/iucn-presentations/rle-indicators-presentation](https://bitbucket.org/iucn-presentations/rle-indicators-presentation).
+

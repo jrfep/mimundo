@@ -1,38 +1,37 @@
 ---
-title: IUCN Training Workshop on Species and Ecosystems Red Lists for Abu Dhabi Emirate
-date: February 2018
+title: Workshop on Theoretical Ecology and Global Change
+date: 02 Mar 2009
 categories:
- - Emiratos Árabes Unidos
- - Taller 
- - Nacional
- - UICN LRE
- - Instructor
+ - Italia
+ - Taller
+ - Internacional
+params:
+ code: 2009_ICTP_Trieste
+ ffin: 13 Mar 2009
+ lugar: Trieste, Italia
 ---
 
-# Evento
+Abdus Salam International Centre for Theoretical Physics: “Workshop on Theoretical Ecology and Global Change” (2nd - 13th March 2009), Trieste, Italia
 
-IUCN Training Workshop on Species and Ecosystems Red Lists for Abu Dhabi Emirate.
-[Abu Dhabi](/lgrs/Abu-Dhabi.qmd), United Arab Emirates, February 2018.
-
-
-## Galería de fotos
+## Galería
 
 
 ```{r}
 eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
-slc <- "Abu Dhabi"
+slc <- "ICTP"
 ```
 
 ```{r}
 library(pixture)
 library(dplyr)
-here::i_am("evnts/2018_AbuDhabi.qmd")
+here::i_am("evnts/2009_ICTP_Trieste.qmd")
 source(here::here("inc", "functions.R"))
 ```
 
 
 ```{r}
 #| output: asis
+
 gphotos <- filter_ggl_photo(description = slc, 
   album_name = eventos) |>
   pull_ggle_paths_captions(howmany = 1, preview=TRUE)
@@ -43,11 +42,9 @@ show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
 cat(show_photo)
 ```
 
-
 ```{r}
 gphotos <- filter_ggl_photo(description = slc, 
   album_name = eventos) |>
   pull_ggle_paths_captions()
 pixgallery(gphotos$paths, caption=gphotos$captions)
 ```
-

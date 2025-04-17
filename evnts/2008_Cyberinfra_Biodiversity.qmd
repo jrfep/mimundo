@@ -1,0 +1,14 @@
+---
+title: Cyberinfrastructure for International, Collaborative Biodiversity and Ecological Informatics
+date: 31 May 2008
+categories:
+ - Costa Rica
+ - Taller
+ - Internacional
+params:
+ code: 2008_PASI_LaSelva
+ ffin: 12 Jun 2008
+ lugar: La Selva, Costa Rica
+---
+
+Pan-American Advanced Studies Institute (organized by Florida International University and University of Kansas) : “Cyberinfrastructure for International, Collaborative Biodiversity and Ecological Informatics” (31st May - 12th June 2008) Estación Biológica OTS La Selva, Costa Rica.

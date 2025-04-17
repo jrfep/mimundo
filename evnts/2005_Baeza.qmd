@@ -31,3 +31,33 @@ Plaza de Santa Cruz, s/n
 ## Participación
 
 <iframe src="https://widgets.figshare.com/articles/1322143/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0"></iframe>
+
+## Galería
+
+Algunas fotos del evento.
+
+```{r}
+eventos <- c("Eventos - CEBA LEE", "Eventos - RLE", "Eventos - Venezuela", "Eventos - Mariposas", "Eventos - IVIC")
+slc <- "Baeza"
+```
+
+```{r}
+library(pixture)
+library(dplyr)
+here::i_am("evnts/2005_Baeza.qmd")
+source(here::here("inc", "functions.R"))
+```
+
+
+```{r}
+#| output: asis
+
+gphotos <- filter_ggl_photo(description = slc, 
+  album_name = eventos) |>
+  pull_ggle_paths_captions(howmany = 1, preview=TRUE)
+
+htmlcode <- "<center>\n%s\n<br/>\n%s<br/></center>"
+
+show_photo <- sprintf(htmlcode, gphotos$paths, gphotos$captions)
+cat(show_photo)
+```
