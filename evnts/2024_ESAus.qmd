@@ -16,3 +16,145 @@ Conference of the Ecological Society of Australia. December 2024, [Melbourne](/l
 ## Logo
 
 ![](logos/ESA2024-logo.png)
+
+## Contributions
+
+Indicators for assessing risk of ecosystem collapse and ecosystem restoration
+Mr Jose Rafael Ferrer-Paris1,2, Professor David Keith1,2
+1University of New South Wales, Sydney, Australia, 2IUCN Commission on Ecosystem Management, Gland,
+Switzerland
+SYMPOSIUM (part 1): From risk to recovery: measuring the status of ecosystems, Plenary 3 (ground floor),
+December 9, 2024, 11:00 - 13:00
+Ecosystem risk assessments and strategies for risk reduction and recovery rely on informative indicators of
+ecosystem integrity. Directional change in physical and biological properties and processes can be
+symptomatic of ecosystem transformation, but these changes are difficult to detect or observe directly.
+Existing indicators based on generic indices might not be sensitive to changes to the drivers of interest, be
+irrelevant for specific ecosystems or misrepresent the actual pathways of degradation/restoration.
+We describe four fundamental steps for assessing functional symptoms of ecosystem collapse with
+informative indicators. The first step is to diagnose the key mechanisms and pathways of ecosystem
+degradation. The second step is to identify candidate indicators for assessing the severity and extent of
+degradation for these mechanisms. Third, indicator design is based on rules for the selection of the best(s)
+indicator(s) or the combination of multiple indicators. These rules are based on the principles of reducing
+redundancy, considering complementarity and interactions between multiple mechanisms and their
+indicators, and explicit consideration of assumptions and uncertainty. Finally, indicator analysis comprises a
+quantitative (or qualitative) evaluation of severity or recovery, extent and time frame of ecosystem
+degradation.
+We illustrate these steps through selected examples from the IUCN Red List of Ecosystem assessments in
+different continents and biomes. We show how the different approaches have found effective ways to
+operationalise general concepts of ecosystem decline and collapse through ecosystem-specific indicators.
+The combination of this framework and a growing archive of worked examples will allow the development of
+robust and reproducible assessment workflows.
+
+New thinking & new tools for reversing ecosystem degradation and decline
+Professor David Keith1,2, Mr Jose Rafael Ferrer-Paris1,2, Professor Emily Nicholson2,3, Mr Mark Tozer2,4, Dr
+Jessica Walsh2,5
+1Centre For Ecosystem Science, University Of Nsw, Sydney, Australia, 2IUCN Commission on Ecosystem
+Management, Gland, Switzerland, 3University of Melbourne, Melbourne, Australia, 4NSW Department of
+Climate Change, Engery, the Environment and Water, Parramatta, Australia, 5Monash University, Clayton,
+Australia
+SYMPOSIUM (part 1): From risk to recovery: measuring the status of ecosystems, Plenary 3 (ground floor),
+December 9, 2024, 11:00 - 13:00
+Ongoing ecosystem decline threatens biodiversity and human well-being. A new United Nations agreement
+commits 195 countries to reverse these declines by halting ecosystem loss, restoring degraded ecosystems
+and managing expanded protected areas (GBF Targets 1, 2 & 3). Challenges posed by these targets
+demand new approaches to evaluate benefits of past conservation action, dependencies on continuation of
+current action, and potential gains from alternative future actions. Traditional ecosystem-agnostic indices of
+condition or integrity lack diagnostic capability and ignore salient drivers and mechanisms of change.
+Therefore they are unlikely to provide reliable insights into responses to environmental change or
+management.
+A new approach presented in this symposium – the Green Status of Ecosystems – blends concepts and
+methods from IUCN’s Red List of Ecosystems (RLE) Standard with its Green Status Standard for Species
+(GSS). Diagnostic conceptual models, foundational to RLE, identify key ecosystem components and
+processes that drive change and thus inform the design of ecosystem-specific indicators that are sensitive to
+change and informative about its causes. GSS assessments are anchored by historical baselines and non-
+degraded reference states to standardise ecosystem-specific indicators and avoid shifting baselines.
+Predicting uncertain outcomes of alternate restoration actions is a key requisite for planning action, yet the
+limited evidence base remains challenging. Empirical evidence from Australian restoration studies suggests
+that likelihood and time frames for success vary among ecosystem properties, ecosystem types, pathways of
+degradation and management options. Structured experimentation and learning is critical to protection and
+restoration decisions and for meeting biodiversity conservation targets.
+
+Assessing Recovery and Conservation Impact: Applying the IUCN Green Status of
+Ecosystems to Cumberland Plain Woodland
+Dr Javiera Olivares-Rojas1, Professor David Keith2, Mr Mark Tozer2,3, Mr Jose Rafael Ferrer-Paris2, Dr Jessica
+Walsh1
+1Monash University, Melbourne, Australia, 2University of New South Wales, Sydney, Australia, 3Department of
+Climate Change, Energy, the Environment and Water, Sydney, Australia
+SYMPOSIUM (part 1): From risk to recovery: measuring the status of ecosystems, Plenary 3 (ground floor),
+December 9, 2024, 11:00 - 13:00
+Ecosystems are essential for biodiversity and human well-being, yet they continue to be lost and degraded
+at alarming rates. While much effort is invested in restoration to address degradation, little effort has gone
+into defining and measuring recovery. The IUCN Green Status of Ecosystems (GSE) is a proposed framework
+for measuring past conservation success, future conservation impact, an ecosystem’s recovery status and
+their recovery potential, complementing the IUCN Red List of Ecosystems. We applied the GSE framework to
+the Critically Endangered Cumberland Plain Woodland (CPW) as a case study, which has lost 92% of its
+historical distribution. We identified key attributes and corresponding indicators to define CPW’s fully
+recovered integrity, such as tree cover and shrub diversity, across its full distribution. We then calculated the
+mean recovery value ─or Green Score─ for different conservation scenarios (e.g. Current, Past) to determine
+CPW’s recovery status and Conservation Impact metrics. This novel framework combined three field-based
+datasets with expert consultation to comprehensively assess ecosystem integrity and its recovery potential.
+Our preliminary findings suggest CPW is ‘Critically Degraded’, yet emphasise the value of past conservation
+efforts at slowing declines, and forecast the potential impact of planned conservation actions on its recovery.
+This case study provides valuable insights for future conservation strategies and policies to help balance
+complex ecological-social trade-offs within the Cumberland Plain. Furthermore, as one of the first GSE
+assessments, it provided valuable lessons in streamlining the methods, offering a replicable model for
+assessing recovery and conservation impact in other threatened ecosystems globally.
+
+Measuring ecosystem recovery: details of the Green Status of Ecosystems methods
+Dr Jessica Rowland1, Professor David Keith, Professor Emily Nicholson, Dr Molly Grace, Mr Jose Rafael
+Ferrer-Paris, Dr Tina Parkhurst, Dr Michael Sievers, Prof Cara Nelson, A/Prof Hedley Grantham, Dr Shane
+Orchard, Prof Andrés Etter, Prof Resit Akcakaya, Dr Tom Brooks, Prof Jon Paul Rodriguez, Dr Jessica Walsh
+1Monash University, Clayton, Australia
+SYMPOSIUM (part 1): From risk to recovery: measuring the status of ecosystems, Plenary 3 (ground floor),
+December 9, 2024, 11:00 - 13:00
+The IUCN Green Status of Ecosystems (GSE) is a proposed framework for measuring conservation success
+and the recovery status of ecosystems globally. This talk will describe the draft methods and challenges of
+conducting a GSE assessment. The unit of assessment is an ecosystem type, which includes all occurrences
+of a similar suite of characteristic native biota, abiotic features and key ecological processes across a spatial
+distribution. The first step of the GSE assessment is to define the ecosystem’s ‘fully recovered’ integrity and
+extent (i.e., in absence of widespread and/or intensive human degradation). This involves identifying
+indicators for key components of the ecosystem and ‘fully recovered’ thresholds for these indicators. The
+next step is to assess the Current Green Score (0-100%) and associated Ecosystem Recovery Category, which
+are calculated based on a spatially-weighted average of the state of each indicator across the fully recovered
+extent of the ecosystem. The Green Score is also assessed for current and future hypothetical scenarios with
+and without conservation, which are used to calculate the Conservation Impact metrics, including
+Conservation Dependence and Recovery Potential. A central tenet of the GSE assessment framework is the
+recovery-extent matrix, which is a novel solution for capturing the impact that threats and conservation
+actions have had (or could have) on each key component across the ecosystem’s full distribution. This matrix
+provides a unique way of presenting cumulative changes (positive or negative) in the extent and integrity of
+an ecosystem, and is designed to inform restoration planning and evaluation.
+
+A proposed framework for measuring ecosystem recovery: Green Status of Ecosystems
+Dr Jessica Walsh1, Dr Jessica Rowland1, Professor David Keith2, Professor Emily Nicholson3, Dr Molly Grace4
+,
+Mr Jose Rafael Ferrer-Paris2, Dr Tina Parkhurst3, Dr Michael Sievers5, Prof Cara Nelson6, A/Prof Hedley
+Grantham2,7, Dr Shane Orchard8, Prof Andrés Etter9, Prof Resit Akcakaya10, Dr Tom Brooks11, Prof Jon Paul
+Rodriguez11
+1School of Biological Sciences, Monash University, Clayton, Australia, 2Centre for Ecosystem Science,
+University of New South Wales, , Sydney, Australia, 3School of Agriculture, Food and Ecosystem Sciences,
+University of Melbourne, Melbourne, Australia, 4Department of Biology, Oxford University, Oxford, United
+Kingdom, 5Australian Rivers Institute, Griffith University, Gold Goast, Australia, 6University of Montana,
+Missoula, United States of America, 7Bush Heritage, Melbourne, Australia, 8University of Canterbury,
+Christchurch, New Zealand, 9Pontificia Universidad Javeriana, Bogota, Colombia, 10Department of Ecology
+and Evolution, Stony Brook University, New York, United States of America, 11International Union for
+Conservation of Nature, Gland, Switzerland
+SYMPOSIUM (part 1): From risk to recovery: measuring the status of ecosystems, Plenary 3 (ground floor),
+December 9, 2024, 11:00 - 13:00
+The United Nations (UN) Decade on Ecosystem Restoration (2021-2030) and Target 2 of the UN Global
+Biodiversity Framework have pushed ecosystems into the conservation spotlight. These international
+initiatives highlight the importance of reversing ecosystem declines, prompting a shift in focus towards
+recovery trajectories. However, this is set against the backdrop of severe past and ongoing biodiversity loss
+and degradation. While standardised methods exist for measuring an ecosystem’s risk of collapse (i.e.,
+International Union for Conservation of Nature (IUCN) Red List of Ecosystems), metrics for measuring
+recovery potential and conservation success of ecosystems are in their infancy. Here, we present the
+proposed methods for the Green Status of Ecosystems (GSE), developed by the IUCN Commission on
+Ecosystem Management GSE Task Force. This framework has been designed to evaluate and track progress
+towards ecosystem recovery at regional to global scales across the full distribution of an ecosystem type,
+moving beyond project or site-based approaches. It identifies how effectively past actions have recovered an
+ecosystem’s integrity and extent, and provides expected recovery trajectories under different management
+scenarios. The primary outputs of a GSE assessment include a Green Score (0-100%), a Green Score
+Category (e.g. Critically Degraded, Moderately Degraded, Slightly Degraded, or Non-Degraded/Fully
+Recovered), and four Conservation Impact metrics that are used to gauge the actual and predicted impacts
+of management (Conservation Legacy, Conservation Dependence, Conservation Gain and Recovery
+Potential). These metrics can inform meaningful and feasible recovery targets for ecosystems, incentivise
+funding, report on the impact of conservation efforts and identify knowledge gaps.
